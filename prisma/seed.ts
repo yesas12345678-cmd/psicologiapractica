@@ -70,45 +70,44 @@ async function main() {
       seoTitle: "Cómo Superar el Síndrome de Burnout: Guía Práctica de Recuperación",
       body: `
         <h2>1. Introducción al Desgaste Ocupacional</h2>
-        <p>El estrés prolongado en el ámbito de trabajo puede conducir a un estado de agotamiento absoluto conocido clínicamente como el <strong>Síndrome de Burnout</strong> o síndrome de desgaste profesional. Reconocido formalmente por la Organización Mundial de la Salud (OMS) en la Clasificación Internacional de Enfermedades (CIE-11) como un fenómeno puramente ocupacional, no debe ser subestimado como un cansancio rutinario. Representa un colapso multidimensional del sistema de adaptación del organismo que afecta la salud cognitiva, fisiológica y emocional de manera profunda.</p>
-        <p>A lo largo de esta guía definitiva, analizaremos de manera rigurosa la etiología del burnout, sus bases neurobiológicas y te dotaremos de un plan práctico estructurado de recuperación con ejercicios cognitivos y conductuales diarios diseñados por psicólogos clínicos.</p>
+        <p>El estrés prolongado en el ámbito de trabajo puede conducir a un estado de agotamiento absoluto conocido clínicamente como el <strong>Síndrome de Burnout</strong> o desgaste profesional. Reconocido formalmente por la Organización Mundial de la Salud (OMS) en la Clasificación Internacional de Enfermedades (CIE-11) como un fenómeno puramente ocupacional, representa un colapso del sistema de adaptación biológica.</p>
+        
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">💡 Rigor Clínico:</strong>
+          El burnout no es una debilidad de carácter o una simple baja motivación laboral. Es una desregulación fisiológica real del cortisol y los neurotransmisores, generada por una discrepancia prolongada entre las exigencias del entorno y los recursos de control del individuo.
+        </div>
 
         <h2>2. La Neurobiología del Agotamiento Crónico</h2>
-        <p>El burnout no es una simple actitud mental; tiene un correlato orgánico. La exposición mantenida al estrés laboral activa de forma ininterrumpida el eje hipotalámico-hipofisario-adrenal (HHA). Esta activación genera una secreción continuada de cortisol y catecolaminas. Con el tiempo, este mecanismo desencadena resistencia al cortisol en los receptores neuronales, provocando una respuesta inflamatoria sistémica y una desregulación en la plasticidad sináptica.</p>
-        <p>Investigaciones mediante resonancia magnética funcional demuestran que las personas que sufren de burnout presentan una disminución en el volumen de materia gris en la corteza prefrontal dorsolateral (zona encargada de la toma de decisiones y el autocontrol) y una hiperactividad en la amígdala (núcleo del miedo y la alerta). Esto explica la dificultad extrema para concentrarse, la labilidad emocional y la sensación de desconexión cognitiva (neblina mental).</p>
+        <p>La exposición mantenida al estrés laboral activa de forma ininterrumpida el eje hipotalámico-hipofisario-adrenal (HHA). Esta activación genera una secreción continuada de cortisol y catecolaminas. Con el tiempo, este mecanismo desencadena resistencia al cortisol en los receptores neuronales, provocando una respuesta inflamatoria sistémica y una desregulación en la plasticidad sináptica.</p>
+        <p>Investigaciones mediante resonancia magnética funcional demuestran que las personas que sufren de burnout presentan una disminución en el volumen de materia gris en la corteza prefrontal dorsolateral y una hiperactividad en la amígdala (núcleo del miedo y la alerta). Esto explica la dificultad extrema para concentrarse y la neblina mental.</p>
 
         <h2>3. Las Tres Dimensiones del Síndrome de Burnout</h2>
         <p>De acuerdo con el modelo desarrollado por Christina Maslach, el burnout se evalúa a través de tres pilares esenciales que debes aprender a detectar en tu propia rutina:</p>
-        <ul>
-          <li><strong>Agotamiento Emocional:</strong> Vaciamiento completo de los recursos internos. El trabajador siente que ya no puede dar más de sí mismo a nivel afectivo ni cognitivo.</li>
-          <li><strong>Despersonalización (Cinismo):</strong> Desarrollo de actitudes frías, distantes y cínicas hacia las tareas, los clientes o los compañeros de equipo como un mecanismo defensivo desadaptativo.</li>
-          <li><strong>Baja Realización Personal:</strong> Autoevaluación negativa de las capacidades y del rendimiento. Surge un sentimiento constante de incompetencia e inutilidad profesional.</li>
-        </ul>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Característica</th>
-                <th class="p-3">Estrés Común</th>
-                <th class="p-3">Síndrome de Burnout</th>
+                <th class="p-3.5">Característica</th>
+                <th class="p-3.5">Estrés Común</th>
+                <th class="p-3.5">Síndrome de Burnout</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Emociones</td>
-                <td class="p-3">Sobre-reactividad, hiperactividad emocional.</td>
-                <td class="p-3 font-semibold text-teal-800">Agotamiento emocional, aplanamiento afectivo, cinismo.</td>
+                <td class="p-3.5 font-bold text-slate-900">Emociones</td>
+                <td class="p-3.5">Sobre-reactividad, urgencia, hiperactividad emocional.</td>
+                <td class="p-3.5 font-semibold text-teal-800">Agotamiento emocional, aplanamiento afectivo, cinismo defensivo.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Enfoque físico</td>
-                <td class="p-3">Pérdida de energía física (cansancio temporal).</td>
-                <td class="p-3 font-semibold text-teal-800">Colapso total de energía, insomnio de conciliación, dolores musculares crónicos.</td>
+                <td class="p-3.5 font-bold text-slate-900">Enfoque físico</td>
+                <td class="p-3.5">Pérdida de energía física (cansancio temporal).</td>
+                <td class="p-3.5 font-semibold text-teal-800">Colapso total de energía, insomnio de conciliación, dolores musculares severos.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Actitud</td>
-                <td class="p-3">Preocupación, prisa, urgencia por resolver tareas.</td>
-                <td class="p-3 font-semibold text-teal-800">Desapego absoluto, apatía, aislamiento, sentimiento de incompetencia.</td>
+                <td class="p-3.5 font-bold text-slate-900">Actitud</td>
+                <td class="p-3.5">Preocupación por las consecuencias de no terminar el trabajo.</td>
+                <td class="p-3.5 font-semibold text-teal-800">Desapego absoluto, apatía, aislamiento, sentimiento de incompetencia crónico.</td>
               </tr>
             </tbody>
           </table>
@@ -117,34 +116,43 @@ async function main() {
         <h2>4. Ejercicios Diarios de Recuperación Fisiológica</h2>
         <p>Para reprogramar el sistema nervioso autónomo y pasar del estado de alerta simpática al modo de calma parasimpática, es fundamental instaurar pautas corporales específicas todos los días:</p>
         
-        <h3>El Bloqueo de Descompresión Post-Jornada</h3>
-        <p>Nada más terminar la jornada de trabajo, realiza una pausa de transición de 15 minutos. Siéntate en un lugar neutral, apaga los dispositivos electrónicos y ejecuta respiraciones en caja: inhala en 4 segundos, retén el aire 4 segundos, exhala en 4 segundos y permanece vacío 4 segundos. Este patrón respiratorio le indica a tu tronco encefálico que el peligro ha cesado, facilitando el descenso de la frecuencia cardíaca y del tono muscular.</p>
-        
-        <h3>Desconexión Digital Estricta</h3>
-        <p>Establece un horario límite inflexible de desconexión. A partir de las 19:30 o 20:00, las notificaciones de trabajo deben silenciarse por completo. Utiliza el filtro de luz cálida en tus pantallas y prioriza actividades analógicas para favorecer la síntesis natural de melatonina y la inducción de un sueño reparador.</p>
-
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-3">
-          <h4 class="text-sm font-bold text-teal-900 uppercase tracking-wider">Plan de Acción: El Límite Asertivo Progresivo</h4>
-          <p class="text-xs text-slate-655 leading-relaxed">
-            Superar el burnout exige reconfigurar tu manera de interactuar con el entorno laboral. Te proponemos aplicar fórmulas basadas en la capacidad real y no en la urgencia ajena:
-          </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-            <div class="p-3.5 bg-rose-50 border border-rose-100 rounded-xl">
-              <span class="font-bold text-rose-800 block mb-1">Evita (Reactivo):</span>
-              "No puedo hacer esto hoy, estoy colapsado." (Suena defensivo y provoca fricción).
-            </div>
-            <div class="p-3.5 bg-emerald-50 border border-emerald-100 rounded-xl">
-              <span class="font-bold text-emerald-800 block mb-1">Aplica (Asertivo):</span>
-              "Para garantizar la calidad de este informe, necesito posponer la entrega al jueves o delegar el análisis. ¿Cuál priorizamos?" (Redefine expectativas sin conflicto).
-            </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
+            <span class="w-7 h-7 rounded-full bg-teal-700 text-white flex items-center justify-center font-bold text-xs">1</span>
+            <h4 class="font-bold text-slate-900 text-xs">Descompresión Post-Jornada</h4>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Realiza una pausa de transición de 15 minutos al acabar tu jornada laboral. Ejecuta respiración en caja (inhalar, retener, exhalar y sostener vacío en ciclos de 4 segundos) para indicarle al tronco encefálico que el peligro laboral ha cesado.
+            </p>
+          </div>
+          <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
+            <span class="w-7 h-7 rounded-full bg-teal-700 text-white flex items-center justify-center font-bold text-xs">2</span>
+            <h4 class="font-bold text-slate-900 text-xs">Desconexión Digital Estricta</h4>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Silencia por completo las notificaciones de trabajo a partir de una hora límite fija (ej: 19:30). Evita el uso de pantallas de noche para favorecer la síntesis natural de melatonina y la inducción de un sueño reparador.
+            </p>
           </div>
         </div>
 
-        <h2>5. El Diario de Valores y Logros Diarios</h2>
-        <p>Para combatir la pérdida de autoestima y realización personal, mantén un registro escrito en tu cuaderno. Cada noche antes de dormir, anota tres tareas que hayas resuelto de manera satisfactoria (por pequeñas que sean) y describe cómo esas tareas se alinean con tus valores personales (ej: rigor, compañerismo, creatividad). Esto ayuda a redirigir la atención selectiva del cerebro, sesgada habitualmente hacia las preocupaciones y el estrés.</p>
+        <h2>5. Plan de Establecimiento de Límites Laborales</h2>
+        <p>Superar el burnout exige reconfigurar tu manera de interactuar con el entorno laboral. Te proponemos aplicar la técnica de la <em>Negociación Asertiva Progresiva</em>:</p>
 
-        <h2>6. Cuándo es Necesario Solicitar Asistencia Profesional</h2>
-        <p>Si a pesar de aplicar estos cambios conductuales experimentas llanto recurrente, problemas digestivos severos, insomnio prolongado o ideaciones de incapacidad total, es fundamental acudir a terapia psicológica. La terapia cognitivo-conductual (TCC) y la terapia de aceptación y compromiso (ACT) proporcionan el marco seguro para sanar el sistema de alarma del cerebro y evitar recaídas en el desgaste crónico.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div class="p-4 bg-rose-50/50 border border-rose-100 rounded-2xl">
+            <h4 class="font-bold text-rose-800 text-xs mb-1.5 flex items-center gap-1">❌ Qué Evitar (Reactivo)</h4>
+            <p class="text-slate-655 text-xs leading-relaxed">
+              "No puedo hacer esto hoy, estoy colapsado y no llego a nada." (Transmite falta de control y despierta fricción).
+            </p>
+          </div>
+          <div class="p-4 bg-emerald-50/50 border border-emerald-100 rounded-2xl">
+            <h4 class="font-bold text-emerald-800 text-xs mb-1.5 flex items-center gap-1">✅ Qué Aplicar (Asertivo)</h4>
+            <p class="text-slate-655 text-xs leading-relaxed">
+              "Para garantizar la calidad de este informe, puedo entregarlo el jueves o delegar el análisis de datos. ¿Cuál priorizamos?" (Redefine expectativas sin conflicto).
+            </p>
+          </div>
+        </div>
+
+        <h2>6. El Diario de Valores y Logros Diarios</h2>
+        <p>Para combatir la pérdida de autoestima y realización personal, mantén un registro escrito en tu cuaderno. Cada noche antes de dormir, anota tres tareas que hayas resuelto de manera satisfactoria (por pequeñas que sean) y describe cómo esas tareas se alinean con tus valores personales (ej: rigor, compañerismo, creatividad). Esto ayuda a redirigir la atención selectiva del cerebro, sesgada habitualmente hacia las preocupaciones y el estrés.</p>
       `,
     },
     {
@@ -160,41 +168,44 @@ async function main() {
       seoTitle: "Guía para Detener un Ataque de Pánico: Neurobiología y Calma",
       body: `
         <h2>1. ¿Qué es un Ataque de Pánico?</h2>
-        <p>Un ataque de pánico, o crisis de angustia, es la aparición repentina de un miedo o malestar intenso que alcanza su pico máximo en cuestión de minutos. Los síntomas físicos incluyen taquicardia, sudoración, temblores, disnea (sensación de asfixia), opresión en el pecho, náuseas, mareos y despersonalización (sentirse desconectado de uno mismo). Estos síntomas van acompañados del temor irracional a perder el control, volverse loco o morir de forma inminente.</p>
-        <p>Entender qué le ocurre a tu cuerpo durante esta tormenta neuroquímica es el primer paso indispensable para recuperar la calma y frenar la espiral del pánico.</p>
+        <p>Un ataque de pánico, o crisis de angustia, es la aparición repentina de un miedo o malestar intenso que alcanza su pico máximo en cuestión de minutos. Los síntomas físicos incluyen taquicardia, sudoración, temblores, disnea (sensación de asfixia), opresión en el pecho, náuseas, mareos y despersonalización (sentirse desconectado de uno mismo).</p>
+        
+        <div class="my-6 p-5 bg-amber-50/40 border-l-4 border-amber-500 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-amber-900 block mb-1 font-bold">⚠️ Atención:</strong>
+          La sensación de "asfixia" y los temblores no se deben a una falta real de oxígeno, sino al fenómeno de la hiperventilación, el cual disminuye el nivel de dióxido de carbono en sangre (hipocapnia) y altera temporalmente el pH sanguíneo. Esto causa cosquilleos inofensivos.
+        </div>
 
         <h2>2. La Cascada del Pánico: ¿Qué Ocurre en el Cerebro?</h2>
-        <p>Durante una crisis de pánico, el cerebro sufre un secuestro emocional. La amígdala detecta una amenaza potencial (que puede ser un pensamiento, una sensación física menor como un latido acelerado, o un estímulo externo) y activa instantáneamente el sistema de alarma de lucha o huida. Envía una señal al hipotálamo, que estimula el sistema nervioso simpático.</p>
-        <p>Esta activación provoca la liberación masiva de adrenalina y noradrenalina desde las glándulas suprarrenales. Los vasos sanguíneos se contraen en los órganos no vitales y se dilatan en los músculos grandes; la respiración se acelera para oxigenar los tejidos; y el corazón bombea sangre con fuerza. Si no hay peligro real que requiera correr o luchar, el exceso de oxígeno en sangre genera hiperventilación, la cual altera el pH sanguíneo (alcalosis respiratoria), provocando hormigueo en las extremidades, mareo y más pánico. Es un circuito cerrado de retroalimentación.</p>
+        <p>Durante una crisis de pánico, el cerebro sufre un secuestro emocional. La amígdala detecta una amenaza potencial (que puede ser un pensamiento, una sensación física menor como un latido acelerado, o un estímulo externo) y activa instantáneamente el sistema de alarma de lucha o huida. Envía una señal al hipotálamo, que estimula el sistema de alerta simpático.</p>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Característica</th>
-                <th class="p-3">Ataque de Pánico</th>
-                <th class="p-3">Ataque de Ansiedad</th>
-                <th class="p-3">Infarto de Miocardio</th>
+                <th class="p-3.5">Característica</th>
+                <th class="p-3.5">Ataque de Pánico</th>
+                <th class="p-3.5">Ataque de Ansiedad</th>
+                <th class="p-3.5">Infarto de Miocardio</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Inicio y Duración</td>
-                <td class="p-3 font-semibold text-teal-800">Súbito. Pico en 10 minutos; remite en unos 20-30 min.</td>
-                <td class="p-3">Gradual. Vinculado a rumiación; prolongado en el tiempo.</td>
-                <td class="p-3 text-rose-800">Súbito o tras esfuerzo. Dolor sostenido que no remite al respirar.</td>
+                <td class="p-3.5 font-bold text-slate-900">Inicio y Duración</td>
+                <td class="p-3.5 font-semibold text-teal-800">Súbito. Pico en 10 minutos; remite en unos 20-30 min.</td>
+                <td class="p-3.5">Gradual. Vinculado a rumiación; prolongado en el tiempo.</td>
+                <td class="p-3.5 text-rose-800 font-semibold">Súbito o tras esfuerzo. Dolor sostenido que no remite al respirar.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Dolor en Pecho</td>
-                <td class="p-3 font-semibold text-teal-800">Puntual, sensación de pinchazo o ahogo, hiperventilación.</td>
-                <td class="p-3">Opresión difusa en la parte superior.</td>
-                <td class="p-3 text-rose-800">Opresión severa y aplastante en el centro del pecho que irradia al brazo/mandíbula.</td>
+                <td class="p-3.5 font-bold text-slate-900">Dolor en Pecho</td>
+                <td class="p-3.5 font-semibold text-teal-800">Puntual, sensación de pinchazo o ahogo al inspirar fuerte.</td>
+                <td class="p-3.5">Opresión difusa en la parte superior.</td>
+                <td class="p-3.5 text-rose-800 font-semibold">Opresión severa y aplastante en el centro del pecho que irradia al brazo izquierdo o mandíbula.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Origen Clínico</td>
-                <td class="p-3 font-semibold text-teal-800">Activación simpática por secuestro amigdalino inofensivo.</td>
-                <td class="p-3">Acumulación de estrés cognitivo o social.</td>
-                <td class="p-3 text-rose-800">Obstrucción física de una arteria coronaria (urgencia médica).</td>
+                <td class="p-3.5 font-bold text-slate-900">Origen Clínico</td>
+                <td class="p-3.5 font-semibold text-teal-800">Activación simpática por alarma inofensiva de la amígdala.</td>
+                <td class="p-3.5">Acumulación de estrés cognitivo o social.</td>
+                <td class="p-3.5 text-rose-800 font-semibold">Obstrucción física de una arteria coronaria (urgencia médica).</td>
               </tr>
             </tbody>
           </table>
@@ -202,27 +213,26 @@ async function main() {
 
         <h2>3. Desarmar la Interpretación Catastrofista</h2>
         <p>El núcleo de la crisis de pánico reside en la <strong>interpretación catastrofista</strong> de las sensaciones físicas normales. Si sientes palpitaciones y piensas "Estoy sufriendo un infarto", la amígdala interpretará ese pensamiento como confirmación del peligro y liberará más adrenalina.</p>
-        <p>Para romper este ciclo, debes aplicar la reestructuración cognitiva inmediata: recuerda que las sensaciones físicas son molestas pero seguras. Repítete de forma consciente: "Mi corazón late rápido porque mi cuerpo tiene un exceso de adrenalina temporal. Esto no es peligroso y pasará en unos minutos. Estoy a salvo".</p>
+
+        <div class="my-6 p-5 bg-teal-50/40 border border-teal-100 rounded-2xl space-y-3">
+          <h4 class="text-sm font-bold text-teal-900 uppercase">Técnica de Autorregulación: Grounding 5-4-3-2-1</h4>
+          <p class="text-xs text-slate-655 leading-relaxed">
+            Para desviar la atención secuestrada por el miedo interno y reconectarte con la realidad física, observa tu entorno y nombra detalladamente:
+          </p>
+          <ul class="grid grid-cols-1 sm:grid-cols-5 gap-3 text-center text-[10px] font-bold text-slate-700">
+            <li class="p-3 bg-white border border-slate-100 rounded-xl"><span class="block text-teal-700 text-lg mb-1">5</span>Cosas que ves</li>
+            <li class="p-3 bg-white border border-slate-100 rounded-xl"><span class="block text-teal-700 text-lg mb-1">4</span>Texturas que tocas</li>
+            <li class="p-3 bg-white border border-slate-100 rounded-xl"><span class="block text-teal-700 text-lg mb-1">3</span>Sonidos que oyes</li>
+            <li class="p-3 bg-white border border-slate-100 rounded-xl"><span class="block text-teal-700 text-lg mb-1">2</span>Olores que hueles</li>
+            <li class="p-3 bg-white border border-slate-100 rounded-xl"><span class="block text-teal-700 text-lg mb-1">1</span>Sabor en tu boca</li>
+          </ul>
+        </div>
 
         <h2>4. Técnicas Fisiológicas de Desactivación Inmediata</h2>
         <p>Una vez reestructurado el pensamiento, aplica técnicas físicas para forzar al sistema parasimpático a tomar el control:</p>
         
         <h3>La Maniobra de Respiración Diafragmática Lenta</h3>
         <p>Inhala aire por la nariz lentamente durante 4 segundos expandiendo tu diafragma (el abdomen debe elevarse, no el pecho). Mantén el aire 2 segundos y exhala soplando suavemente por la boca durante 6 segundos. Repite este ciclo durante 5 minutos. El alargamiento de la exhalación estimula mecánicamente el nervio vago, induciendo un descenso inmediato en la frecuencia cardíaca.</p>
-
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-2.5">
-          <h4 class="text-sm font-bold text-teal-900 uppercase">La Técnica de Anclaje 5-4-3-2-1 (Grounding)</h4>
-          <p class="text-xs text-slate-655 leading-relaxed">
-            Para desviar la atención secuestrada por el miedo interno, dirige tus sentidos hacia el entorno inmediato y nombra mentalmente:
-          </p>
-          <ul class="text-xs text-slate-700 space-y-1">
-            <li><strong>5 objetos</strong> que puedas ver (ej: una silla, una ventana, tu reloj).</li>
-            <li><strong>4 texturas</strong> que puedas tocar (ej: la textura de tus vaqueros, el frío del suelo).</li>
-            <li><strong>3 sonidos</strong> diferentes (ej: el tráfico lejano, un aire acondicionado).</li>
-            <li><strong>2 olores</strong> que percibas (ej: café, colonia).</li>
-            <li><strong>1 sabor</strong> o sensación en tu boca.</li>
-          </ul>
-        </div>
 
         <h2>5. La Exposición Controlada y la Curva de Ansiedad</h2>
         <p>El pánico sigue una curva biológica: sube con rapidez, alcanza una meseta y desciende de forma inevitable cuando los niveles de adrenalina son reabsorbidos por el organismo (generalmente en 10-20 minutos). Intentar huir o luchar contra la sensación prolonga la duración del ataque.</p>
@@ -243,57 +253,69 @@ async function main() {
       seoTitle: "Neurociencia del Mindfulness: Beneficios Cerebrales y Guía",
       body: `
         <h2>1. El Auge Científico de la Atención Plena</h2>
-        <p>El término <strong>Mindfulness</strong> o atención plena se ha trasladado en las últimas décadas del misticismo oriental al laboratorio de neurociencia. Definido por el Dr. Jon Kabat-Zinn como la conciencia que surge al prestar atención de forma deliberada en el momento presente y sin juzgar, ha demostrado ser una de las herramientas no farmacológicas más potentes para optimizar la salud mental y la plasticidad cerebral.</p>
-        <p>A lo largo de este artículo, exploraremos las últimas evidencias sobre cómo el entrenamiento atencional cambia la materia gris del cerebro y te ofreceremos una guía paso a paso para consolidar una práctica diaria con base científica.</p>
+        <p>El <strong>Mindfulness</strong> o atención plena se ha trasladado en las últimas décadas del misticismo oriental al laboratorio de neurociencia. Definido por el Dr. Jon Kabat-Zinn como la conciencia que surge al prestar atención de forma deliberada en el momento presente y sin juzgar, ha demostrado ser una de las herramientas no farmacológicas más potentes para optimizar la salud mental y la plasticidad cerebral.</p>
+
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">🔬 Evidencia Neurocientífica:</strong>
+          La atención plena no requiere cambios en tus creencias religiosas. Funciona entrenando físicamente tu atención selectiva, lo cual incrementa el grosor cortical y desactiva las vías neuronales del estrés crónico.
+        </div>
 
         <h2>2. Neuroplasticidad: El Cerebro Meditativo bajo el Escáner</h2>
-        <p>La introducción de la neuroimagen (como la resonancia magnética estructural y funcional) ha permitido a los científicos constatar que la meditación recurrente altera físicamente la morfología de áreas cerebrales esenciales. Este fenómeno se conoce como neuroplasticidad autodirigida.</p>
-        <p>Estudios liderados por la Dra. Sara Lazar en la Universidad de Harvard revelaron que tras un programa de 8 semanas de reducción del estrés basado en mindfulness (MBSR), se producen cambios anatómicos constatables:</p>
+        <p>La introducción de la neuroimagen ha permitido a los científicos constatar que la meditación recurrente altera físicamente la morfología de áreas cerebrales esenciales. Este fenómeno se conoce como neuroplasticidad autodirigida.</p>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Área Cerebral</th>
-                <th class="p-3">Cambio Anatómico</th>
-                <th class="p-3">Impacto Clínico y Funcional</th>
+                <th class="p-3.5">Área Cerebral</th>
+                <th class="p-3.5">Cambio Anatómico (MBSR)</th>
+                <th class="p-3.5">Impacto Clínico y Funcional</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Córtex Prefrontal</td>
-                <td class="p-3 font-semibold text-emerald-700">Aumento de grosor cortical</td>
-                <td class="p-3">Mejora de la concentración sostenida, la toma de decisiones y la regulación de emociones.</td>
+                <td class="p-3.5 font-bold text-slate-900">Córtex Prefrontal</td>
+                <td class="p-3.5 font-semibold text-emerald-700">Aumento del grosor cortical</td>
+                <td class="p-3.5">Mejora la concentración, la toma de decisiones racionales y la inhibición de impulsos destructivos.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Amígdala Cerebral</td>
-                <td class="p-3 font-semibold text-rose-700">Disminución del volumen</td>
-                <td class="p-3">Menor reactividad fisiológica ante factores estresantes cotidianos; reducción de la alerta constante.</td>
+                <td class="p-3.5 font-bold text-slate-900">Amígdala Cerebral</td>
+                <td class="p-3.5 font-semibold text-rose-700">Disminución de tamaño</td>
+                <td class="p-3.5">Menor reactividad fisiológica e inmunológica ante situaciones estresantes cotidianas.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Hipocampo</td>
-                <td class="p-3 font-semibold text-emerald-700">Aumento de materia gris</td>
-                <td class="p-3">Facilitación del aprendizaje, mejor retención de la memoria a largo plazo y mejor control hormonal del estrés.</td>
+                <td class="p-3.5 font-bold text-slate-900">Hipocampo</td>
+                <td class="p-3.5 font-semibold text-emerald-700">Aumento de materia gris</td>
+                <td class="p-3.5">Facilitación en la consolidación de la memoria y la regulación neuroendocrina del cortisol.</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <h2>3. La Red Neuronal por Defecto (RND) y el Vagabundeo Mental</h2>
-        <p>Cuando no estamos realizando ninguna tarea concreta, el cerebro activa la <strong>Red Neuronal por Defecto (RND)</strong>. Esta red está asociada con el vagabundeo mental, los pensamientos autorreferenciales ("¿qué piensan de mí?"), la rumiación sobre el pasado y la preocupación por el futuro. Una RND hiperactiva se asocia clínicamente con la ansiedad y el estado de ánimo deprimido.</p>
-        <p>El mindfulness tiene la capacidad de inhibir la RND. Al focalizar la atención en sensaciones físicas inmediatas (la respiración o los sonidos del entorno), el cerebro desconecta la red por defecto y activa la Red de Atención Directa, reduciendo el ruido mental y facilitando la calma cognitiva.</p>
+        <p>Cuando no estamos realizando ninguna tarea concreta, el cerebro activa la <strong>Red Neuronal por Defecto (RND)</strong>. Esta red está asociada con el vagabundeo mental, los pensamientos autorreferenciales ("¿qué piensan de mí?"), la rumiación sobre el pasado y la preocupación por el futuro.</p>
+        <p>El mindfulness tiene la capacidad de inhibir la RND. Al focalizar la atención en sensaciones físicas inmediatas, el cerebro desconecta la red por defecto y activa la Red de Atención Directa, reduciendo el ruido mental.</p>
 
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl">
-          <h4 class="text-sm font-bold text-teal-900 uppercase mb-2">Instrucciones de Meditación Formal (10 min/día)</h4>
-          <ol class="text-xs text-slate-700 space-y-2 list-decimal pl-4">
-            <li><strong>Postura estable:</strong> Siéntate erguido en una silla cómoda con los pies bien apoyados en el suelo. Relaja los hombros.</li>
-            <li><strong>Focalización sensorial:</strong> Cierra los ojos y atiende exclusivamente a la entrada y salida de aire por las fosas nasales, sintiendo el flujo del aire o el movimiento de tu abdomen.</li>
-            <li><strong>Reorientación sin juicio:</strong> Cuando notes que tu mente divaga hacia rumiaciones o planes futuros, no te culpes. Simplemente date cuenta de la distracción con amabilidad y devuelve suavemente tu atención a la respiración.</li>
-          </ol>
+        <div class="my-6 p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-3">
+          <h4 class="text-sm font-bold text-slate-900 uppercase">Guía Práctica: Iniciarse en la Atención Plena</h4>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1.5">
+              <span class="font-bold text-teal-800">1. Postura Corporal</span>
+              <p class="text-slate-500 leading-relaxed">Siéntate con la espalda erguida y los pies apoyados en el suelo. Relaja los hombros.</p>
+            </div>
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1.5">
+              <span class="font-bold text-teal-800">2. Foco Respiratorio</span>
+              <p class="text-slate-500 leading-relaxed">Cierra los ojos y atiende exclusivamente a la entrada y salida de aire en tu nariz.</p>
+            </div>
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1.5">
+              <span class="font-bold text-teal-800">3. Retorno Amigable</span>
+              <p class="text-slate-500 leading-relaxed">Si tu mente divaga, reconócelo con suavidad y vuelve a enfocar la respiración sin juzgarte.</p>
+            </div>
+          </div>
         </div>
 
         <h2>4. El Fortalecimiento Prefrontal</h2>
-        <p>El verdadero ejercicio de fortalecimiento cognitivo ocurre en el momento de darte cuenta de la distracción y reorientar la atención. Cada vez que realizas esta acción, estás fortaleciendo las conexiones prefrontales de tu cerebro y debilitando la respuesta de alarma amigdalina. Con la práctica repetida, la atención plena se convierte en un hábito orgánico que mejora la resiliencia mental frente a cualquier conflicto laboral o personal.</p>
+        <p>El verdadero ejercicio de fortalecimiento cognitivo ocurre en el momento de darte cuenta de la distracción y reorientar la atención. Cada vez que realizas esta acción, estás fortaleciendo las conexiones prefrontales de tu cerebro. Con la práctica repetida, la atención plena se convierte en un hábito orgánico que mejora la resiliencia mental frente a cualquier conflicto.</p>
       `,
     },
     {
@@ -310,65 +332,71 @@ async function main() {
       body: `
         <h2>1. Más Allá del Cociente Intelectual</h2>
         <p>Durante décadas, el cociente intelectual (CI) se consideró el principal predictor de éxito y bienestar en la vida. Sin embargo, las investigaciones han demostrado que las habilidades técnicas e intelectuales resultan insuficientes si carecemos de la capacidad de reconocer y regular nuestros propios estados afectivos e interpretar los de los demás. Esta habilidad es lo que denominamos <strong>Inteligencia Emocional (IE)</strong>.</p>
-        <p>Clave para la resiliencia personal, la resolución de conflictos interpersonales y el liderazgo asertivo, la inteligencia emocional no es una característica fija con la que se nace; es una competencia maleable que puede desarrollarse sistemáticamente.</p>
 
-        <h2>2. Los Pilares Fundamentales de la Inteligencia Emocional</h2>
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">💡 Autoconocimiento:</strong>
+          Identificar y etiquetar la emoción exacta que sentimos (ej: "frustración" en lugar de un genérico "estoy mal") reduce la respuesta defensiva y sobreexcitada de la amígdala cerebral mediante el proceso cognitivo de etiquetado afectivo.
+        </div>
+
+        <h2>2. Los Pilares de la Inteligencia Emocional</h2>
         <p>De acuerdo con la formulación clásica de Daniel Goleman, la inteligencia emocional se compone de cinco dimensiones básicas:</p>
         <ul>
-          <li><strong>Autoconciencia:</strong> Capacidad de reconocer las propias emociones en el instante en que ocurren, identificando su origen y su impacto en nuestro comportamiento.</li>
-          <li><strong>Autorregulación:</strong> Capacidad de canalizar e inhibir los impulsos emocionales destructivos, adaptando nuestra respuesta de manera reflexiva a las demandas del entorno.</li>
-          <li><strong>Automotivación:</strong> Enfoque de la energía emocional hacia metas y objetivos personales, superando los contratiempos con resiliencia y optimismo realista.</li>
-          <li><strong>Empatía:</strong> Habilidad para sintonizar y comprender los sentimientos, necesidades e inquietudes de otras personas, leyendo sus señales verbales y no verbales.</li>
-          <li><strong>Habilidades Sociales:</strong> Capacidad de comunicarse de forma de cooperación y resolver conflictos de forma constructiva.</li>
+          <li><strong>Autoconciencia:</strong> Capacidad de reconocer las propias emociones en el instante en que ocurren.</li>
+          <li><strong>Autorregulación:</strong> Capacidad de canalizar e inhibir los impulsos emocionales destructivos.</li>
+          <li><strong>Automotivación:</strong> Enfoque de la energía emocional hacia metas y metas personales de valor.</li>
+          <li><strong>Empatía:</strong> Habilidad para sintonizar y comprender los sentimientos y necesidades de otras personas.</li>
+          <li><strong>Habilidades Sociales:</strong> Capacidad de comunicarse de forma persuasiva y resolver conflictos interpersonales de manera constructiva.</li>
         </ul>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Pilar de la IE</th>
-                <th class="p-3">Reactividad Habitual (Falta de IE)</th>
-                <th class="p-3">Respuesta Asertiva (Con IE)</th>
+                <th class="p-3.5">Pilar</th>
+                <th class="p-3.5">Falta de Inteligencia Emocional</th>
+                <th class="p-3.5">Respuesta de Alta Inteligencia Emocional</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Autoconciencia</td>
-                <td class="p-3">Sentir enfado repentino sin comprender qué pensamiento o fatiga lo causó.</td>
-                <td class="p-3 font-semibold text-teal-800">Identificar: "Me siento irritado por la sobrecarga y el cansancio acumulado".</td>
+                <td class="p-3.5 font-bold text-slate-900">Autoconciencia</td>
+                <td class="p-3.5">Gritar y quejarse sin saber si es por hambre, fatiga o estrés.</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Siento frustración porque no he descansado bien hoy".</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Autorregulación</td>
-                <td class="p-3">Gritar, contestar impulsivamente o bloquearse en una discusión.</td>
-                <td class="p-3 font-semibold text-teal-800">Postergar la respuesta, respirar diafragmáticamente e intervenir con asertividad.</td>
+                <td class="p-3.5 font-bold text-slate-900">Autorregulación</td>
+                <td class="p-3.5">Reaccionar agresivamente de forma inmediata ante un correo hostil.</td>
+                <td class="p-3.5 font-semibold text-teal-800">Cerrar el correo, respirar, pasear y contestar 10 minutos después con firmeza asertiva.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Empatía</td>
-                <td class="p-3">Juzgar o invalidar el enfado de un compañero tachándolo de exagerado.</td>
-                <td class="p-3 font-semibold text-teal-800">Comprender su perspectiva: "Sé que esta entrega te preocupa mucho y entiendo tu estrés".</td>
+                <td class="p-3.5 font-bold text-slate-900">Empatía</td>
+                <td class="p-3.5">Invalidar la tristeza ajena con frases como "eso no es nada".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Lamento que te sientas así, entiendo perfectamente tu enfado".</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <h2>3. Ejercicios Prácticos para Desarrollar la Autoconciencia</h2>
-        <p>La autoconciencia es la piedra angular de la inteligencia emocional. Para entrenarla, aplica el <strong>Termómetro Emocional</strong> tres veces al día. Configura una alarma suave en tu teléfono y, cuando suene, detente durante un minuto para responder internamente:</p>
-        <ol>
-          <li>¿Qué emoción estoy experimentando en este instante preciso? (Nómbrala con la mayor precisión: ej: irritabilidad, cansancio, impaciencia, entusiasmo).</li>
-          <li>¿Cómo se manifiesta esta emoción a nivel corporal? (ej: tensión en las mandíbulas, respiración superficial, opresión estomacal).</li>
-          <li>¿Qué pensamiento o situación ha desencadenado este estado emocional?</li>
-        </ol>
-        <p>El simple hecho de etiquetar verbalmente una emoción (proceso conocido como <em>affect labeling</em>) activa el córtex prefrontal y reduce de inmediato la reactividad de la amígdala, permitiéndote recuperar el control racional.</p>
+        <h2>3. Ejercicios Prácticos: El Termómetro Emocional</h2>
+        <p>La autoconciencia se entrena activamente. Programa una alarma suave en tu móvil dos veces al día. Cuando suene, detente durante un minuto y anota:</p>
 
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-2 text-xs">
-          <span class="font-bold text-teal-900 uppercase block">La Regla de los 10 Segundos de Viktor Frankl</span>
-          <p class="text-slate-655 leading-relaxed">
-            "Entre el estímulo y la respuesta hay un espacio. En ese espacio reside nuestra libertad para elegir la respuesta adecuada". Cuando sientas un secuestro amigdalino por rabia, posterga tu intervención verbal 10 segundos, realiza dos exhalaciones lentas e interrógate sobre qué respuesta constructiva puedes aportar a la conversación.
-          </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6 text-xs text-center">
+          <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl">
+            <span class="font-bold text-teal-800 block mb-1">Emoción Precisa</span>
+            Etiqueta con exactitud tu estado (irritabilidad, desgana, entusiasmo, etc.).
+          </div>
+          <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl">
+            <span class="font-bold text-teal-800 block mb-1">Manifestación Física</span>
+            Detecta mandíbula apretada, hombros tensos o respiración acelerada.
+          </div>
+          <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl">
+            <span class="font-bold text-teal-800 block mb-1">Causa Raíz</span>
+            Identifica qué pensamiento o situación provocó este estado emocional.
+          </div>
         </div>
 
         <h2>4. Habilidades Sociales y Empatía</h2>
-        <p>El desarrollo de la empatía requiere una escucha activa no reactiva. Al interactuar con otros, busca sintonizar con su estado afectivo eliminando distractores electrónicos y concentrándote en su expresión facial y tono de voz. Expresar de forma explícita que has captado su emoción ("veo que esto te frustra bastante") disminuye la tensión interpersonal y abre canales de comunicación de gran valor tanto para tus relaciones de pareja como para tu crecimiento profesional.</p>
+        <p>El desarrollo de la empatía requiere una escucha activa no reactiva. Al interactuar con otros, busca sintonizar con su estado afectivo eliminando distractores electrónicos y concentrándote en su expresión facial y tono de voz. Expresar de forma explícita que has captado su emoción disminuye la tensión interpersonal y abre canales de comunicación de gran valor.</p>
       `,
     },
     // --- CATEGORY 3: RELACIONES & ENTORNO ---
@@ -385,60 +413,63 @@ async function main() {
       seoTitle: "Cómo Sanar los Estilos de Apego en Pareja: Guía Completa",
       body: `
         <h2>1. Los Cimientos del Vínculo Amoroso</h2>
-        <p>La forma en que nos relacionamos emocionalmente en nuestras parejas no es aleatoria. Está profundamente influenciada por la teoría del apego, formulada inicialmente por el psiquiatra John Bowlby. El apego describe la necesidad biológica y psicológica de establecer vínculos estables con figuras de protección durante la infancia.</p>
-        <p>Esos primeros patrones grabados por nuestros cuidadores primarios configuran esquemas mentales (modelos operativos internos) que guían nuestras expectativas de confianza, vulnerabilidad y proximidad emocional con nuestra pareja adulta.</p>
+        <p>La forma en que nos relacionamos emocionalmente en nuestras parejas está profundamente influenciada por la teoría del apego, formulada por John Bowlby. El apego describe la necesidad biológica de establecer vínculos estables con figuras de protección durante la infancia.</p>
+        
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">💡 Teoría del Apego:</strong>
+          Tus reacciones ante el distanciamiento o los silencios de tu pareja no son caprichosas. Suelen ser patrones conductuales automatizados que tu sistema nervioso integró durante tu infancia.
+        </div>
 
-        <h2>2. Diagnóstico de los Cuatro Estilos de Apego</h2>
+        <h2>2. Los Cuatro Estilos de Apego Adulto</h2>
         <p>En el contexto de las relaciones adultas, se distinguen cuatro patrones básicos de vinculación afectiva:</p>
-        <ul>
-          <li><strong>Apego Seguro:</strong> Autoimagen positiva y visión positiva de los demás. Confortable con la intimidad y la independencia. Expresión emocional sana y resolución empática de conflictos.</li>
-          <li><strong>Apego Ansioso-Preocupado (Inseguro):</strong> Autoimagen negativa y visión positiva de los demás. Temor intenso al abandono y la soledad. Necesidad de validación constante.</li>
-          <li><strong>Apego Evitativo-Alejado (Inseguro):</strong> Autoimagen positiva y visión negativa de los demás. Deseo de independencia defensiva. Evitación del contacto íntimo y represión emocional.</li>
-          <li><strong>Apego Desorganizado:</strong> Patrón inestable y complejo que fluctúa entre la necesidad obsesiva de afecto y el miedo al contacto íntimo ("te necesito pero te temo").</li>
-        </ul>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Estilo de Apego</th>
-                <th class="p-3">Creencia de Fondo</th>
-                <th class="p-3">Comportamiento en Conflicto</th>
+                <th class="p-3.5">Estilo de Apego</th>
+                <th class="p-3.5">Visión de Uno Mismo / Del Otro</th>
+                <th class="p-3.5">Patrón de Comportamiento</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Seguro</td>
-                <td class="p-3">"Es seguro confiar en otros y mostrarme vulnerable".</td>
-                <td class="p-3 font-semibold text-teal-800">Habla con calma, escucha, busca reparar el vínculo sin atacar.</td>
+                <td class="p-3.5 font-bold text-slate-900">Seguro</td>
+                <td class="p-3.5">Positiva / Positiva</td>
+                <td class="p-3.5 font-semibold text-teal-800">Cómodo con la intimidad y la autonomía. Expresa necesidades sin miedo al conflicto.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Ansioso-Preocupado</td>
-                <td class="p-3">"Si mi pareja se aleja, significa que va a abandonarme".</td>
-                <td class="p-3 font-semibold text-teal-800">Persigue, reclama, envía múltiples mensajes, hipervigila la distancia.</td>
+                <td class="p-3.5 font-bold text-slate-900">Ansioso-Preocupado</td>
+                <td class="p-3.5">Negativa / Positiva</td>
+                <td class="p-3.5 font-semibold text-teal-800">Miedo intenso al abandono. Busca reaseguramiento constante, hipervigila la distancia de la pareja.</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Evitativo-Alejado</td>
-                <td class="p-3">"Depender de alguien es peligroso; debo protegerme solo".</td>
-                <td class="p-3 font-semibold text-teal-800">Se cierra en silencio, se marcha físicamente de la habitación, evade la intimidad.</td>
+                <td class="p-3.5 font-bold text-slate-900">Evitativo-Alejado</td>
+                <td class="p-3.5">Positiva / Negativa</td>
+                <td class="p-3.5 font-semibold text-teal-800">Independencia defensiva. Reprime emociones, se distancia ante la vulnerabilidad y huye del conflicto.</td>
+              </tr>
+              <tr>
+                <td class="p-3.5 font-bold text-slate-900">Desorganizado</td>
+                <td class="p-3.5">Negativa / Negativa</td>
+                <td class="p-3.5 font-semibold text-teal-800">Oscila entre la necesidad urgente de afecto y el temor a la intimidad emocional.</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <h2>3. La Trampa Relacional: El Bucle Ansioso-Evitativo</h2>
-        <p>Es sumamente común que personas con apego ansioso se sientan atraídas por personas de apego evitativo, creando un ciclo repetitivo altamente destructivo conocido como el <strong>bucle de la persecución</strong>. El ansioso, al percibir distancia, presiona y demanda atención; el evitativo, al sentirse acosado y abrumado, se distancia físicamente o se cierra emocionalmente; lo que aumenta la ansiedad del primero y perpetúa el conflicto indefinidamente.</p>
+        <p>Es sumamente común que personas con apego ansioso se sientan atraídas por personas de apego evitativo, creando un ciclo repetitivo altamente destructivo conocido como el <strong>bucle de la persecución</strong>. El ansioso demanda atención; el evitativo, al sentirse abrumado, se cierra emocionalmente; lo que aumenta la ansiedad del primero y perpetúa el conflicto.</p>
 
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-3">
-          <h4 class="text-sm font-bold text-teal-900 uppercase">Ejercicios Clínicos de Descalibración de Apego</h4>
+        <div class="my-6 p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-3">
+          <h4 class="text-sm font-bold text-slate-900 uppercase">Ejercicios Clínicos de Descalibración de Apego</h4>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-            <div class="p-3.5 bg-white border border-slate-100 rounded-xl space-y-1">
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1.5">
               <span class="font-bold text-teal-800 block">Pauta para Perfiles Ansiosos:</span>
-              Cuando tu pareja se distancie, realiza una pausa de 20 minutos de autocalma antes de escribir. Anota tus pensamientos catastróficos e identifica si están basados en hechos o en miedos históricos.
+              Cuando sientas urgencia de escribir o llamar por un silencio de tu pareja, detén la mano. Escribe tus pensamientos en un diario e identifica si provienen del presente o de tus miedos de abandono infantil.
             </div>
-            <div class="p-3.5 bg-white border border-slate-100 rounded-xl space-y-1">
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1.5">
               <span class="font-bold text-teal-800 block">Pauta para Perfiles Evitativos:</span>
-              Cuando sientas el impulso de escapar de una conversación, quédate e introduce una frase asertiva: "Me siento abrumado en este momento. Necesito 15 minutos en silencio y luego vuelvo a conversar".
+              Cuando sientas ganas de huir en una discusión, quédate. Explica asertivamente tus necesidades: "Me siento abrumado y necesito 15 minutos solo. Volveré para hablarlo con tranquilidad".
             </div>
           </div>
         </div>
@@ -460,67 +491,63 @@ async function main() {
       seoTitle: "Guía de Comunicación Asertiva y Límites Personales",
       body: `
         <h2>1. El Espectro de la Comunicación Interpersonal</h2>
-        <p>En nuestras interacciones cotidianas, adoptamos de manera inconsciente diferentes estilos de comunicación. Los dos extremos disfuncionales son la pasividad (priorizar los deseos ajenos sacrificando los propios por miedo al conflicto) y la agresividad (imponer las opiniones y deseos propios avasallando los derechos de los demás). La <strong>asertividad</strong> se sitúa en el centro sano: es la capacidad de expresar nuestros sentimientos, pensamientos y límites de forma honesta, directa y firme, respetando al mismo tiempo la dignidad del interlocutor.</p>
-        <p>Ser asertivo no es una personalidad con la que se nace; es una competencia verbal y emocional que se adquiere con la práctica diaria.</p>
-
-        <h2>2. Por Qué Nos Cuesta Poner Límites: El Miedo al Rechazo</h2>
-        <p>Decir "no" o marcar un límite genera habitualmente una respuesta fisiológica incómoda (tensión en el pecho, taquicardia) vinculada a distorsiones cognitivas irracionales: "si digo que no, dejarán de quererme", "soy egoísta si no ayudo en todo".</p>
-        <p>La psicología clínica recuerda que los límites personales son esenciales para preservar la salud emocional y la autoestima. Un límite claro no distancia a las personas sanas; al contrario, clarifica las reglas de interacción y construye relaciones basadas en el respeto mutuo.</p>
+        <p>En nuestras interacciones cotidianas, adoptamos de manera inconsciente diferentes estilos de comunicación. Los dos extremos disfuncionales son la pasividad (priorizar los deseos ajenos sacrificando los propios por miedo al conflicto) y la agresividad (imponer las opiniones propias). La <strong>asertividad</strong> se sitúa en el centro sano: expresa sentimientos, pensamientos y límites con honestidad y firmeza, respetando los derechos de los demás.</p>
 
         <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Estilo</th>
-                <th class="p-3">Postura Corporal e Intención</th>
-                <th class="p-3">Ejemplo de Respuesta ante Petición Extra</th>
+                <th class="p-3.5">Estilo</th>
+                <th class="p-3.5">Comportamiento Corporal</th>
+                <th class="p-3.5">Ejemplo ante Petición Extra Inviable</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Pasivo</td>
-                <td class="p-3">Sumisión, evitar el contacto visual. Complacer para ser aceptado.</td>
-                <td class="p-3">"Claro, yo me encargo..." (Aunque no tenga tiempo y se sobrecargue).</td>
+                <td class="p-3.5 font-bold text-slate-900">Pasivo</td>
+                <td class="p-3.5">Evita el contacto visual, sumisión. Trata de complacer a toda costa.</td>
+                <td class="p-3.5">"Claro, yo me encargo de ese informe..." (Aunque no tenga tiempo).</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Agresivo</td>
-                <td class="p-3">Invasión del espacio, tono cortante. Imponer su criterio.</td>
-                <td class="p-3">"¿Estás loco? ¡Hazlo tú, que para eso te pagan!" (Genera hostilidad).</td>
+                <td class="p-3.5 font-bold text-slate-900">Agresivo</td>
+                <td class="p-3.5">Invasión del espacio, tono hostil, juzga. Implica superioridad.</td>
+                <td class="p-3.5 text-rose-700 font-semibold">"¿Pero tú te crees que yo no tengo nada que hacer? ¡Hazlo tú!".</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Asertivo</td>
-                <td class="p-3 font-semibold text-teal-800">Contacto visual directo, tono calmado y firme. Defender derechos con respeto.</td>
-                <td class="p-3 font-semibold text-teal-800">"Entiendo que es importante, pero mi agenda está completa hoy y no puedo asumir esa tarea".</td>
+                <td class="p-3.5 font-bold text-slate-900">Asertivo</td>
+                <td class="p-3.5 font-semibold text-teal-800">Contacto visual directo, tono calmado y seguro.</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Entiendo tu prisa, pero mi agenda de hoy está completa y no puedo redactar ese informe".</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <h2>3. La Fórmula Asertiva del Mensaje en Primera Persona</h2>
-        <p>Una de las herramientas verbales más eficaces para expresar desacuerdos o marcar límites sin despertar la defensividad en el otro es la estructura del <strong>Mensaje en Primera Persona</strong> (Mensaje Yo). Consiste en formular tus frases siguiendo cuatro pasos objetivos:</p>
-        <ol>
-          <li><strong>Hechos objetivos:</strong> Expresa lo sucedido sin juzgar ni etiquetar (ej: "Cuando interrumpes mi turno de palabra durante las reuniones...").</li>
-          <li><strong>Sentimiento propio:</strong> Explica cómo te hace sentir esa conducta de forma honesta (ej: "...me siento frustrado y siento que mis propuestas no son tomadas en cuenta").</li>
-          <li><strong>Petición clara:</strong> Propón de manera concreta el cambio que esperas (ej: "Por ello, te pido que esperes a que termine mi exposición antes de intervenir").</li>
-          <li><strong>Consecuencia positiva:</strong> Explica el beneficio para la relación (ej: "De este modo, podremos avanzar de manera más coordinada y efectiva").</li>
-        </ol>
+        <h2>2. Por Qué Nos Cuesta Poner Límites: El Miedo al Rechazo</h2>
+        <p>Decir "no" o marcar un límite genera habitualmente una respuesta de alerta vinculada a distorsiones cognitivas irracionales: "si digo que no, dejarán de quererme", "soy egoísta si no ayudo en todo".</p>
+        <p>La psicología clínica recuerda que los límites personales son esenciales para preservar la salud emocional y la autoestima. Un límite claro no distancia a las personas sanas; al contrario, clarifica las reglas de interacción y construye relaciones basadas en el respeto mutuo.</p>
 
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-3">
-          <h4 class="text-sm font-bold text-teal-900 uppercase">Técnicas de Emergencia Verbal</h4>
+        <div class="my-6 p-5 bg-teal-50/40 border border-teal-100 rounded-2xl space-y-3">
+          <h4 class="text-sm font-bold text-teal-900 uppercase">La Fórmula del Mensaje en Primera Persona</h4>
+          <p class="text-xs text-slate-655 leading-relaxed">
+            Una herramienta verbal muy eficaz para expresar desacuerdos o marcar límites sin despertar la defensividad en el otro es el **Mensaje en Primera Persona**:
+          </p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-            <div class="p-3.5 bg-white border border-slate-100 rounded-xl">
-              <span class="font-bold text-teal-800 block mb-1">El Disco Rayado:</span>
-              Repetir tu punto de vista de forma calmada y persistente sin cambiar las palabras ante la insistencia. "Comprendo lo que dices, pero no puedo asumir este proyecto extra".
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1">
+              <span class="font-bold text-teal-800 block">Estructura del Mensaje</span>
+              1. Hechos objetivos (sin evaluar).<br>
+              2. Sentimiento propio ("me siento...").<br>
+              3. Petición clara y concreta.<br>
+              4. Beneficio común.
             </div>
-            <div class="p-3.5 bg-white border border-slate-100 rounded-xl">
-              <span class="font-bold text-teal-800 block mb-1">El Banco de Niebla:</span>
-              Dar la razón en parte a la crítica del interlocutor sin ceder en tu postura personal. "Es cierto que este informe se podría haber entregado antes, no obstante la carga de trabajo actual no permitía acelerar el plazo".
+            <div class="p-4 bg-white border border-slate-100 rounded-xl space-y-1">
+              <span class="font-bold text-teal-800 block">Ejemplo Práctico</span>
+              "Cuando me interrumpes en las reuniones (Hechos), me siento frustrado (Sentimiento). Te pido que esperes a que acabe para intervenir (Petición). Así avanzaremos mejor (Beneficio)".
             </div>
           </div>
         </div>
 
-        <h2>4. Conclusión</h2>
-        <p>Marcar límites personales es un ejercicio de respeto propio e higiene mental. Al adoptar una comunicación asertiva, reduces la carga de estrés interpersonal, evitas dinámicas pasivo-agresivas perjudiciales y sientas las bases de relaciones sentimentales, familiares y laborales verdaderamente sanas y cooperativas.</p>
+        <h2>3. Técnicas Verbales Asertivas de Emergencia</h2>
+        <p>Ante conversaciones difíciles con personas insistentes, entrena el **Disco Rayado** (repetir tu punto de vista de forma calmada y persistente, con el mismo tono de voz, sin alterarte ni desviar el tema) y el **Banco de Niebla** (dar la razón en parte a la crítica del interlocutor sin ceder en tu postura personal, calmando la hostilidad).</p>
       `,
     },
     // --- CATEGORY 4: TERAPIA & SALUD MENTAL ---
@@ -537,46 +564,49 @@ async function main() {
       seoTitle: "Terapia Cognitivo-Conductual (TCC): Técnicas y Funcionamiento",
       body: `
         <h2>1. El Paradigma de la Terapia Cognitivo-Conductual</h2>
-        <p>La <strong>Terapia Cognitivo-Conductual (TCC)</strong> es la corriente psicoterapéutica que cuenta con el mayor volumen de estudios clínicos y respaldo empírico en el tratamiento de una amplia variedad de trastornos de salud mental, incluyendo la ansiedad generalizada, la depresión, los trastornos de conducta alimentaria y las fobias específicas. Fundamentada en la integración de la psicología cognitiva y las teorías del aprendizaje conductual, parte de una premisa central: no son las situaciones cotidianas las que nos perturban, sino la interpretación subjetiva que hacemos de ellas.</p>
-        <p>A lo largo de este artículo, detallaremos el origen histórico de este paradigma, sus técnicas fundamentales de reestructuración y cómo es una sesión clínica real de TCC.</p>
+        <p>La <strong>Terapia Cognitivo-Conductual (TCC)</strong> es la corriente psicoterapéutica que cuenta con el mayor respaldo empírico en el tratamiento de trastornos como la ansiedad generalizada, la depresión y las fobias específicas. Fundamentada en la integración de la psicología cognitiva y las teorías del aprendizaje conductual, parte de una premisa central: no son las situaciones cotidianas las que nos perturban, sino la interpretación subjetiva que hacemos de ellas.</p>
+
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">💡 Triángulo Cognitivo:</strong>
+          La TCC funciona bajo la premisa de que nuestros **Pensamientos**, nuestras **Emociones** y nuestras **Conductas** se influyen mutuamente de forma circular. Al modificar tus pensamientos distorsionados, cambias directamente tus emociones y tus comportamientos.
+        </div>
 
         <h2>2. El Modelo A-B-C de Albert Ellis</h2>
-        <p>Para comprender cómo funciona el proceso psicoterapéutico de la TCC, es vital analizar el modelo clásico <strong>A-B-C</strong> desarrollado por el psicólogo Albert Ellis:</p>
+        <p>Para comprender cómo funciona el proceso psicoterapéutico de la TCC, es vital analizar el modelo clásico <strong>A-B-C</strong> desarrollado por Albert Ellis:</p>
         <ul>
-          <li><strong>A (Activating Event / Evento Activador):</strong> La situación objetiva que ocurre en la realidad (ej: recibir una crítica constructiva de tu jefe).</li>
-          <li><strong>B (Beliefs / Creencias y Pensamientos):</strong> La interpretación cognitiva subjetiva que procesa el cerebro acerca del evento (ej: "Soy un incompetente, me van a despedir de inmediato").</li>
-          <li><strong>C (Consequences / Consecuencias):</strong> Las respuestas emocionales y conductuales resultantes de esa interpretación (ej: tristeza, ansiedad intensa, evitación de tareas).</li>
+          <li><strong>A (Activating Event / Evento Activador):</strong> La situación objetiva que ocurre (ej: recibir una crítica de tu jefe).</li>
+          <li><strong>B (Beliefs / Creencias y Pensamientos):</strong> La interpretación cognitiva subjetiva que procesa el cerebro (ej: "Soy inútil, me despedirán").</li>
+          <li><strong>C (Consequences / Consecuencias):</strong> Las respuestas emocionales y de comportamiento resultantes (ej: ansiedad severa, aislamiento).</li>
         </ul>
-        <p>La intervención de la TCC se centra en el pilar <strong>B</strong>. Al modificar los pensamientos automáticos sesgados e irracionales, logramos reestructurar de manera directa las emociones y conductas resultantes.</p>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Distorsión Cognitiva</th>
-                <th class="p-3">Definición Clínica</th>
-                <th class="p-3">Pensamiento Automático Irracional</th>
-                <th class="p-3">Reestructuración Racional (TCC)</th>
+                <th class="p-3.5">Sesgo Cognitivo</th>
+                <th class="p-3.5">Definición</th>
+                <th class="p-3.5">Pensamiento Automático</th>
+                <th class="p-3.5">Reestructuración Cognitiva</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3 font-bold text-slate-900">Pensamiento Todo o Nada</td>
-                <td class="p-3">Evaluar las situaciones de forma dicotómica sin matices intermedios.</td>
-                <td class="p-3 text-rose-800">"Si este proyecto tiene fallos, soy un fracaso absoluto".</td>
-                <td class="p-3 font-semibold text-teal-800">"El proyecto tiene áreas de mejora, pero he resuelto la mayoría de puntos bien".</td>
+                <td class="p-3.5 font-bold text-slate-900">Pensamiento de Todo o Nada</td>
+                <td class="p-3.5">Clasificar la realidad en extremos rígidos (éxito total o fracaso absoluto).</td>
+                <td class="p-3.5 text-rose-800">"Si el informe tiene una errata, he fracasado en todo".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"El informe tiene un error, pero el contenido restante es riguroso y útil".</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Catastrofismo</td>
-                <td class="p-3">Imaginar y dar por sentado el peor escenario posible ante una incertidumbre.</td>
-                <td class="p-3 text-rose-800">"Tengo un leve dolor de cabeza, seguro es un tumor cerebral".</td>
-                <td class="p-3 font-semibold text-teal-800">"Es más probable que sea deshidratación o cansancio. Beberé agua y descansaré".</td>
+                <td class="p-3.5 font-bold text-slate-900">Catastrofismo</td>
+                <td class="p-3.5">Esperar de forma infundada el peor escenario posible ante una incertidumbre.</td>
+                <td class="p-3.5 text-rose-800">"Si me pongo nervioso en la charla, se reirán y perderé mi trabajo".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Aunque me ponga nervioso, la gente comprenderá la situación y mi trabajo no depende de una sola charla".</td>
               </tr>
               <tr>
-                <td class="p-3 font-bold text-slate-900">Lectura de Mente</td>
-                <td class="p-3">Asumir pensamientos ajenos negativos sin pruebas reales.</td>
-                <td class="p-3 text-rose-800">"Se están riendo en el pasillo, seguro hablan de mí".</td>
-                <td class="p-3 font-semibold text-teal-800">"No puedo saber de qué se ríen sin preguntarles; hay mil motivos que no me involucran".</td>
+                <td class="p-3.5 font-bold text-slate-900">Personalización</td>
+                <td class="p-3.5">Atribuirse la culpa de eventos externos que no controlamos.</td>
+                <td class="p-3.5 text-rose-800">"Mi amigo está callado hoy, seguro está enfadado por algo que dije".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Tiene preocupaciones propias que no me involucran. Le preguntaré si necesita ayuda".</td>
               </tr>
             </tbody>
           </table>
@@ -589,17 +619,7 @@ async function main() {
         <p>El terapeuta realiza preguntas reflexivas al paciente para cuestionar la validez y utilidad de sus pensamientos automáticos, ayudándole a encontrar interpretaciones alternativas más objetivas y adaptativas basadas en la evidencia.</p>
         
         <h3>La Exposición con Prevención de Respuesta (EPR)</h3>
-        <p>Muy aplicada en fobias y TOC. Consiste en exponer al paciente al estímulo que le genera ansiedad de forma gradual y controlada, impidiéndole realizar la conducta de evitación o compulsión habitual, facilitando el proceso biológico de habituación.</p>
-
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-2">
-          <h4 class="text-sm font-bold text-teal-900 uppercase">Qué esperar en un Proceso de TCC</h4>
-          <p class="text-xs text-slate-655 leading-relaxed">
-            A diferencia de otras corrientes de corte psicoanalítico, la TCC es **estructurada, activa y orientada a metas**. Las sesiones tienen una agenda específica y se asignan tareas conductuales inter-sesión para consolidar lo aprendido en la consulta.
-          </p>
-        </div>
-
-        <h2>4. Conclusión</h2>
-        <p>Al dotar al paciente de herramientas prácticas de auto-observación y reestructuración mental, la TCC promueve la autonomía y la resiliencia a largo plazo, convirtiéndose en una de las mejores inversiones para el bienestar de la salud mental de las personas.</p>
+        <p>Consiste en exponer al paciente al estímulo que le genera ansiedad de forma gradual y controlada, impidiéndole realizar la conducta de evitación o compulsión habitual, facilitando el proceso biológico de habituación.</p>
       `,
     },
     {
@@ -615,40 +635,44 @@ async function main() {
       seoTitle: "Terapia de Aceptación y Compromiso (ACT): Flexibilidad y Valores",
       body: `
         <h2>1. El Cambio de Paradigma en la Tercera Generación</h2>
-        <p>La <strong>Terapia de Aceptación y Compromiso (ACT)</strong> pertenece a las terapias conductuales de tercera generación. A diferencia del enfoque cognitivo tradicional de la TCC que busca debatir, reestructurar o eliminar los pensamientos incómodos y las emociones negativas, ACT propone un cambio radical de perspectiva: el sufrimiento emocional es un componente natural e inevitable de la experiencia humana. Intentar eliminarlo a toda costa suele generar más frustración y parálisis vital.</p>
-        <p>El objetivo de ACT no es reducir el síntoma, sino aumentar la <strong>flexibilidad psicológica</strong> para construir una vida rica y con propósito, orientada hacia nuestros valores más profundos.</p>
+        <p>La <strong>Terapia de Aceptación y Compromiso (ACT)</strong> pertenece a las terapias conductuales de tercera generación. A diferencia del enfoque cognitivo tradicional de la TCC que busca debatir o eliminar los pensamientos incómodos y las emociones negativas, ACT propone una perspectiva radical: el sufrimiento emocional es un componente inevitable de la experiencia humana.</p>
+        
+        <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
+          <strong class="text-teal-900 block mb-1 font-bold">💡 Aceptación:</strong>
+          Aceptar no es resignarse de forma pasiva. Es la decisión voluntaria de darle espacio al malestar para poder dirigir tu energía hacia conductas valiosas, en lugar de quedarte paralizado luchando contra tus emociones.
+        </div>
 
         <h2>2. Los Seis Pilares del Hexaflex de ACT</h2>
         <p>La flexibilidad psicológica se entrena mediante seis procesos clave ilustrados en el modelo del <em>Hexaflex</em>:</p>
         <ul>
-          <li><strong>Aceptación:</strong> Adoptar una actitud activa y receptiva para dar espacio a las emociones y sensaciones incómodas, en lugar de luchar por evitarlas.</li>
-          <li><strong>Defusión Cognitiva:</strong> Aprender a observar tus pensamientos como eventos mentales pasajeros, no como realidades incuestionables. Desprenderse del peso literal de las palabras.</li>
-          <li><strong>Contacto con el Presente:</strong> Estar plenamente consciente del aquí y el ahora, interactuando con el entorno mediante técnicas de mindfulness.</li>
-          <li><strong>El Yo-Contexto:</strong> Reconocer que tú eres el observador, el espacio seguro donde ocurren los pensamientos y emociones, diferenciándote de tus estados mentales transitorios.</li>
-          <li><strong>Valores Vitales:</strong> Clarificar lo que realmente importa en tu vida, las direcciones vitales que deseas seguir (ej: honestidad, autocuidado, amor familiar).</li>
-          <li><strong>Acción Comprometida:</strong> Diseñar y ejecutar conductas coherentes con tus valores, incluso en presencia de dudas o miedo.</li>
+          <li><strong>Aceptación:</strong> Dar espacio a las emociones y sensaciones incómodas, en lugar de luchar por evitarlas.</li>
+          <li><strong>Defusión Cognitiva:</strong> Observar tus pensamientos como eventos mentales pasajeros, no como verdades absolutas.</li>
+          <li><strong>Contacto con el Presente:</strong> Estar plenamente consciente del aquí y el ahora.</li>
+          <li><strong>El Yo-Contexto:</strong> Reconocer que tú eres el observador seguro donde ocurren los pensamientos y emociones.</li>
+          <li><strong>Valores Vitales:</strong> Clarificar lo que realmente importa en tu vida, las direcciones que deseas seguir.</li>
+          <li><strong>Acción Comprometida:</strong> Ejecutar conductas coherentes con tus valores, incluso en presencia de dudas o miedo.</li>
         </ul>
 
-        <div class="my-6 overflow-x-auto border border-slate-100 rounded-xl shadow-sm">
+        <div class="my-6 overflow-x-auto border border-slate-100 rounded-2xl shadow-sm">
           <table class="w-full text-left border-collapse text-xs">
             <thead>
               <tr class="bg-slate-50 border-b border-slate-100 font-bold text-slate-700">
-                <th class="p-3">Agenda del Control (Lucha Inútil)</th>
-                <th class="p-3">Agenda de la Aceptación (Enfoque ACT)</th>
+                <th class="p-3.5">Agenda del Control (Lucha Inútil)</th>
+                <th class="p-3.5">Agenda de la Aceptación (Enfoque ACT)</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-100 text-slate-600">
               <tr>
-                <td class="p-3">"No haré el viaje hasta que no se me quite la ansiedad por completo".</td>
-                <td class="p-3 font-semibold text-teal-800">"Hago el viaje llevando la ansiedad conmigo si es necesario, porque viajar es un valor para mí".</td>
+                <td class="p-3.5">"No asistiré a la reunión de amigos hasta que no se me quite la timidez por completo".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Asistiré a la reunión sintiendo timidez si es necesario, porque el valor de la amistad me importa".</td>
               </tr>
               <tr>
-                <td class="p-3">"Debo debatir este pensamiento de incompetencia y demostrar que valgo".</td>
-                <td class="p-3 font-semibold text-teal-800">"Nombro el pensamiento: 'Estoy teniendo el pensamiento de que no valgo', lo dejo estar y actúo".</td>
+                <td class="p-3.5">"Tengo que debatir mi pensamiento de inutilidad y hacerme sentir seguro".</td>
+                <td class="p-3.5 font-semibold text-teal-800">"Nombro el pensamiento: 'Estoy pensando que no soy capaz', y continúo con mi plan de acción".</td>
               </tr>
               <tr>
-                <td class="p-3">Evitar situaciones sociales incómodas para no experimentar vergüenza o rechazo.</td>
-                <td class="p-3 font-semibold text-teal-800">Participar activamente en reuniones dando espacio a la vergüenza, alineado con el valor de la amistad.</td>
+                <td class="p-3.5">Evitar presentar tu proyecto para no pasar por el malestar de la evaluación ajena.</td>
+                <td class="p-3.5 font-semibold text-teal-800">Presentar el proyecto dando espacio al miedo a fallar, alineado con tu valor del desarrollo profesional.</td>
               </tr>
             </tbody>
           </table>
@@ -656,22 +680,24 @@ async function main() {
 
         <h2>3. Ejercicios Prácticos de Defusión Cognitiva</h2>
         <p>Para desarmar la influencia paralizante de tus pensamientos negativos, practica estos ejercicios sencillos de defusión en tu día a día:</p>
-        
-        <h3>La Fórmula: "Estoy teniendo el pensamiento de..."</h3>
-        <p>Cuando te asalte una autocrítica destructiva como "Soy un desastre y no valgo para nada", repite mentalmente la frase anteponiendo la fórmula cognitiva: <em>"Estoy teniendo el pensamiento de que soy un desastre y no valgo para nada"</em>. Esto crea una separación inmediata entre tu identidad y el pensamiento, reduciendo su impacto emocional.</p>
-        
-        <h3>El Pensamiento en una Pantalla de Cine</h3>
-        <p>Cierra los ojos e imagina tu pensamiento negativo escrito en letras grandes sobre una pantalla de cine. Imagina que las letras cambian de color, se vuelven borrosas o se transforman en una animación divertida. Este distanciamiento lúdico desarma la gravedad con la que el cerebro procesa la preocupación.</p>
 
-        <div class="my-6 p-5 bg-teal-50/50 border border-teal-100 rounded-2xl space-y-1.5 text-xs text-slate-700">
-          <span class="font-bold text-teal-900 uppercase block">Definir Valores vs. Establecer Metas</span>
-          <p class="leading-relaxed">
-            En ACT, se distingue claramente entre un valor y una meta. Una **meta** es un destino final que se puede tachar de una lista (ej: "aprobar un examen"). Un **valor**, en cambio, es una brújula de orientación permanente que nunca termina de alcanzarse (ej: "ser un estudiante comprometido con el aprendizaje"). Al enfocar tu vida en los valores en lugar de obsesionarte con los resultados, aseguras un sentido de dirección vital robusto ante cualquier contratiempo.
-          </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6 text-xs">
+          <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl space-y-1.5">
+            <span class="font-bold text-teal-800">"Estoy teniendo el pensamiento de..."</span>
+            <p class="text-slate-500 leading-relaxed">
+              Ante una autocrítica como "No valgo para nada", refrásala mentalmente como: *“Estoy teniendo el pensamiento de que no valgo para nada”*. Crea una distancia inmediata y reduce el impacto emocional.
+            </p>
+          </div>
+          <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl space-y-1.5">
+            <span class="font-bold text-teal-800">Pensamiento en Pantalla de Cine</span>
+            <p class="text-slate-500 leading-relaxed">
+              Cierra los ojos e imagina tu preocupación escrita en letras de colores sobre una pantalla de cine distante. Observa cómo cambian de tamaño, quitándoles su solemnidad literal.
+            </p>
+          </div>
         </div>
 
-        <h2>4. Conclusión</h2>
-        <p>A través de la aceptación activa y la acción comprometida coherente con tus valores existenciales, la terapia de aceptación y compromiso fomenta una flexibilidad psicológica fundamental para vivir una vida plena, consciente y con sentido.</p>
+        <h2>4. Definir Valores vs. Establecer Metas</h2>
+        <p>En ACT, se distingue claramente entre un valor y una meta. Una **meta** es un destino final que se puede conseguir y tachar de una lista (ej: "aprobar un examen"). Un **valor**, en cambio, es una brújula de orientación permanente que nunca se agota (ej: "ser un estudiante comprometido"). Al enfocar tu vida en los valores en lugar de obsesionarte con los resultados, aseguras dirección vital robusta ante cualquier contratiempo.</p>
       `,
     },
   ];

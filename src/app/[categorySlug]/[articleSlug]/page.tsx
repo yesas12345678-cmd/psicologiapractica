@@ -152,23 +152,7 @@ export default async function ArticlePage({ params }: PageProps) {
         {/* Article content from DB */}
         <div dangerouslySetInnerHTML={{ __html: article.body }} />
 
-        {/* CTA Card for Contact/Consultancy */}
-        <div className="bg-gradient-to-r from-teal-700 to-teal-850 p-6 md:p-8 rounded-2xl text-white shadow-md space-y-4 mt-8">
-          <div className="space-y-2">
-            <h3 className="text-xl font-bold">¿Necesitas orientación profesional?</h3>
-            <p className="text-xs text-teal-100 leading-relaxed">
-              Encuentra claridad y herramientas para afrontar tu situación con terapia individualizada impartida por psicólogos clínicos titulados y colegiados.
-            </p>
-          </div>
-          <div className="pt-2">
-            <Link
-              href="/sobre-nosotros#review-team"
-              className="inline-block px-5 py-2.5 rounded-xl bg-white text-teal-800 font-bold hover:bg-slate-50 transition-colors text-xs shadow-sm cursor-pointer"
-            >
-              Consultar con un Especialista
-            </Link>
-          </div>
-        </div>
+
 
         {/* Recommended Readings Section */}
         {recommended.length > 0 && (
