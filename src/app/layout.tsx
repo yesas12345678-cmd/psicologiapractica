@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "Descubre guías, herramientas y consejos prácticos sobre ansiedad, burnout, mindfulness, relaciones de pareja y salud mental. Escrito por psicólogos y revisado científicamente.",
-  metadataBase: new URL("https://psicologiapractica.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.com"),
   alternates: {
     canonical: "/",
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Psicología Práctica | Salud Mental y Bienestar Emocional",
     description:
       "Descubre guías, herramientas y consejos prácticos sobre ansiedad, burnout, mindfulness, relaciones de pareja y salud mental. Escrito por psicólogos y revisado científicamente.",
-    url: "https://psicologiapractica.com",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.com",
     siteName: "Psicología Práctica",
     locale: "es_ES",
     type: "website",

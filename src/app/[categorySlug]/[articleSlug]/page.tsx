@@ -101,6 +101,8 @@ export default async function ArticlePage({ params }: PageProps) {
     ? REVIEWERS.alejandro
     : REVIEWERS.laura;
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.com";
+
   // Schema.org Structured Data
   const jsonLd = {
     "@context": "https://schema.org",
@@ -113,19 +115,19 @@ export default async function ArticlePage({ params }: PageProps) {
     "author": {
       "@type": "Person",
       "name": AUTHORS.elena.name,
-      "url": "https://psicologiapractica.com/sobre-nosotros",
+      "url": `${baseUrl}/sobre-nosotros`,
     },
     "publisher": {
       "@type": "Organization",
       "name": "Psicología Práctica",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://psicologiapractica.com/icon.svg",
+        "url": `${baseUrl}/icon.svg`,
       },
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://psicologiapractica.com/${categorySlug}/${articleSlug}`,
+      "@id": `${baseUrl}/${categorySlug}/${articleSlug}`,
     },
   };
 
