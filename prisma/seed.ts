@@ -2152,7 +2152,7 @@ async function main() {
       date: "2026-05-20",
       dateLabel: "20 May, 2026",
       readingTime: "3 min de lectura",
-      image: "/images/placeholder.png",
+      image: "/images/sintomas_depresion_ocultos.png",
       published: false,
       seoTitle: "Síntomas de depresión que no son tristeza: los menos conocidos | Guía de Psicología Práctica",
       body: `
