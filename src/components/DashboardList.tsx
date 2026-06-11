@@ -16,6 +16,7 @@ interface Article {
   category: {
     name: string;
   };
+  image: string;
 }
 
 interface DashboardListProps {
@@ -166,8 +167,25 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
 
                 return (
                   <tr key={article.slug} className="hover:bg-slate-50/50 transition-colors">
-                    <td className="p-4 font-bold text-slate-900 max-w-xs md:max-w-md truncate">
-                      {article.title}
+                    <td className="p-4 max-w-xs md:max-w-md">
+                      <div className="flex items-center gap-3">
+                        {article.image ? (
+                          <div className="w-12 h-8 rounded-lg overflow-hidden border border-slate-200/60 bg-slate-50 flex-shrink-0 relative group shadow-sm">
+                            <img
+                              src={article.image}
+                              alt={article.title}
+                              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                            />
+                          </div>
+                        ) : (
+                          <div className="w-12 h-8 rounded-lg border border-slate-200/60 bg-slate-100 flex items-center justify-center flex-shrink-0 shadow-sm">
+                            <FileText className="w-3.5 h-3.5 text-slate-400" />
+                          </div>
+                        )}
+                        <span className="font-bold text-slate-900 truncate" title={article.title}>
+                          {article.title}
+                        </span>
+                      </div>
                     </td>
                     <td className="p-4">
                       <span className="px-2 py-1 bg-slate-100 rounded-md font-semibold text-slate-600">
