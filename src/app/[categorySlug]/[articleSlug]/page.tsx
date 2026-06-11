@@ -120,7 +120,7 @@ export default async function ArticlePage({ params }: PageProps) {
       "name": "Psicología Práctica",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://psicologiapractica.com/favicon.ico",
+        "url": "https://psicologiapractica.com/icon.svg",
       },
     },
     "mainEntityOfPage": {

@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       "Descubre guías, herramientas y consejos prácticos sobre ansiedad, burnout, mindfulness, relaciones de pareja y salud mental. Escrito por psicólogos y revisado científicamente.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   },
 };
 
