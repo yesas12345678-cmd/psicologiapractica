@@ -78,7 +78,7 @@ async function main() {
         <p>El burnout no es un simple cansancio acumulado tras una semana intensa de labores; es un proceso crónico e insidioso que se desarrolla a lo largo de meses o incluso años. Afecta no solo la productividad y el rendimiento laboral, sino también la salud física, la estabilidad emocional, las relaciones sociales y la percepción de valía del individuo. A lo largo de esta guía definitiva, analizaremos de manera rigurosa la etiología del burnout, sus bases neurobiológicas y te dotaremos de un plan práctico estructurado de recuperación con ejercicios cognitivos y conductuales diarios diseñados por psicólogos clínicos.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">💡 Rigor Clínico:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-500 fill-amber-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> Rigor Clínico:</strong>
           El burnout no es una debilidad de carácter o una simple baja motivación laboral. Es una desregulación fisiológica real del cortisol y los neurotransmisores, generada por una discrepancia prolongada entre las exigencias del entorno y los recursos de control del individuo.
         </div>
 
@@ -154,13 +154,13 @@ async function main() {
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
           <div class="p-4 bg-rose-50/50 border border-rose-100 rounded-2xl">
-            <h4 class="font-bold text-rose-800 text-xs mb-1.5 flex items-center gap-1">❌ Qué Evitar (Reactivo)</h4>
+            <h4 class="font-bold text-rose-800 text-xs mb-1.5 flex items-center gap-1"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-rose-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Qué Evitar (Reactivo)</h4>
             <p class="text-slate-655 text-xs leading-relaxed">
               "No puedo hacer esto hoy, estoy colapsado y no me da la vida para más." (Transmite falta de control y despierta fricción con tus superiores).
             </p>
           </div>
           <div class="p-4 bg-emerald-50/50 border border-emerald-100 rounded-2xl">
-            <h4 class="font-bold text-emerald-800 text-xs mb-1.5 flex items-center gap-1">✅ Qué Aplicar (Asertivo)</h4>
+            <h4 class="font-bold text-emerald-800 text-xs mb-1.5 flex items-center gap-1"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Qué Aplicar (Asertivo)</h4>
             <p class="text-slate-655 text-xs leading-relaxed">
               "Para garantizar la calidad de este informe, necesito posponer la entrega al jueves o delegar otra tarea. ¿Cuál de las dos priorizamos?" (Redefine expectativas colaborativamente).
             </p>
@@ -181,6 +181,8 @@ async function main() {
 
 
 
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. Las Fases Clínicas del Burnout: De la Ilusión al Colapso</h2>
@@ -190,7 +192,7 @@ async function main() {
         <p>La recuperación del sistema nervioso exige la implantación de un protocolo estricto de desconexión. En primer lugar, se debe definir un "bloqueo de transición" de 15 minutos al finalizar la jornada laboral en la oficina. En segundo lugar, se debe aplicar una desconexión digital absoluta a partir de las 19:30, apagando el móvil de empresa y guardándolo fuera de la vista para evitar la reactivación amigdalina. En tercer lugar, es fundamental programar actividades placenteras desconectadas del rendimiento productivo, como pasear por la naturaleza o realizar lecturas recreativas.</p>
 
         <div class="p-5 bg-teal-50/30 border border-teal-100 rounded-2xl my-6">
-          <strong class="text-teal-900 block mb-1 font-bold text-xs">🩺 Parámetros de Autoevaluación del Burnout</strong>
+          <strong class="text-teal-900 block mb-1 font-bold text-xs"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-teal-600 fill-teal-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Parámetros de Autoevaluación del Burnout</strong>
           <p class="text-xs text-slate-600 leading-relaxed">
             Si notas que necesitas más tiempo para recuperarte los fines de semana, que contestas con ironía o cinismo a tus compañeros, y que sientes que tus aportaciones no tienen valor real, es muy probable que estés transitando por la fase de apatía o estancamiento del burnout. Un autodiagnóstico temprano es clave.
           </p>
@@ -273,7 +275,7 @@ async function main() {
         <p>Las crisis de pánico pueden aparecer sin un desencadenante evidente o pueden estar vinculadas a situaciones específicas. El miedo a experimentar un nuevo ataque (la llamada ansiedad anticipatoria o miedo al miedo) suele limitar gravemente las actividades diarias de quien lo padece, llevándole a evitar lugares concurridos, transportes públicos o situaciones de las que perciba que es difícil escapar. Abordar el pánico desde una perspectiva científica y conductual nos permite desmitificar estas sensaciones y desactivar el bucle de la alarma corporal.</p>
 
         <div class="my-6 p-5 bg-amber-50/40 border-l-4 border-amber-500 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-amber-900 block mb-1 font-bold">⚠️ Atención:</strong>
+          <strong class="text-amber-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>️ Atención:</strong>
           La sensación de "asfixia" y los temblores no se deben a una falta real de oxígeno, sino al fenómeno de la hiperventilación, el cual disminuye el nivel de dióxido de carbono en sangre (hipocapnia) y altera temporalmente el pH sanguíneo. Esto causa cosquilleos inofensivos.
         </div>
 
@@ -349,6 +351,8 @@ async function main() {
         <p><strong>¿Puedo ahogarme o asfixiarme durante un ataque de pánico?</strong> No. Aunque sientas que te falta el aire, tu cuerpo está recibiendo de hecho más oxígeno del necesario debido a la hiperventilación. Tu sistema respiratorio autónomo no permitirá que dejes de respirar.</p>
         <p><strong>¿Puede un ataque de pánico dañar mi corazón?</strong> No. Un corazón sano está perfectamente preparado para latir a altas pulsaciones durante el ejercicio o las emociones. La taquicardia del pánico es una respuesta natural al exceso de adrenalina y no genera daño estructural.</p>
         <p><strong>¿Cómo ayudar a alguien que sufre un ataque de pánico?</strong> Mantén la calma, habla con voz suave y tranquila. No le digas "tranquilízate" ni le invalides. Guíale para que haga respiraciones lentas contigo e invítale a hacer el ejercicio de anclaje 5-4-3-2-1.</p>
+
+
 
 
 
@@ -474,7 +478,7 @@ async function main() {
         <p>En un mundo caracterizado por la sobreestimulación de información y el "multitasking" constante, nuestra atención se ve fragmentada permanentemente. Esto genera fatiga cognitiva, rumiación mental e insomnio. El mindfulness propone un entrenamiento riguroso de los procesos atencionales que fortalece los circuitos de regulación cortical y disminuye la reactividad fisiológica ante las demandas diarias.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">🔬 Evidencia Neurocientífica:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg> Evidencia Neurocientífica:</strong>
           La atención plena no requiere cambios en tus creencias religiosas. Funciona entrenando físicamente tu atención selectiva, lo cual incrementa el grosor cortical y desactiva las vías neuronales del estrés crónico.
         </div>
 
@@ -545,6 +549,8 @@ async function main() {
         <p><strong>¿Tengo que dejar la mente en blanco para meditar?</strong> No. Intentar poner la mente en blanco es imposible y genera frustración. El objetivo del mindfulness es observar el flujo de tus pensamientos sin identificarte con ellos, permitiéndoles ir y venir como nubes en el cielo.</p>
         <p><strong>¿Cuál es la mejor hora del día para practicar?</strong> La mañana suele ser ideal porque ayuda a calibrar la atención y reducir el nivel basal de cortisol para toda la jornada. Sin embargo, lo más importante es la constancia: elige un momento donde puedas asegurar 10 minutos de tranquilidad ininterrumpida.</p>
         <p><strong>¿Cuánto tiempo tarda en notarse el efecto?</strong> Los cambios fisiológicos (reducción del ritmo cardíaco, calma corporal) se sienten desde la primera sesión. Las modificaciones estructurales del cerebro (neuroplasticidad detectable en resonancia) requieren un entrenamiento regular de al menos 8 semanas.</p>
+
+
 
 
 
@@ -683,7 +689,7 @@ async function main() {
         <p>Clave para la resiliencia personal, la resolución de conflictos interpersonales y el liderazgo asertivo, la inteligencia emocional no es una característica fija con la que se nace; es una competencia maleable que puede desarrollarse sistemáticamente. Las personas con alta inteligencia emocional gestionan de forma óptima el estrés, construyen relaciones interpersonales sanas y resuelven desacuerdos con madurez constructiva.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">💡 Autoconocimiento:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-500 fill-amber-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> Autoconocimiento:</strong>
           Identificar y etiquetar la emoción exacta que sentimos (ej: "impaciencia" o "frustración" en lugar de un genérico "estoy mal") activa el córtex prefrontal e inhibe el secuestro amigdalino mediante el etiquetado afectivo.
         </div>
 
@@ -751,6 +757,8 @@ async function main() {
         <p><strong>¿Se puede ser demasiado inteligente emocionalmente?</strong> No. A veces se confunde inteligencia emocional con complacencia o represión de las emociones negativas. La verdadera inteligencia emocional implica expresar tus límites y descontentos de forma asertiva y firme, no callarse para complacer a otros.</p>
         <p><strong>¿Cómo influye la inteligencia emocional en el ámbito de trabajo?</strong> Es uno de los factores clave de éxito. Las personas con alta inteligencia emocional se comunican con claridad, gestionan mejor la presión de las entregas, cooperan efectivamente en equipo y son promovidos a puestos de liderazgo por su capacidad de resolución pacífica de desacuerdos.</p>
         <p><strong>¿Se puede entrenar en niños?</strong> Sí. El modelado adulto es la herramienta fundamental. Ayudarles a nombrar sus emociones ("veo que estás enfadado por este juguete") en lugar de castigar el llanto es clave para que construyan una base emocional sólida.</p>
+
+
 
 
 
@@ -906,7 +914,7 @@ async function main() {
         <p>Esos primeros patrones grabados por nuestros cuidadores primarios configuran esquemas mentales (modelos operativos internos) que guían nuestras expectativas de confianza, vulnerabilidad y proximidad con nuestra pareja adulta.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">💡 Teoría del Apego:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-500 fill-amber-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> Teoría del Apego:</strong>
           Tus reacciones ante el distanciamiento o los silencios de tu pareja no son caprichosas. Suelen ser patrones conductuales automatizados que tu sistema nervioso integró durante tu infancia.
         </div>
 
@@ -971,6 +979,8 @@ async function main() {
         <p><strong>¿Se puede cambiar de un apego inseguro a uno seguro?</strong> Sí, a través de lo que en psicología clínica se llama "apego seguro adquirido". Requiere terapia individual para sanar las heridas relacionales del pasado y una pareja que esté dispuesta a colaborar en desarmar los bucles destructivos.</p>
         <p><strong>¿Mi estilo de apego es el mismo en todas mis relaciones?</strong> No necesariamente. Si bien hay una tendencia dominante, tu apego puede verse modificado por el comportamiento de tu pareja. Una pareja segura puede ayudarte a calmar tu ansiedad o a abrirte emocionalmente, mientras que una pareja muy evasiva puede exacerbar tu apego ansioso.</p>
         <p><strong>¿Cómo se identifica el apego desorganizado en el adulto?</strong> Se caracteriza por un comportamiento errático en la relación. La persona anhela la cercanía emocional pero cuando la obtiene se asusta y sabotea la relación o muestra reacciones de rechazo agresivo. Suele estar asociado a traumas interpersonales en la infancia.</p>
+
+
 
 
 
@@ -1193,6 +1203,8 @@ async function main() {
 
 
 
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. Los Derechos Asertivos de Manuel J. Smith</h2>
@@ -1233,7 +1245,7 @@ async function main() {
             <span class="inline-block px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-teal-100 text-teal-800 rounded">Caso 2: Daniel</span>
             <h4 class="font-bold text-slate-900 text-xs">Límites en el Ámbito Familiar (Daniel, 48 años)</h4>
             <p class="text-xs text-slate-500 leading-relaxed">
-              Daniel sufría discusiones constantes con su madre, quien opinaba de forma invasiva sobre la educación de sus hijos y entraba a su hogar sin previo aviso, generándole altos niveles de estrés familiar y discusiones con su esposa por la falta de privacidad en el hogar.
+              Daniel sufría discusiones constantes con su madre, quien opinaba de forma invasiva sobre la educación de sus hijos and entraba a su hogar sin previo aviso, generándole altos niveles de estrés familiar y discusiones con su esposa por la falta de privacidad en el hogar.
             </p>
             <p class="text-xs text-slate-500 leading-relaxed">
               En terapia se entrenó el Banco de Niebla y el Establecimiento de Límites Firmes: "Entiendo que quieras aconsejarme sobre mis hijos, pero he decidido educarlos bajo estas normas. Te pido que antes de venir a casa, nos llames por teléfono. Así podremos recibirte mucho mejor". Daniel logró mantener el límite sin generar un conflicto familiar.
@@ -1353,7 +1365,7 @@ async function main() {
         <p>A diferencia de otras corrientes de corte psicoanalítico, la TCC es **estructurada, activa y enfocada a metas concretas**. Paciente y terapeuta colaboran en la identificación de patrones de pensamiento y comportamiento distorsionados para sustituirlos por alternativas racionales y adaptativas.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">💡 Triángulo Cognitivo:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-500 fill-amber-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> Triángulo Cognitivo:</strong>
           La TCC funciona bajo la premisa de que nuestros **Pensamientos**, nuestras **Emociones** y nuestras **Conductas** se influyen mutuamente de forma circular. Al modificar tus pensamientos distorsionados, cambias directamente tus emociones y tus comportamientos.
         </div>
 
@@ -1414,6 +1426,8 @@ async function main() {
         <p><strong>¿Es la TCC efectiva para la depresión grave?</strong> Sí. La TCC es uno de los enfoques con mayor aval científico para el tratamiento de la depresión. En casos graves, se suele combinar de forma efectiva con tratamiento farmacológico psiquiátrico.</p>
         <p><strong>¿Qué son las tareas conductuales inter-sesión?</strong> Son ejercicios prácticos que el paciente realiza en su entorno real entre las sesiones de terapia (ej: autoregistro de pensamientos, ejercicios de exposición gradual o pautas de asertividad). Son claves para la consolidación del cambio.</p>
         <p><strong>¿Cómo se diferencia la TCC del psicoanálisis clásico?</strong> El psicoanálisis se enfoca en el análisis del inconsciente y el origen histórico en la infancia de los conflictos. La TCC, en cambio, se orienta a la resolución de los problemas del presente y la modificación directa de conductas y cogniciones actuales.</p>
+
+
 
 
 
@@ -1571,7 +1585,7 @@ async function main() {
         <p>El objetivo de ACT no es la reducción sintomática directa, sino el incremento de la <strong>flexibilidad psicológica</strong>. Esta competencia permite al individuo vivir una vida rica y con propósito en presencia de pensamientos o sensaciones incómodas, orientando sus acciones hacia sus valores más profundos.</p>
 
         <div class="my-6 p-5 bg-teal-50/40 border-l-4 border-teal-600 rounded-r-2xl text-slate-700 text-xs leading-relaxed">
-          <strong class="text-teal-900 block mb-1 font-bold">💡 Aceptación:</strong>
+          <strong class="text-teal-900 block mb-1 font-bold"><svg class="w-4.5 h-4.5 inline-block align-text-bottom mr-1.5 text-amber-500 fill-amber-50" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg> Aceptación:</strong>
           Aceptar no es resignarse de forma pasiva. Es la decisión voluntaria de darle espacio al malestar para poder dirigir tu energía hacia conductas valiosas, en lugar de quedarte paralizado luchando contra tus emociones.
         </div>
 
@@ -1636,6 +1650,8 @@ async function main() {
         <p><strong>¿Qué es la Relación de Marcos Relacionales (RFT)?</strong> Es la base teórica del lenguaje de la que se nutre ACT. Explica cómo los seres humanos asociamos palabras con sensaciones y cómo a través del lenguaje podemos quedar "atrapados" en el sufrimiento cognitivo.</p>
         <p><strong>¿Cómo ayuda la ACT a superar el dolor físico crónico?</strong> Es uno de los enfoques más eficaces. En lugar de luchar contra el dolor (lo que aumenta el estrés y la tensión física), ACT enseña a aceptar la sensación física y a adaptar las actividades vitales para que la persona pueda seguir haciendo cosas valiosas.</p>
         <p><strong>¿En qué se diferencia la aceptación de la resignación?</strong> La resignación es pasiva y se acompaña de impotencia y desgana ("ya no hay nada que hacer, me rindo"). La aceptación de ACT es activa y empoderadora: decides dar espacio a tus emociones para poder actuar conforme a tus valores.</p>
+
+
 
 
 

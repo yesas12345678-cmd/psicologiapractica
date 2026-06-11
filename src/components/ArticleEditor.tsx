@@ -34,11 +34,21 @@ export default function ArticleEditor({ article, categories }: ArticleEditorProp
   const [activeTab, setActiveTab] = useState<"content" | "amazon">("content");
 
   // Form states
+  const getInitialDateTime = () => {
+    if (article?.date) {
+      return article.date.includes("T") ? article.date : `${article.date}T12:00`;
+    }
+    const now = new Date();
+    const tzoffset = now.getTimezoneOffset() * 60000;
+    const localISOTime = (new Date(now.getTime() - tzoffset)).toISOString().slice(0, 16);
+    return localISOTime;
+  };
+
   const [title, setTitle] = useState(article?.title || "");
   const [slug, setSlug] = useState(article?.slug || "");
   const [seoTitle, setSeoTitle] = useState(article?.seoTitle || "");
   const [categorySlug, setCategorySlug] = useState(article?.categorySlug || categories[0]?.slug || "");
-  const [date, setDate] = useState(article?.date || new Date().toISOString().split("T")[0]);
+  const [date, setDate] = useState(getInitialDateTime());
   const [image, setImage] = useState(article?.image || "");
   const [excerpt, setExcerpt] = useState(article?.excerpt || "");
   const [body, setBody] = useState(article?.body || "");
@@ -306,7 +316,7 @@ export default function ArticleEditor({ article, categories }: ArticleEditorProp
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-700">Fecha de Publicación</label>
                 <input
-                  type="date"
+                  type="datetime-local"
                   required
                   value={date}
                   onChange={(e) => setDate(e.target.value)}

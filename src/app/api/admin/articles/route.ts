@@ -7,7 +7,8 @@ function formatDateToSpanish(dateStr: string): string {
     "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
     "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
   ];
-  const parts = dateStr.split("-");
+  const [onlyDate] = dateStr.split("T");
+  const parts = onlyDate.split("-");
   if (parts.length !== 3) return dateStr;
   const year = parts[0];
   const monthIdx = parseInt(parts[1], 10) - 1;

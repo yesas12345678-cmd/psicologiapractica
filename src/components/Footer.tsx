@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Brain, ArrowUp, AlertTriangle } from "lucide-react";
+import { Brain, ArrowUp, AlertTriangle, Heart } from "lucide-react";
 
 export default function Footer() {
   const handleScrollToTop = () => {
@@ -175,7 +175,7 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Psicología Práctica. Todos los derechos reservados.</p>
           <div className="flex items-center gap-1">
             <span>Diseñado para tu bienestar mental</span>
-            <span className="text-rose-500">❤️</span>
+            <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500 inline-block align-middle ml-1" />
           </div>
         </div>
       </div>
