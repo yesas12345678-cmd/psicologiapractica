@@ -183,6 +183,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. Las Fases Clínicas del Burnout: De la Ilusión al Colapso</h2>
@@ -253,9 +257,51 @@ async function main() {
           </table>
         </div>
 
-<p>La fatiga profesional crónica altera la homeostasis endocrina del organismo, desencadenando desequilibrios en el cortisol circulante que no remiten con el reposo convencional de fin de semana.</p>
 
-<p>El agotamiento emocional y la despersonalización actúan como barreras psicológicas defensivas ante la sobrecarga de demandas del entorno laboral, distanciando afectivamente al sujeto de su labor.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La fatiga profesional crónica altera la homeostasis endocrina del organismo, desencadenando desequilibrios en el cortisol circulante que no remiten con el reposo convencional de fin de semana.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El agotamiento emocional y la despersonalización actúan como barreras psicológicas defensivas ante la sobrecarga de demandas del entorno laboral, distanciando afectivamente al sujeto de su labor.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Para restaurar la funcionalidad, es fundamental aplicar estrategias de reestructuración de límites laborales, desconexión digital estricta y reencuadre cognitivo sistemático guiado por terapeutas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las evaluaciones organizacionales confirman que los climas de seguridad psicológica previenen de manera medible la aparición del desgaste, optimizando el rendimiento y el bienestar general.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      A nivel individual, registrar de forma diaria las tareas logradas en coherencia con los valores personales refuerza la autopercepción y contrarresta las ideas de incompetencia adquiridas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Por último, el apoyo mutuo y la descompresión emocional estructurada entre compañeros de trabajo reducen significativamente el aislamiento secundario y la rumiación cognitiva post-jornada.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El abordaje interdisciplinar, combinando la terapia ocupacional y la psicología clínica, ofrece las mayores tasas de reinserción laboral exitosa y disminuye significativamente las recaídas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El rediseño de puestos de trabajo, enfocado en dotar al empleado de mayor autonomía y capacidad de decisión, mitiga directamente la aparición del agotamiento emocional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La práctica de descansos activos durante la jornada reduce la tensión muscular acumulada y favorece el restablecimiento de la atención sostenida.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El establecimiento de canales claros de retroalimentación de desempeño constructivo contrarresta el sentimiento de baja realización profesional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La cronificación del estrés ocupacional correlaciona directamente con la desregulación inmunológica y el aumento del riesgo de patologías cardiovasculares severas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Fomentar la conciliación de la vida personal y laboral no es un beneficio opcional, sino una medida preventiva de salud pública indispensable.
+    </div>
+  </div>
+</div>
 `,
     },
     {
@@ -357,10 +403,14 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. El Bucle del Pánico: Del Estímulo al Secuestro Amigdalino</h2>
-        <p>Un ataque de pánico se nutre de un bucle de retroalimentación de tres pasos. En primer lugar, se percibe un estímulo (por ejemplo, una palpitación acelerada, calor corporal o mareo leve). En segundo lugar, el cerebro realiza una interpretación catastrófica del estímulo ("me va a dar un infarto" o "voy a perder el control"). En tercer lugar, esta interpretación es recibida por la amígdala como un peligro inminente de muerte, provocando una descarga inmediata de adrenalina que aumenta las palpitaciones y el mareo. Así se cierra el círculo vicioso del pánico. Detener este circuito exige reestructurar el pensamiento catastrofista de forma drástica al primer síntoma.</p>
+        <p>Un ataque de pánico se nutre de un bucle de retroalimentación de tres pasos. En primer lugar, se percibe un estímulo (por ejemplo, una palpitación acelerada, calor corporal o mareo leve). En segundo lugar, el cerebro realiza una interpretación catastrófica del estímulo ("me va a dar un infarto" o "voy a perder el control"). En tercer lugar, esta interpretación es recibida by la amígdala como un peligro inminente de muerte, provocando una descarga inmediata de adrenalina que aumenta las palpitaciones y el mareo. Así se cierra el círculo vicioso del pánico. Detener este circuito exige reestructurar el pensamiento catastrofista de forma drástica al primer síntoma.</p>
 
         <h2>5. La Fisiología de la Hiperventilación y la Hipocapnia</h2>
         <p>Cuando nos asustamos, tendemos a respirar rápido y con el pecho (respiración clavicular), expulsando más dióxido de carbono del que producimos. Esto produce hipocapnia (bajos niveles de CO2 en sangre), lo que altera el pH sanguíneo hacia la alcalinidad (alcalosis respiratoria). La alcalosis restringe el flujo sanguíneo cerebral y causa cosquilleos y hormigueos en manos, pies y de forma peribucal (parestesias), además de mareo. Entender que estas sensaciones son inofensivas y producto de la respiración rápida te ayudará a perderles el miedo.</p>
@@ -423,41 +473,69 @@ async function main() {
           </table>
         </div>
 
-<p>Las crisis de pánico recurrentes se alimentan del condicionamiento del miedo corporal ante sensaciones físicas inofensivas como la taquicardia o la disnea transitoria.</p>
 
-<p>La evitación sistemática de los entornos donde ocurrió el primer ataque perpetúa la ansiedad anticipatoria, limitando la autonomía diaria del sujeto de forma severa.</p>
-
-<p>La desensibilización sistemática mediante exposición interoceptiva forzada enseña a la amígdala cerebral que las descargas de adrenalina son seguras y transitorias.</p>
-
-<p>La hiperventilación clavicular excesiva expulsa demasiado dióxido de carbono en sangre, provocando alcalosis respiratoria, cosquilleos y mareo inofensivo de parestesia.</p>
-
-<p>El entrenamiento en respiración diafragmática de exhalación prolongada estimula mecánicamente el nervio vago, activando la respuesta parasimpática de calma inmediata.</p>
-
-<p>La psicoeducación exhaustiva desmitifica los temores infundados de asfixia o infarto de miocardio, desarmando la interpretación catastrofista al primer síntoma.</p>
-
-<p>Los experimentos conductuales en vivo permiten contrastar las hipótesis catastróficas del paciente con hechos objetivos en entornos públicos y de alta concurrencia.</p>
-
-<p>El apoyo familiar debe enfocarse en validar de forma empática la emoción sin reforzar la huida o la dependencia de objetos de seguridad externos.</p>
-
-<p>La habituación completa de las sensaciones cardíacas e hiperventilación se alcanza usualmente en menos de 10 sesiones de intervención estructurada.</p>
-
-<p>Con la extinción del condicionamiento del miedo, el córtex prefrontal recupera el control ejecutivo y extingue la hiperactividad amigdalina nocturna.</p>
-
-<p>El registro diario de las fluctuaciones en el nivel basal de ansiedad ayuda a detectar factores desencadenantes y a anticipar picos de estrés.</p>
-
-<p>Las intervenciones cognitivo-conductuales presentan un menor índice de recaídas a largo plazo en comparación con los tratamientos exclusivamente psicofarmacológicos.</p>
-
-<p>El reencuadre cognitivo sistemático enseña al paciente a interpretar las palpitaciones como una simple respuesta de activación motora útil y segura.</p>
-
-<p>Las técnicas de focalización externa y atención dividida son de gran utilidad para interrumpir el bucle de hipervigilancia interna corporal inicial.</p>
-
-<p>La aceptación incondicional de los síntomas, en lugar de la lucha defensiva activa por eliminarlos, acelera drásticamente la disipación del ataque.</p>
-
-<p>El abordaje de las distorsiones cognitivas subyacentes, como la magnificación del peligro, consolida la resiliencia y el sentido de autoeficacia.</p>
-
-<p>La exposición gradual a los estímulos temidos sin conductas de escape constituye la técnica de elección para la extinción del miedo condicionado.</p>
-
-<p>El restablecimiento del funcionamiento familiar y social normalizado es el indicador definitivo de la recuperación de la agorafobia secundaria.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las crisis de pánico recurrentes se alimentan del condicionamiento del miedo corporal ante sensaciones físicas inofensivas como la taquicardia o la disnea transitoria.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La evitación sistemática de los entornos donde ocurrió el primer ataque perpetúa la ansiedad anticipatoria, limitando la autonomía diaria del sujeto de forma severa.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desensibilización sistemática mediante exposición interoceptiva forzada enseña a la amígdala cerebral que las descargas de adrenalina son seguras y transitorias.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La hiperventilación clavicular excesiva expulsa demasiado dióxido de carbono en sangre, provocando alcalosis respiratoria, cosquilleos y mareo inofensivo de parestesia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en respiración diafragmática de exhalación prolongada estimula mecánicamente el nervio vago, activando la respuesta parasimpática de calma inmediata.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La psicoeducación exhaustiva desmitifica los temores infundados de asfixia o infarto de miocardio, desarmando la interpretación catastrofista al primer síntoma.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los experimentos conductuales en vivo permiten contrastar las hipótesis catastróficas del paciente con hechos objetivos en entornos públicos y de alta concurrencia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El apoyo familiar debe enfocarse en validar de forma empática la emoción sin reforzar la huida o la dependencia de objetos de seguridad externos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La habituación completa de las sensaciones cardíacas e hiperventilación se alcanza usualmente en menos de 10 sesiones de intervención estructurada.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Con la extinción del condicionamiento del miedo, el córtex prefrontal recupera el control ejecutivo y extingue la hiperactividad amigdalina nocturna.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El registro diario de las fluctuaciones en el nivel basal de ansiedad ayuda a detectar factores desencadenantes y a anticipar picos de estrés.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las intervenciones cognitivo-conductuales presentan un menor índice de recaídas a largo plazo en comparación con los tratamientos exclusivamente psicofarmacológicos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El reencuadre cognitivo sistemático enseña al paciente a interpretar las palpitaciones como una simple respuesta de activación motora útil y segura.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las técnicas de focalización externa y atención dividida son de gran utilidad para interrumpir el bucle de hipervigilancia interna corporal inicial.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La aceptación incondicional de los síntomas, en lugar de la lucha defensiva activa por eliminarlos, acelera drásticamente la disipación del ataque.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El abordaje de las distorsiones cognitivas subyacentes, como la magnificación del peligro, consolida la resiliencia y el sentido de autoeficacia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La exposición gradual a los estímulos temidos sin conductas de escape constituye la técnica de elección para la extinción del miedo condicionado.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El restablecimiento del funcionamiento familiar y social normalizado es el indicador definitivo de la recuperación de la agorafobia secundaria.
+    </div>
+  </div>
+</div>
 `,
     },
     // --- CATEGORY 2: DESARROLLO & MINDFULNESS ---
@@ -555,6 +633,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. Bases Neurocientíficas de la Atención Plena</h2>
@@ -627,49 +709,81 @@ async function main() {
         <h2>8. Evidencia Científica y Consenso Clínico Internacional</h2>
         <p>Las principales guías de práctica clínica internacionales, como las publicadas por la Asociación Americana de Psicología (APA) y la Organización Mundial de la Salud (OMS), avalan de forma consistente la eficacia de estas metodologías de intervención psicológica. Los metaanálisis de estudios controlados aleatorizados muestran de forma fehaciente que los pacientes que completan estas intervenciones estructuradas experimentan reducciones significativas en su sintomatología ansiosa y depresiva, además de un incremento medible en sus puntuaciones de bienestar subjetivo y resiliencia emocional, con un menor índice de recaídas a largo plazo comparado con los tratamientos psicofarmacológicos aislados.</p>
 
-<p>El entrenamiento mental en atención plena de forma estructurada e intensiva optimiza el funcionamiento del córtex prefrontal y la concentración diaria.</p>
 
-<p>La meditación diaria promueve la desactivación voluntaria de la rumiación y disminuye los niveles basales de la hormona del estrés.</p>
-
-<p>El escáner corporal continuado facilita la detección temprana de tensiones somáticas antes de que generen cefaleas o dolores crónicos.</p>
-
-<p>La práctica de atención plena al caminar por el parque reduce el nivel de ruido cognitivo y el agobio de las demandas de trabajo.</p>
-
-<p>La amabilidad hacia el yo observador disuelve la rigidez y el juicio que a menudo boicotean los procesos de curación en terapia.</p>
-
-<p>Los protocols de presencia plena cuentan con un elevado soporte clínico en el tratamiento del insomnio crónico secundario.</p>
-
-<p>El desarrollo de la autocompasión promueve la aceptación de las limitaciones físicas y disminuye la ansiedad asociada al dolor somático.</p>
-
-<p>La meditación sentada enseña al sujeto a observar el flujo de pensamientos transitorios como nubes pasajeras en un cielo despejado.</p>
-
-<p>La reducción del volumen amigdalino favorece el restablecimiento de un estado de calma ante situaciones complejas e imprevistos.</p>
-
-<p>El entrenamiento en mindfulness disminuye la reactividad simpática y promueve una co-regulación segura en las relaciones interpersonales.</p>
-
-<p>La variabilidad cardíaca mejora sustancialmente tras 8 semanas de entrenamiento diario en coherencia respiratoria y atención plena.</p>
-
-<p>Las prácticas informales cotidianas ayudan a romper el piloto automático conductual que perpetúa las somatizaciones por fatiga crónica.</p>
-
-<p>La auto-compasión clínica actúa como un bálsamo reparador frente a la autocrítica destructiva y el perfeccionamiento extremo.</p>
-
-<p>La meditación informal promueve la desconexión del piloto automático y fomenta el aprecio de las experiencias cotidianas sencillas.</p>
-
-<p>Los estudios de electroencefalografía demuestran un incremento en la potencia de las ondas alfa y theta durante la meditación profunda.</p>
-
-<p>El desarrollo de una actitud de aceptación no valorativa disminuye la reactividad emocional ante los conflictos interpersonales cotidianos.</p>
-
-<p>El cultivo de la atención plena en el trabajo favorece la claridad cognitiva y previene la fatiga por sobrecarga intelectual prolongada.</p>
-
-<p>Las intervenciones basadas en mindfulness muestran una efectividad comparable a los antidepresivos en la prevención de recaídas depresivas.</p>
-
-<p>La autocompasión y la amabilidad hacia los propios errores disuelven la culpa y el perfeccionismo destructivo rumiante.</p>
-
-<p>El entrenamiento de la atención sostenida reconfigura los circuitos neuronales del control inhibitorio y la toma de decisiones.</p>
-
-<p>La meditación en silencio grupal amplifica la sensación de conexión interpersonal y reduce el aislamiento existencial moderno.</p>
-
-<p>Anclar la conciencia en el presente inmediato disuelve las preocupaciones anticipatorias sobre el futuro y los lamentos del pasado.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento mental en atención plena de forma estructurada e intensiva optimiza el funcionamiento del córtex prefrontal y la concentración diaria.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La meditación diaria promueve la desactivación voluntaria de la rumiación y disminuye los niveles basales de la hormona del estrés.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El escáner corporal continuado facilita la detección temprana de tensiones somáticas antes de que generen cefaleas o dolores crónicos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La práctica de atención plena al caminar por el parque reduce el nivel de ruido cognitivo y el agobio de las demandas de trabajo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La amabilidad hacia el yo observador disuelve la rigidez y el juicio que a menudo boicotean los procesos de curación en terapia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los protocols de presencia plena cuentan con un elevado soporte clínico en el tratamiento del insomnio crónico secundario.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de la autocompasión promueve la aceptación de las limitaciones físicas y disminuye la ansiedad asociada al dolor somático.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La meditación sentada enseña al sujeto a observar el flujo de pensamientos transitorios como nubes pasajeras en un cielo despejado.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La reducción del volumen amigdalino favorece el restablecimiento de un estado de calma ante situaciones complejas e imprevistos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en mindfulness disminuye la reactividad simpática y promueve una co-regulación segura en las relaciones interpersonales.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La variabilidad cardíaca mejora sustancialmente tras 8 semanas de entrenamiento diario en coherencia respiratoria y atención plena.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las prácticas informales cotidianas ayudan a romper el piloto automático conductual que perpetúa las somatizaciones por fatiga crónica.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La auto-compasión clínica actúa como un bálsamo reparador frente a la autocrítica destructiva y el perfeccionamiento extremo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La meditación informal promueve la desconexión del piloto automático y fomenta el aprecio de las experiencias cotidianas sencillas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los estudios de electroencefalografía demuestran un incremento en la potencia de las ondas alfa y theta durante la meditación profunda.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de una actitud de aceptación no valorativa disminuye la reactividad emocional ante los conflictos interpersonales cotidianos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo de la atención plena en el trabajo favorece la claridad cognitiva y previene la fatiga por sobrecarga intelectual prolongada.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las intervenciones basadas en mindfulness muestran una efectividad comparable a los antidepresivos en la prevención de recaídas depresivas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La autocompasión y la amabilidad hacia los propios errores disuelven la culpa y el perfeccionismo destructivo rumiante.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento de la atención sostenida reconfigura los circuitos neuronales del control inhibitorio y la toma de decisiones.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La meditación en silencio grupal amplifica la sensación de conexión interpersonal y reduce el aislamiento existencial moderno.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Anclar la conciencia en el presente inmediato disuelve las preocupaciones anticipatorias sobre el futuro y los lamentos del pasado.
+    </div>
+  </div>
+</div>
 `,
     },
     {
@@ -763,6 +877,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. La Neurobiología del Secuestro Amigdalino (Amygdala Hijack)</h2>
@@ -835,65 +953,105 @@ async function main() {
         <h2>8. Evidencia Científica y Consenso Clínico Internacional</h2>
         <p>Las principales guías de práctica clínica internacionales, como las publicadas por la Asociación Americana de Psicología (APA) y la Organización Mundial de la Salud (OMS), avalan de forma consistente la eficacia de estas metodologías de intervención psicológica. Los metaanálisis de estudios controlados aleatorizados muestran de forma fehaciente que los pacientes que completan estas intervenciones estructuradas experimentan reducciones significativas en su sintomatología ansiosa y depresiva, además de un incremento medible en sus puntuaciones de bienestar subjetivo y resiliencia emocional, con un menor índice de recaídas a largo plazo comparado con los tratamientos psicofarmacológicos aislados.</p>
 
-<p>La inteligencia emocional es una competencia maleable que optimiza el autocontrol, la empatía y la resolución pacífica de disputas complejas.</p>
 
-<p>El etiquetado afectivo inmediato (nombrar con precisión la emoción sentida) activa la corteza prefrontal lateral y detiene la ira impulsiva reactiva.</p>
-
-<p>La empatía cognitiva se diferencia de la empatía afectiva en que no genera desgaste ni fatiga por fusión de sentimientos ajenos.</p>
-
-<p>El método RULER enseña a reconocer, comprender, etiquetar, expresar y regular los estados de ánimo de forma adaptada a las demandas.</p>
-
-<p>Los directivos con alta capacidad de regulación emocional generan climas de seguridad psicológica organizacionales de alta cooperación y baja rotación.</p>
-
-<p>La automotivación enfocada a valores nucleares permite tolerar la frustración y persistir ante los contratiempos sin desarrollar indefensión aprendida.</p>
-
-<p>Expresar las vulnerabilidades familiares en primera persona evita los reproches directos destructivos y fomenta el entendimiento mutuo saludable.</p>
-
-<p>La disregulación emocional se asocia clínicamente a picos altos de presión arterial sistólica y sobrecarga en el eje suprarrenal.</p>
-
-<p>Nombrar con precisión la rabia o frustración desactiva mecánicamente la alarma simpática y reequilibra el ritmo respiratorio de inmediato.</p>
-
-<p>El modelado reflexivo en la infancia favorece el desarrollo de conexiones prefrontales estables y disminuye la impulsividad reactiva posterior.</p>
-
-<p>La autocompasión actúa como amortiguador psicológico frente al perfeccionismo tiránico laboral y la culpa irracional destructiva cotidiana.</p>
-
-<p>El termómetro emocional diario redirecciona la atención selectiva hacia el autoconocimiento interoceptivo corporal previniendo somatizaciones graves.</p>
-
-<p>La validación emocional del interlocutor desactiva las posturas defensivas y sienta las bases para una negociación colaborativa y asertiva.</p>
-
-<p>El entrenamiento en asertividad y resolución de conflictos es indispensable para el desarrollo de un liderazgo organizacional resiliente.</p>
-
-<p>La contención reflexiva de las respuestas de ira automáticas previene daños irreparables en las relaciones personales y afectivas.</p>
-
-<p>La práctica de la autoevaluación honesta y sin juicios promueve la autoaceptación y disminuye la vulnerabilidad a las críticas externas.</p>
-
-<p>Los programas de educación emocional en escuelas reducen de forma demostrada las tasas de acoso escolar y aumentan el rendimiento académico.</p>
-
-<p>La coherencia cardíaca y las meditaciones de bondad amorosa incrementan de forma medible los niveles basales de empatía y compasión.</p>
-
-<p>El desarrollo de un vocabulario emocional preciso previene el bloqueo cognitivo en situaciones de alta demanda e incertidumbre.</p>
-
-<p>El autocontrol emocional no consiste en reprimir los sentimientos, sino en canalizarlos de forma constructiva hacia la consecución de objetivos.</p>
-
-<p>El reconocimiento temprano de la fatiga interoceptiva corporal ayuda a programar descansos reguladores antes de que aparezca la irritabilidad.</p>
-
-<p>La asertividad afectiva permite expresar las necesidades personales sin temor al rechazo ni intenciones latentes de manipulación del otro.</p>
-
-<p>La compasión dirigida hacia las personas difíciles disminuye la rumiación de rabia interna y protege la salud cardiovascular.</p>
-
-<p>La educación emocional a lo largo del ciclo vital es un pilar preventivo para el fomento del bienestar psicológico comunitario.</p>
-
-<p>El desarrollo de la autoconciencia emocional permite a los líderes empresariales anticipar reacciones impulsivas y canalizar el estrés de forma constructiva.</p>
-
-<p>La empatía en entornos clínicos reduce significativamente el síndrome de fatiga por compasión y mejora la calidad de la atención al paciente.</p>
-
-<p>El entrenamiento en competencias emocionales correlaciona de manera directa con un incremento en los índices de satisfacción laboral y personal.</p>
-
-<p>El modelado emocional asertivo por parte de los progenitores previene la aparición de conductas desadaptativas en la adolescencia.</p>
-
-<p>Las técnicas de respiración diafragmática pausada actúan como reguladores fisiológicos inmediatos ante situaciones de sobrecarga cognitiva.</p>
-
-<p>El cultivo sistemático de la gratitud y el optimismo realista fortalece los circuitos neuronales asociados a la resiliencia psicológica.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La inteligencia emocional es una competencia maleable que optimiza el autocontrol, la empatía y la resolución pacífica de disputas complejas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El etiquetado afectivo inmediato (nombrar con precisión la emoción sentida) activa la corteza prefrontal lateral y detiene la ira impulsiva reactiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La empatía cognitiva se diferencia de la empatía afectiva en que no genera desgaste ni fatiga por fusión de sentimientos ajenos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El método RULER enseña a reconocer, comprender, etiquetar, expresar y regular los estados de ánimo de forma adaptada a las demandas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los directivos con alta capacidad de regulación emocional generan climas de seguridad psicológica organizacionales de alta cooperación y baja rotación.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La automotivación enfocada a valores nucleares permite tolerar la frustración y persistir ante los contratiempos sin desarrollar indefensión aprendida.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Expresar las vulnerabilidades familiares en primera persona evita los reproches directos destructivos y fomenta el entendimiento mutuo saludable.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La disregulación emocional se asocia clínicamente a picos altos de presión arterial sistólica y sobrecarga en el eje suprarrenal.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Nombrar con precisión la rabia o frustración desactiva mecánicamente la alarma simpática y reequilibra el ritmo respiratorio de inmediato.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El modelado reflexivo en la infancia favorece el desarrollo de conexiones prefrontales estables y disminuye la impulsividad reactiva posterior.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La autocompasión actúa como amortiguador psicológico frente al perfeccionismo tiránico laboral y la culpa irracional destructiva cotidiana.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El termómetro emocional diario redirecciona la atención selectiva hacia el autoconocimiento interoceptivo corporal previniendo somatizaciones graves.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La validación emocional del interlocutor desactiva las posturas defensivas y sienta las bases para una negociación colaborativa y asertiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en asertividad y resolución de conflictos es indispensable para el desarrollo de un liderazgo organizacional resiliente.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La contención reflexiva de las respuestas de ira automáticas previene daños irreparables en las relaciones personales y afectivas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La práctica de la autoevaluación honesta y sin juicios promueve la autoaceptación y disminuye la vulnerabilidad a las críticas externas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los programas de educación emocional en escuelas reducen de forma demostrada las tasas de acoso escolar y aumentan el rendimiento académico.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La coherencia cardíaca y las meditaciones de bondad amorosa incrementan de forma medible los niveles basales de empatía y compasión.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de un vocabulario emocional preciso previene el bloqueo cognitivo en situaciones de alta demanda e incertidumbre.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El autocontrol emocional no consiste en reprimir los sentimientos, sino en canalizarlos de forma constructiva hacia la consecución de objetivos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El reconocimiento temprano de la fatiga interoceptiva corporal ayuda a programar descansos reguladores antes de que aparezca la irritabilidad.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La asertividad afectiva permite expresar las necesidades personales sin temor al rechazo ni intenciones latentes de manipulación del otro.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La compasión dirigida hacia las personas difíciles disminuye la rumiación de rabia interna y protege la salud cardiovascular.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La educación emocional a lo largo del ciclo vital es un pilar preventivo para el fomento del bienestar psicológico comunitario.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de la autoconciencia emocional permite a los líderes empresariales anticipar reacciones impulsivas y canalizar el estrés de forma constructiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La empatía en entornos clínicos reduce significativamente el síndrome de fatiga por compasión y mejora la calidad de la atención al paciente.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en competencias emocionales correlaciona de manera directa con un incremento en los índices de satisfacción laboral y personal.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El modelado emocional asertivo por parte de los progenitores previene la aparición de conductas desadaptativas en la adolescencia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las técnicas de respiración diafragmática pausada actúan como reguladores fisiológicos inmediatos ante situaciones de sobrecarga cognitiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo sistemático de la gratitud y el optimismo realista fortalece los circuitos neuronales asociados a la resiliencia psicológica.
+    </div>
+  </div>
+</div>
 `,
     },
     // --- CATEGORY 3: RELACIONES & ENTORNO ---
@@ -985,6 +1143,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. El Origen Infantil: Heridas de Apego y su Mensaje Central</h2>
@@ -1055,69 +1217,111 @@ async function main() {
         <h2>8. Evidencia Científica y Consenso Clínico Internacional</h2>
         <p>Las principales guías de práctica clínica internacionales, como las publicadas por la Asociación Americana de Psicología (APA) y la Organización Mundial de la Salud (OMS), avalan de forma consistente la eficacia de estas metodologías de intervención psicológica. Los metaanálisis de estudios controlados aleatorizados muestran de forma fehaciente que los pacientes que completan estas intervenciones estructuradas experimentan reducciones significativas en su sintomatología ansiosa y depresiva, además de un incremento medible en sus puntuaciones de bienestar subjetivo y resiliencia emocional, con un menor índice de recaídas a largo plazo comparado con los tratamientos psicofarmacológicos aislados.</p>
 
-<p>Los estilos de apego configurados en la infancia actúan como modelos operativos internos que guían la confianza y el compromiso en la pareja.</p>
 
-<p>El perfil de apego ansioso sufre de hiperactivación emocional, respondiendo con protestas y exigencias ante el temor percibido de rechazo.</p>
-
-<p>El apego evitativo reprime la vulnerabilidad relacional, cerrando su expresión facial y buscando una independencia rígida defensiva ante la intimidad.</p>
-
-<p>El bucle ansioso-evitativo de persecución y distanciamiento deteriora la co-regulación tensional de la pareja y cronifica el conflicto destructivo.</p>
-
-<p>La Terapia Focalizada en las Emociones (EFT) ayuda a de-escalar este ciclo identificando los miedos nucleares y fomentando la validación mutua.</p>
-
-<p>El apego seguro adquirido se construye mediante la de-escalada consciente de los reproches y el establecimiento de compromisos afectivos claros.</p>
-
-<p>La co-regulación segura en pareja disminuye la tensión cardiovascular y activa la liberación de oxitocina reduciendo el nivel de cortisol.</p>
-
-<p>El apego desorganizado oscila de forma errática entre el anhelo de afecto y el pánico a la intimidad debido a traumas interpersonales.</p>
-
-<p>El tratamiento mediante EMDR y terapia relacional individual ayuda a sanar las heridas relacionales del pasado y a generar confianza.</p>
-
-<p>Los silencios y distanciamientos temporales se interpretan de forma constructiva si el sistema de apego está saneado y seguro.</p>
-
-<p>El modelado parental asertivo previene que los hijos integren patrones relacionales desadaptativos perpetuando la inseguridad afectiva sistémica.</p>
-
-<p>Reconocer las reacciones de alarma física como disparadores relacionales pasados nos otorga el control para intervenir con madurez afectiva.</p>
-
-<p>El desarrollo de una comunicación emocional abierta y honesta es indispensable para la resolución del bucle de persecución ansiosa.</p>
-
-<p>La validación incondicional de los miedos de abandono de la pareja disminuye la necesidad de hipervigilancia y llamadas defensivas recurrentes.</p>
-
-<p>La asertividad en la pareja permite pactar espacios individuales de desarrollo sin generar sospechas ni activar alarmas límbicas de exclusión.</p>
-
-<p>La terapia de pareja orientada al apego se enfoca en crear experiencias emocionales correctoras de seguridad y conexión afectiva profunda.</p>
-
-<p>Los estilos de apego son flexibles y pueden evolucionar hacia la seguridad gracias a relaciones estables y al trabajo psicoterapéutico individual.</p>
-
-<p>El autoconocimiento de las propias distorsiones de apego previene la proyección de inseguridades pasadas sobre la conducta del cónyuge actual.</p>
-
-<p>El establecimiento de rituales de conexión diaria fomenta la intimidad y contrarresta los efectos del distanciamiento laboral sistemático.</p>
-
-<p>La comprensión fisiológica de la huida evitativa ayuda a la pareja ansiosa a no personalizar el silencio de su cónyuge.</p>
-
-<p>La desescalada de los conflictos de pareja exige que ambos miembros reconozcan su papel en el mantenimiento del bucle destructivo relacional.</p>
-
-<p>La reparación activa del daño después de una discusión es una de las habilidades principales de las parejas con apego seguro.</p>
-
-<p>El cultivo de la empatía profunda hacia la historia de apego del otro disuelve los reproches y promueve el acercamiento cariñoso.</p>
-
-<p>La seguridad afectiva construida en pareja constituye el entorno ideal para el desarrollo cognitivo y emocional de los hijos.</p>
-
-<p>El establecimiento de acuerdos claros y explícitos sobre la frecuencia de los contactos disminuye significativamente la ansiedad relacional.</p>
-
-<p>La de-escalada de los conflictos de pareja requiere que ambos miembros reconozcan su contribución al mantenimiento de la pauta destructiva.</p>
-
-<p>La terapia de aceptación y compromiso facilita la tolerancia al malestar emocional en personas con estilos de apego inseguro.</p>
-
-<p>El desarrollo de la autocompasión ayuda al miembro ansioso a regular su miedo al abandono sin recurrir a la hipervigilancia constante.</p>
-
-<p>La psicoeducación sobre los estilos de apego proporciona a la pareja un marco comprensivo común que mitiga las interpretaciones catastróficas.</p>
-
-<p>La integración de memorias traumáticas relacionales mediante EMDR facilita la transición hacia esquemas de apego más seguros y estables.</p>
-
-<p>La co-regulación emocional en la infancia constituye la base neurobiológica sobre la que se asienta el desarrollo de la autonomía del sujeto.</p>
-
-<p>Las personas con apego seguro tienden a buscar apoyo social de forma constructiva en momentos de alta demanda y vulnerabilidad.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los estilos de apego configurados en la infancia actúan como modelos operativos internos que guían la confianza y el compromiso en la pareja.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El perfil de apego ansioso sufre de hiperactivación emocional, respondiendo con protestas y exigencias ante el temor percibido de rechazo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El apego evitativo reprime la vulnerabilidad relacional, cerrando su expresión facial y buscando una independencia rígida defensiva ante la intimidad.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El bucle ansioso-evitativo de persecución y distanciamiento deteriora la co-regulación tensional de la pareja y cronifica el conflicto destructivo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La Terapia Focalizada en las Emociones (EFT) ayuda a de-escalar este ciclo identificando los miedos nucleares y fomentando la validación mutua.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El apego seguro adquirido se construye mediante la de-escalada consciente de los reproches y el establecimiento de compromisos afectivos claros.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La co-regulación segura en pareja disminuye la tensión cardiovascular y activa la liberación de oxitocina reduciendo el nivel de cortisol.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El apego desorganizado oscila de forma errática entre el anhelo de afecto y el pánico a la intimidad debido a traumas interpersonales.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El tratamiento mediante EMDR and terapia relacional individual ayuda a sanar las heridas relacionales del pasado y a generar confianza.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los silencios y distanciamientos temporales se interpretan de forma constructiva si el sistema de apego está saneado y seguro.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El modelado parental asertivo previene que los hijos integren patrones relacionales desadaptativos perpetuando la inseguridad afectiva sistémica.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Reconocer las reacciones de alarma física como disparadores relacionales pasados nos otorga el control para intervenir con madurez afectiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de una comunicación emocional abierta y honesta es indispensable para la resolución del bucle de persecución ansiosa.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La validación incondicional de los miedos de abandono de la pareja disminuye la necesidad de hipervigilancia y llamadas defensivas recurrentes.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La asertividad en la pareja permite pactar espacios individuales de desarrollo sin generar sospechas ni activar alarmas límbicas de exclusión.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La terapia de pareja orientada al apego se enfoca en crear experiencias emocionales correctoras de seguridad y conexión afectiva profunda.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los estilos de apego son flexibles y pueden evolucionar hacia la seguridad gracias a relaciones estables y al trabajo psicoterapéutico individual.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El autoconocimiento de los propios disparadores de ira es el paso previo indispensable para emitir respuestas asertivas estables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El establecimiento de rituales de conexión diaria fomenta la intimidad y contrarresta los efectos del distanciamiento laboral sistemático.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La comprensión fisiológica de la huida evitativa ayuda a la pareja ansiosa a no personalizar el silencio de su cónyuge.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desescalada de los conflictos de pareja exige que ambos miembros reconozcan su papel en el mantenimiento del bucle destructivo relacional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La reparación activa del daño después de una discusión es una de las habilidades principales de las parejas con apego seguro.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo de la empatía profunda hacia la historia de apego del otro disuelve los reproches y promueve el acercamiento cariñoso.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La seguridad afectiva construida en pareja constituye el entorno ideal para el desarrollo cognitivo y emocional de los hijos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El establecimiento de acuerdos claros y explícitos sobre la frecuencia de los contactos disminuye significativamente la ansiedad relacional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La de-escalada de los conflictos de pareja requiere que ambos miembros reconozcan su contribución al mantenimiento de la pauta destructiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La terapia de aceptación y compromiso facilita la tolerancia al malestar emocional en personas con estilos de apego inseguro.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de la autocompasión ayuda al miembro ansioso a regular su miedo al abandono sin recurrir a la hipervigilancia constante.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La psicoeducación sobre los estilos de apego proporciona a la pareja un marco comprensivo común que mitiga las interpretaciones catastróficas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La integración de memorias traumáticas relacionales mediante EMDR facilita la transición hacia esquemas de apego más seguros y estables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La co-regulación emocional en la infancia constituye la base neurobiológica sobre la que se asienta el desarrollo de la autonomía del sujeto.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las personas con apego seguro tienden a buscar apoyo social de forma constructiva en momentos de alta demanda y vulnerabilidad.
+    </div>
+  </div>
+</div>
 `,
     },
     {
@@ -1205,6 +1409,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. Los Derechos Asertivos de Manuel J. Smith</h2>
@@ -1245,7 +1453,7 @@ async function main() {
             <span class="inline-block px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-teal-100 text-teal-800 rounded">Caso 2: Daniel</span>
             <h4 class="font-bold text-slate-900 text-xs">Límites en el Ámbito Familiar (Daniel, 48 años)</h4>
             <p class="text-xs text-slate-500 leading-relaxed">
-              Daniel sufría discusiones constantes con su madre, quien opinaba de forma invasiva sobre la educación de sus hijos and entraba a su hogar sin previo aviso, generándole altos niveles de estrés familiar y discusiones con su esposa por la falta de privacidad en el hogar.
+              Daniel sufría discusiones constantes con su madre, quien opinaba de forma invasiva sobre la educación de sus hijos y entraba a su hogar sin previo aviso, generándole altos niveles de estrés familiar y discusiones con su esposa por la falta de privacidad en el hogar.
             </p>
             <p class="text-xs text-slate-500 leading-relaxed">
               En terapia se entrenó el Banco de Niebla y el Establecimiento de Límites Firmes: "Entiendo que quieras aconsejarme sobre mis hijos, pero he decidido educarlos bajo estas normas. Te pido que antes de venir a casa, nos llames por teléfono. Así podremos recibirte mucho mejor". Daniel logró mantener el límite sin generar un conflicto familiar.
@@ -1286,65 +1494,105 @@ async function main() {
         <h2>8. Evidencia Científica y Consenso Clínico Internacional</h2>
         <p>Las principales guías de práctica clínica internacionales, como las publicadas por la Asociación Americana de Psicología (APA) y la Organización Mundial de la Salud (OMS), avalan de forma consistente la eficacia de estas metodologías de intervención psicológica. Los metaanálisis de estudios controlados aleatorizados muestran de forma fehaciente que los pacientes que completan estas intervenciones estructuradas experimentan reducciones significativas en su sintomatología ansiosa y depresiva, además de un incremento medible en sus puntuaciones de bienestar subjetivo y resiliencia emocional, con un menor índice de recaídas a largo plazo comparado con los tratamientos psicofarmacológicos aislados.</p>
 
-<p>La comunicación asertiva expresa límites, pensamientos y emociones en primera persona con firmeza, respetando los derechos de los demás.</p>
 
-<p>La pasividad sistemática (someter los deseos propios al criterio ajeno) destruye la valía personal y acumula un resentimiento silencioso destructivo.</p>
-
-<p>La agresividad impone el criterio individual mediante la hostilidad, rompiendo la empatía y cerrando los canales de negociación colaborativa.</p>
-
-<p>El guion DESC ofrece una estructura conductual de gran eficacia clínica para comunicar desacuerdos y marcar límites sin fricciones excesivas.</p>
-
-<p>Los derechos asertivos enunciados por Smith recuerdan que somos responsables de nuestras decisiones y no tenemos por qué justificarnos constantemente.</p>
-
-<p>Las técnicas del Banco de Niebla y la Aserción Negativa nos capacitan para tolerar críticas injustas sin caer en justificaciones defensivas.</p>
-
-<p>Decir no de forma clara y sin culpa es la principal barrera defensiva de la salud mental frente a la sobrecarga.</p>
-
-<p>El comportamiento pasivo-agresivo refleja una falta grave de asertividad que sabotagea las relaciones interpersonales mediante sarcasmos y retrasos voluntarios.</p>
-
-<p>Entrenar la asertividad en escenarios cotidianos sencillos automatiza las respuestas y disminuye las rumiaciones cognitivas posteriores a las discusiones.</p>
-
-<p>El establecimiento de límites firmes en el entorno familiar protege el espacio de intimidad y reduce el nivel basal de estrés.</p>
-
-<p>Al describir hechos objetivos eliminamos el juicio y la confrontación, facilitando que el interlocutor escuche de forma abierta.</p>
-
-<p>La asertividad no busca ganar discusiones, sino clarificar expectativas y construir acuerdos sostenibles basados en la honestidad recíproca.</p>
-
-<p>El disco rayado es una técnica de asertividad que consiste en repetir de manera calmada y firme nuestra petición ante la insistencia manipuladora.</p>
-
-<p>El aplazamiento asertivo permite posponer la respuesta ante una crítica hostil hasta que el nivel de tensión física haya disminuido.</p>
-
-<p>La comunicación no verbal asertiva incluye mantener un contacto visual directo, una postura erguida y abierta, y un tono de voz firme y calmado.</p>
-
-<p>El respeto mutuo es el principio fundamental sobre el que se asienta la asertividad, diferenciándola del egoísmo o del egocentrismo.</p>
-
-<p>El entrenamiento sistemático en habilidades sociales asertivas aumenta la autoconfianza y disminuye la ansiedad social en consulta.</p>
-
-<p>Decir no de forma asertiva requiere no poner excusas rebuscadas ni disculparse de forma excesiva por no cumplir las demandas ajenas.</p>
-
-<p>La aserción negativa consiste en aceptar las críticas de forma objetiva y calmada cuando estas se basan en errores reales cometidos.</p>
-
-<p>El desarrollo de relaciones saludables se ve facilitado por la expresión clara de lo que se espera de cada miembro de forma explícita.</p>
-
-<p>La resolución de conflictos organizacionales se beneficia enormemente del empleo de un lenguaje descriptivo centrado en soluciones.</p>
-
-<p>El autoconocimiento de los propios disparadores de ira es el paso previo indispensable para emitir respuestas asertivas estables.</p>
-
-<p>Fomentar un clima de comunicación abierta en la empresa reduce drásticamente las conductas pasivo-agresivas secundarias.</p>
-
-<p>El guion DESC constituye una herramienta de elección para dar feedback correctivo constructivo a subordinados de forma profesional.</p>
-
-<p>La asertividad no garantiza la consecución de todos los objetivos interpersonales, sino la expresión honesta de las necesidades propias.</p>
-
-<p>El empleo sistemático de mensajes en primera persona evita la atribución de culpas y disminuye la reactividad defensiva del receptor.</p>
-
-<p>El aplazamiento asertivo constituye una estrategia de elección ante situaciones donde la elevada activación física impide un diálogo constructivo.</p>
-
-<p>Las personas con alta asertividad muestran una mayor resistencia ante los intentos de manipulación emocional de su entorno social.</p>
-
-<p>La comunicación asertiva en el ámbito laboral previene la aparición de conflictos no resueltos que merman la productividad.</p>
-
-<p>El entrenamiento en asertividad promueve el desarrollo de una sana autoestima basada en el autorrespeto y la validación personal.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La comunicación asertiva expresa límites, pensamientos y emociones en primera persona con firmeza, respetando los derechos de los demás.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La pasividad sistemática (someter los deseos propios al criterio ajeno) destruye la valía personal y acumula un resentimiento silencioso destructivo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La agresividad impone el criterio individual mediante la hostilidad, rompiendo la empatía y cerrando los canales de negociación colaborativa.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El guion DESC ofrece una estructura conductual de gran eficacia clínica para comunicar desacuerdos y marcar límites sin fricciones excesivas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los derechos asertivos enunciados por Smith recuerdan que somos responsables de nuestras decisiones y no tenemos por qué justificarnos constantemente.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las técnicas del Banco de Niebla y la Aserción Negativa nos capacitan para tolerar críticas injustas sin caer en justificaciones defensivas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Decir no de forma clara y sin culpa es la principal barrera defensiva de la salud mental frente a la sobrecarga.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El comportamiento pasivo-agresivo refleja una falta grave de asertividad que sabotagea las relaciones interpersonales mediante sarcasmos y retrasos voluntarios.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Entrenar la asertividad en escenarios cotidianos sencillos automatiza las respuestas y disminuye las rumiaciones cognitivas posteriores a las discusiones.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El establecimiento de límites firmes en el entorno familiar protege el espacio de intimidad y reduce el nivel basal de estrés.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Al describir hechos objetivos eliminamos el juicio y la confrontación, facilitando que el interlocutor escuche de forma abierta.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La asertividad no busca ganar discusiones, sino clarificar expectativas y construir acuerdos sostenibles basados en la honestidad recíproca.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El disco rayado es una técnica de asertividad que consiste en repetir de manera calmada y firme nuestra petición ante la insistencia manipuladora.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El aplazamiento asertivo permite posponer la respuesta ante una crítica hostil hasta que el nivel de tensión física haya disminuido.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La comunicación no verbal asertiva incluye mantener un contacto visual directo, una postura erguida y abierta, y un tono de voz firme y calmado.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El respeto mutuo es el principio fundamental sobre el que se asienta la asertividad, diferenciándola del egoísmo o del egocentrismo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento sistemático en habilidades sociales asertivas aumenta la autoconfianza y disminuye la ansiedad social en consulta.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Decir no de forma asertiva requiere no poner excusas rebuscadas ni disculparse de forma excesiva por no cumplir las demandas ajenas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La aserción negativa consiste en aceptar las críticas de forma objetiva y calmada cuando estas se basan en errores reales cometidos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El desarrollo de relaciones saludables se ve facilitado por la expresión clara de lo que se espera de cada miembro de forma explícita.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La resolución de conflictos organizacionales se beneficia enormemente del empleo de un lenguaje descriptivo centrado en soluciones.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El autoconocimiento de los propios disparadores de ira es el paso previo indispensable para emitir respuestas asertivas estables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Fomentar un clima de comunicación abierta en la empresa reduce drásticamente las conductas pasivo-agresivas secundarias.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El guion DESC constituye una herramienta de elección para dar feedback correctivo constructivo a subordinados de forma profesional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La asertividad no garantiza la consecución de todos los objetivos interpersonales, sino la expresión honesta de las necesidades propias.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El empleo sistemático de mensajes en primera persona evita la atribución de culpas y disminuye la reactividad defensiva del receptor.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El aplazamiento asertivo constituye una estrategia de elección ante situaciones donde la elevada activación física impide un diálogo constructivo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las personas con alta asertividad muestran una mayor resistencia ante los intentos de manipulación emocional de su entorno social.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La comunicación asertiva en el ámbito laboral previene la aparición de conflictos no resueltos que merman la productividad.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en asertividad promueve el desarrollo de una sana autoestima basada en el autorrespeto y la validación personal.
+    </div>
+  </div>
+</div>
 `,
     },
     // --- CATEGORY 4: TERAPIA & SALUD MENTAL ---
@@ -1432,6 +1680,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. La Tríada Cognitiva de Beck y el Modelo A-B-C-D-E</h2>
@@ -1507,65 +1759,105 @@ async function main() {
         <h2>8. Evidencia Científica y Consenso Clínico Internacional</h2>
         <p>Las principales guías de práctica clínica internacionales, como las publicadas por la Asociación Americana de Psicología (APA) y la Organización Mundial de la Salud (OMS), avalan de forma consistente la eficacia de estas metodologías de intervención psicológica. Los metaanálisis de estudios controlados aleatorizados muestran de forma fehaciente que los pacientes que completan estas intervenciones estructuradas experimentan reducciones significativas en su sintomatología ansiosa y depresiva, además de un incremento medible en sus puntuaciones de bienestar subjetivo y resiliencia emocional, con un menor índice de recaídas a largo plazo comparado con los tratamientos psicofarmacológicos aislados.</p>
 
-<p>La terapia cognitivo-conductual postula que las emociones y conductas dependen de la interpretación cognitiva de los eventos objetivos.</p>
 
-<p>Las distorsiones de Beck, como el catastrofismo y la personalización, sesgan la percepción de la realidad cronificando la ansiedad.</p>
-
-<p>El cuestionamiento socrático invita al paciente a evaluar de forma lógica la utilidad y veracidad de sus pensamientos automáticos destructivos.</p>
-
-<p>El Registro de Pensamientos Disfuncionales (RPD) entrena al sujeto para generar interpretaciones racionales alternativas basadas en evidencias objetivas.</p>
-
-<p>La activación conductual rompe el ciclo de la depresión obligando al paciente a programar actividades que estimulen el agrado.</p>
-
-<p>Los experimentos conductuales prueban de forma empírica las hipótesis catastróficas, forzando la deshabituación del miedo en la realidad.</p>
-
-<p>El modelo ABC de Albert Ellis diferencia el evento activador de las creencias y las consecuencias conductuales y emocionales derivadas.</p>
-
-<p>La prevención de respuesta en la exposición sistemática extingue la alarma de la amígdala cerebral ante estímulos ansiógenos graves.</p>
-
-<p>La realización de tareas entre sesiones de TCC consolida el aprendizaje de hábitos cognitivos y conductuales estables y autónomos.</p>
-
-<p>El enfoque práctico estructurado de la TCC cuenta con el mayor respaldo de estudios clínicos aleatorizados a nivel internacional.</p>
-
-<p>La reestructuración cognitiva no busca el positivismo ficticio, sino una visión realista pragmática que fomente la resolución de problemas.</p>
-
-<p>Las somatizaciones y tensiones crónicas disminuyen significativamente al desmontar el procesamiento de threat continuo que genera el catastrofismo.</p>
-
-<p>La identificación de las creencias intermedias y nucleares del paciente es indispensable para un cambio de personalidad duradero.</p>
-
-<p>Los experimentos conductuales permiten al sujeto testear sus peores predicciones en la realidad y desmontar el catastrofismo de forma empírica.</p>
-
-<p>La economía de fichas y los programas de refuerzo positivo son de gran utilidad en la modificación de conductas infantiles en terapia.</p>
-
-<p>La desensibilización sistemática de Wolpe es la técnica pionera para el tratamiento de fobias específicas mediante contracondicionamiento.</p>
-
-<p>El diálogo socrático ayuda al paciente a descubrir sus propias incoherencias cognitivas de forma guiada y sin confrontación directa.</p>
-
-<p>El registro de pensamientos disfuncionales es una tarea habitual que promueve la autoobservación consciente de las fluctuaciones del estado de ánimo.</p>
-
-<p>La activación conductual incrementa de forma demostrada la secreción de serotonina y dopamina al incentivar conductas gratificantes en el paciente.</p>
-
-<p>La TCC presenta un formato de intervención estructurado de tiempo limitado que fomenta la autonomía y autoeficacia a largo plazo.</p>
-
-<p>Las recaídas depresivas se previenen mediante el entrenamiento específico en la detección de los primeros signos de vulnerabilidad afectiva.</p>
-
-<p>El entrenamiento en resolución de problemas capacita al paciente para descomponer las dificultades complejas en pasos sencillos y abordables.</p>
-
-<p>La flexibilidad cognitiva se define como la capacidad de cambiar de interpretación cuando las evidencias del entorno demuestran nuestro error.</p>
-
-<p>La validación de la emoción del paciente es el paso previo indispensable para el éxito de cualquier reestructuración cognitiva en consulta.</p>
-
-<p>El debate de creencias irracionales según el modelo de Ellis favorece la instauración de una filosofía de vida más flexible y realista.</p>
-
-<p>Los experimentos conductuales diseñados en terapia permiten al paciente poner a prueba sus predicciones más catastrofistas en el entorno real.</p>
-
-<p>La reestructuración cognitiva sistemática reduce la labilidad emocional y fortalece el sentido de autoeficacia del paciente en consulta.</p>
-
-<p>La habituación fisiológica de la ansiedad se produce de forma predecible tras exposiciones prolongadas y repetidas al estímulo temido.</p>
-
-<p>El registro diario de pensamientos disfuncionales facilita la toma de conciencia sobre la relación entre cognición, emoción y conducta.</p>
-
-<p>La terapia cognitivo-conductual se sitúa como el tratamiento de elección para una amplia variedad de trastornos ansioso-depresivos.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La terapia cognitivo-conductual postula que las emociones y conductas dependen de la interpretación cognitiva de los eventos objetivos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las distorsiones de Beck, como el catastrofismo y la personalización, sesgan la percepción de la realidad cronificando la ansiedad.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cuestionamiento socrático invita al paciente a evaluar de forma lógica la utilidad y veracidad de sus pensamientos automáticos destructivos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El Registro de Pensamientos Disfuncionales (RPD) entrena al sujeto para generar interpretaciones racionales alternativas basadas en evidencias objetivas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La activación conductual rompe el ciclo de la depresión obligando al paciente a programar actividades que estimulen el agrado.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los experimentos conductuales prueban de forma empírica las hipótesis catastróficas, forzando la deshabituación del miedo en la realidad.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El modelo ABC de Albert Ellis diferencia el evento activador de las creencias y las consecuencias conductuales y emocionales derivadas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La prevención de respuesta en la exposición sistemática extingue la alarma de la amígdala cerebral ante estímulos ansiógenos graves.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La realización de tareas entre sesiones de TCC consolida el aprendizaje de hábitos cognitivos y conductuales estables y autónomos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El enfoque práctico estructurado de la TCC cuenta con el mayor respaldo de estudios clínicos aleatorizados a nivel internacional.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La reestructuración cognitiva no busca el positivismo ficticio, sino una visión realista pragmática que fomente la resolución de problemas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las somatizaciones y tensiones crónicas disminuyen significativamente al desmontar el procesamiento de threat continuo que genera el catastrofismo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La identificación de las creencias intermedias y nucleares del paciente es indispensable para un cambio de personalidad duradero.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los experimentos conductuales permiten al sujeto testear sus peores predicciones en la realidad y desmontar el catastrofismo de forma empírica.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La economía de fichas y los programas de refuerzo positivo son de gran utilidad en la modificación de conductas infantiles en terapia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desensibilización sistemática de Wolpe es la técnica pionera para el tratamiento de fobias específicas mediante contracondicionamiento.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El diálogo socrático ayuda al paciente a descubrir sus propias incoherencias cognitivas de forma guiada y sin confrontación directa.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El registro de pensamientos disfuncionales es una tarea habitual que promueve la autoobservación consciente de las fluctuaciones del estado de ánimo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La activación conductual incrementa de forma demostrada la secreción de serotonina y dopamina al incentivar conductas gratificantes en el paciente.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La TCC presenta un formato de intervención estructurado de tiempo limitado que fomenta la autonomía y autoeficacia a largo plazo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las recaídas depresivas se previenen mediante el entrenamiento específico en la detección de los primeros signos de vulnerabilidad afectiva.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en resolución de problemas capacita al paciente para descomponer las dificultades complejas en pasos sencillos y abordables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La flexibilidad cognitiva se define como la capacidad de cambiar de interpretación cuando las evidencias del entorno demuestran nuestro error.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La validación de la emoción del paciente es el paso previo indispensable para el éxito de cualquier reestructuración cognitiva en consulta.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El debate de creencias irracionales según el modelo de Ellis favorece la instauración de una filosofía de vida más flexible y realista.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los experimentos conductuales diseñados en terapia permiten al paciente poner a prueba sus predicciones más catastrofistas en el entorno real.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La reestructuración cognitiva sistemática reduce la labilidad emocional y fortalece el sentido de autoeficacia del paciente en consulta.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La habituación fisiológica de la ansiedad se produce de forma predecible tras exposiciones prolongadas y repetidas al estímulo temido.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El registro diario de pensamientos disfuncionales facilita la toma de conciencia sobre la relación entre cognición, emoción y conducta.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La terapia cognitivo-conductual se sitúa como el tratamiento de elección para una amplia variedad de trastornos ansioso-depresivos.
+    </div>
+  </div>
+</div>
 `,
     },
     {
@@ -1656,6 +1948,10 @@ async function main() {
 
 
 
+
+
+
+
 <h2>Apéndice Clínico y Casos Prácticos Adicionales</h2>
 
         <h2>4. El Hexaflex de la Flexibilidad Psicológica</h2>
@@ -1724,83 +2020,132 @@ async function main() {
           </table>
         </div>
 
-<p>La Terapia de Aceptación y Compromiso (ACT) busca incrementar la flexibilidad psicológica en lugar de eliminar el malestar de forma inútil.</p>
 
-<p>La evitación experiencial (huir del dolor afectivo) restringe la vida del paciente y cronifica la ansiedad a largo plazo.</p>
-
-<p>La desfusión cognitiva enseña a observar los pensamientos como eventos verbales transitorios sin tratarlos como verdades absolutas limitantes.</p>
-
-<p>Las metáforas clínicas, como la del autobús o las hojas en el río, facilitan el distanciamiento reflexivo del ruido mental.</p>
-
-<p>Los valores personales no son metas fijas a lograr, sino direcciones vitales continuas que eligen guiar las decisiones diarias.</p>
-
-<p>La acción comprometida implica tomar conductas coherentes con nuestros valores, tolerando la incomodidad o ansiedad de acompañantes.</p>
-
-<p>El cultivo del yo como contexto diferencia al yo consciente observador estable de los contenidos mentales y sensaciones cambiantes.</p>
-
-<p>La flexibilidad psicológica del Hexaflex equilibra la aceptación radical, la desfusión, la presencia plena y los valores nucleares estables.</p>
-
-<p>ACT presenta excelentes resultados en dolor crónico y procesos de duelo al cesar la lucha estéril por eliminar el síntoma.</p>
-
-<p>La teoría de los marcos relacionales (RFT) fundamenta cómo el lenguaje crea asociaciones verbales involuntarias que disparan la angustia.</p>
-
-<p>Visualizarse como el tablero de ajedrez y no como las piezas en lucha nos otorga un sentido de calma trascendente.</p>
-
-<p>Aceptar radicalmente el malestar ineludible permite reorientar toda la energía mental hacia acciones creativas y vitales de valor.</p>
-
-<p>La desfusión cognitiva rompe el bucle de identificación con el crítico interno, disminuyendo el sentimiento de culpa constante.</p>
-
-<p>La aceptación radical de las sensaciones de angustia acelera de forma paradojal su disipación fisiológica en el organismo.</p>
-
-<p>La metáfora de los demonios del barco ayuda a entender que podemos navegar hacia nuestras metas con los miedos a bordo.</p>
-
-<p>El autoconocimiento de los valores nucleares es la brújula indispensable para la toma de decisiones complejas en momentos de crisis vital.</p>
-
-<p>La acción comprometida se evalúa por la coherencia con los valores declarados, no por el éxito o fracaso de los resultados obtenidos.</p>
-
-<p>La flexibilidad psicológica nos capacita para adaptar nuestra conducta a las demandas del entorno sin traicionar nuestra esencia.</p>
-
-<p>La Terapia de Aceptación y Compromiso tiene un fuerte sustento empírico en el tratamiento de trastornos adictivos y de evitación.</p>
-
-<p>El cultivo de la compasión hacia el yo sufriente promueve el autocuidado y disminuye la rumiación de las distorsiones cognitivas de fracaso.</p>
-
-<p>El momento presente se entrena mediante ejercicios de atención selectiva y respiración consciente integrados en la jornada diaria.</p>
-
-<p>La teoría RFT explica cómo el cerebro asocia palabras neutrales con traumas pasados, reactivando la alerta límbica involuntaria.</p>
-
-<p>La aceptación de las limitaciones personales disuelve la frustración y nos ayuda a enfocarnos en lo que sí está bajo nuestro control.</p>
-
-<p>La flexibilidad psicológica es el mayor predictor de bienestar emocional y resiliencia ante las adversidades de la vida moderna.</p>
-
-<p>La Terapia de Aceptación y Compromiso concibe el sufrimiento como una dimensión inherente a la experiencia humana y no como una patología.</p>
-
-<p>La clarificación de los valores personales dota al sujeto de una brújula existencial para tomar decisiones difíciles en momentos de crisis.</p>
-
-<p>La acción comprometida implica dar pasos en la dirección elegida a pesar de que surjan dudas, temores o sensaciones físicas desagradables.</p>
-
-<p>Las metáforas en ACT sirven como puentes cognitivos para eludir la lógica verbal rígida que mantiene los bucles de evitación experiencial.</p>
-
-<p>El entrenamiento en el yo-contexto ayuda al paciente a desidentificarse de sus etiquetas diagnósticas y a experimentar su esencia estable.</p>
-
-<p>La flexibilidad psicológica permite responder con versatilidad a las demandas cambiantes del entorno sin perder la coherencia interna.</p>
-
-<p>La evitación experiencial sistemática suele cronificar la sintomatología ansioso-depresiva y limitar severamente la calidad de vida.</p>
-
-<p>La aceptación radical no implica resignación, sino reconocer la realidad del presente para poder actuar sobre ella con eficacia y valor.</p>
-
-<p>La desfusión cognitiva de los pensamientos autocríticos disminuye de forma significativa los sentimientos de culpa y desesperanza.</p>
-
-<p>Los metaanálisis muestran que la flexibilidad psicológica es un potente predictor transdiagnóstico del bienestar emocional y la resiliencia.</p>
-
-<p>El cultivo de la atención plena en ACT busca anclar al sujeto en el aquí y ahora para evitar el vagabundeo mental y la rumiación.</p>
-
-<p>Las intervenciones basadas en la aceptación reducen significativamente el impacto subjetivo del dolor físico y de las enfermedades crónicas.</p>
-
-<p>La acción valiosa y coherente con las propias metas produce un incremento medible en las puntuaciones de satisfacción con la vida.</p>
-
-<p>El distanciamiento reflexivo del autoconcepto rígido favorece la apertura a nuevas experiencias y el crecimiento personal continuo.</p>
-
-<p>El Hexaflex se presenta como un mapa de intervención integral que unifica procesos de aceptación, mindfulness y cambio conductual.</p>
+<div class="mt-8 p-6 bg-slate-50 border border-slate-100 rounded-2xl">
+  <h3 class="text-sm font-bold text-slate-900 mb-4 flex items-center gap-2" style="margin-top: 0;">
+    <svg class="w-4.5 h-4.5 text-teal-600 inline-block align-middle" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; width: 1.15rem; height: 1.15rem;"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+    Fichas de Síntesis y Evidencia Clínica
+  </h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-top: 0;">
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La Terapia de Aceptación y Compromiso (ACT) busca incrementar la flexibilidad psicológica en lugar de eliminar el malestar de forma inútil.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La evitación experiencial (huir del dolor afectivo) restringe la vida del paciente y cronifica la ansiedad a largo plazo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desfusión cognitiva enseña a observar los pensamientos como eventos verbales transitorios sin tratarlos como verdades absolutas limitantes.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las metáforas clínicas, como la del autobús o las hojas en el río, facilitan el distanciamiento reflexivo del ruido mental.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los valores personales no son metas fijas a lograr, sino direcciones vitales continuas que eligen guiar las decisiones diarias.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La acción comprometida implica tomar conductas coherentes con nuestros valores, tolerando la incomodidad o ansiedad de acompañantes.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo del yo como contexto diferencia al yo consciente observador estable de los contenidos mentales y sensaciones cambiantes.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La flexibilidad psicológica del Hexaflex equilibra la aceptación radical, la desfusión, la presencia plena y los valores nucleares estables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      ACT presenta excelentes resultados en dolor crónico y procesos de duelo al cesar la lucha estéril por eliminar el síntoma.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La teoría de los marcos relacionales (RFT) fundamenta cómo el lenguaje crea asociaciones verbales involuntarias que disparan la angustia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Visualizarse como el tablero de ajedrez y no como las piezas en lucha nos otorga un sentido de calma trascendente.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Aceptar radicalmente el malestar ineludible permite reorientar toda la energía mental hacia acciones creativas y vitales de valor.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desfusión cognitiva rompe el bucle de identificación con el crítico interno, disminuyendo el sentimiento de culpa constante.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La aceptación radical de las sensaciones de angustia acelera de forma paradojal su disipación fisiológica en el organismo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La metáfora de los demonios del barco ayuda a entender que podemos navegar hacia nuestras metas con los miedos a bordo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El autoconocimiento de los valores nucleares es la brújula indispensable para la toma de decisiones complejas en momentos de crisis vital.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La acción comprometida se evalúa por la coherencia con los valores declarados, no por el éxito o fracaso de los resultados obtenidos.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La flexibilidad psicológica nos capacita para adaptar nuestra conducta a las demandas del entorno sin traicionar nuestra esencia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La Terapia de Aceptación y Compromiso tiene un fuerte sustento empírico en el tratamiento de trastornos adictivos y de evitación.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo de la compasión hacia el yo sufriente promueve el autocuidado y disminuye la rumiación de las distorsiones cognitivas de fracaso.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El momento presente se entrena mediante ejercicios de atención selectiva y respiración consciente integrados en la jornada diaria.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La teoría RFT explica cómo el cerebro asocia palabras neutrales con traumas pasados, reactivando la alerta límbica involuntaria.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La aceptación de las limitaciones personales disuelve la frustración y nos ayuda a enfocarnos en lo que sí está bajo nuestro control.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La flexibilidad psicológica es el mayor predictor de bienestar emocional y resiliencia ante las adversidades de la vida moderna.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La Terapia de Aceptación y Compromiso concibe el sufrimiento como una dimensión inherente a la experiencia humana y no como una patología.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La clarificación de los valores personales dota al sujeto de una brújula existencial para tomar decisiones difíciles en momentos de crisis.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La acción comprometida implica dar pasos en la dirección elegida a pesar de que surjan dudas, temores o sensaciones físicas desagradables.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las metáforas en ACT sirven como puentes cognitivos para eludir la lógica verbal rígida que mantiene los bucles de evitación experiencial.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El entrenamiento en el yo-contexto ayuda al paciente a desidentificarse de sus etiquetas diagnósticas y a experimentar su esencia estable.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La flexibilidad psicológica permite responder con versatilidad a las demandas cambiantes del entorno sin perder la coherencia interna.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La evitación experiencial sistemática suele cronificar la sintomatología ansioso-depresiva y limitar severamente la calidad de vida.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La aceptación radical no implica resignación, sino reconocer la realidad del presente para poder actuar sobre ella con eficacia y valor.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La desfusión cognitiva de los pensamientos autocríticos disminuye de forma significativa los sentimientos de culpa y desesperanza.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Los metaanálisis muestran que la flexibilidad psicológica es un potente predictor transdiagnóstico del bienestar emocional y la resiliencia.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El cultivo de la atención plena en ACT busca anclar al sujeto en el aquí y ahora para evitar el vagabundeo mental y la rumiación.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      Las intervenciones basadas en la aceptación reducen significativamente el impacto subjetivo del dolor físico y de las enfermedades crónicas.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      La acción valiosa y coherente con las propias metas produce un incremento medible en las puntuaciones de satisfacción con la vida.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El distanciamiento reflexivo del autoconcepto rígido favorece la apertura a nuevas experiencias y el crecimiento personal continuo.
+    </div>
+    <div class="p-4 bg-white border-l-4 border-teal-500 border-y border-r border-slate-100 rounded-xl text-xs text-slate-700 leading-relaxed shadow-sm hover:shadow transition-shadow" style="margin-top: 0;">
+      El Hexaflex se presenta como un mapa de intervención integral que unifica procesos de aceptación, mindfulness y cambio conductual.
+    </div>
+  </div>
+</div>
 `,
     },
   ];
