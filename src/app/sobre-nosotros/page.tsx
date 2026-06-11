@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { Metadata } from "next";
 import { ShieldCheck, Award, Heart, CheckCircle2, GraduationCap, FileText } from "lucide-react";
+import Avatar from "@/components/Avatar";
 
 export const metadata: Metadata = {
   title: "Quiénes Somos y Rigor Editorial | Psicología Práctica",
@@ -88,14 +88,8 @@ export default function SobreNosotrosPage() {
                 key={idx}
                 className="flex flex-col sm:flex-row gap-5 p-5 bg-slate-50/50 rounded-2xl border border-slate-100"
               >
-                <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-slate-200 flex-shrink-0 mx-auto sm:mx-0">
-                  <Image
-                    src={reviewer.avatar}
-                    alt={reviewer.name}
-                    fill
-                    sizes="96px"
-                    className="object-cover"
-                  />
+                <div className="flex-shrink-0 mx-auto sm:mx-0">
+                  <Avatar src={reviewer.avatar} alt={reviewer.name} size={96} />
                 </div>
                 <div className="space-y-2.5 text-center sm:text-left flex-1">
                   <div>
@@ -149,14 +143,8 @@ export default function SobreNosotrosPage() {
                 key={idx}
                 className="flex flex-col sm:flex-row gap-5 p-5 bg-slate-50/50 rounded-2xl border border-slate-100 max-w-xl"
               >
-                <div className="relative w-20 h-20 rounded-full overflow-hidden bg-slate-200 flex-shrink-0 mx-auto sm:mx-0">
-                  <Image
-                    src={author.avatar}
-                    alt={author.name}
-                    fill
-                    sizes="80px"
-                    className="object-cover"
-                  />
+                <div className="flex-shrink-0 mx-auto sm:mx-0">
+                  <Avatar src={author.avatar} alt={author.name} size={80} />
                 </div>
                 <div className="space-y-2 text-center sm:text-left flex-1">
                   <div>

@@ -14,7 +14,7 @@ export default async function PortalInternoPage() {
   const isAuthed = await checkAuth();
 
   if (isAuthed) {
-    redirect("/portal-interno-seguros/dashboard");
+    redirect("/portal-clinico/dashboard");
   }
 
   return (

@@ -2,9 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Calendar, ShieldCheck, ChevronRight, Home } from "lucide-react";
 import Sidebar from "./Sidebar";
+import Avatar from "./Avatar";
 
 interface ArticleLayoutProps {
   title: string;
@@ -80,16 +80,7 @@ export default function ArticleLayout({
           {/* E-E-A-T Authorship Header Metadata Card */}
           <div className="flex flex-wrap items-center gap-4 py-4 px-5 bg-white rounded-2xl border border-slate-100 shadow-sm text-sm">
             <div className="flex items-center gap-2">
-              <div className="relative w-8 h-8 rounded-full overflow-hidden bg-slate-100">
-                <Image
-                  src={author.avatar}
-                  alt={author.name}
-                  fill
-                  sizes="32px"
-                  className="object-cover"
-                  priority
-                />
-              </div>
+              <Avatar src={author.avatar} alt={author.name} size={32} priority />
               <div>
                 <span className="block font-semibold text-slate-800">
                   Escrito por <span className="text-teal-700">{author.name}</span>
@@ -100,15 +91,7 @@ export default function ArticleLayout({
 
             {reviewer && (
               <div className="flex items-center gap-2 sm:border-l sm:border-slate-100 sm:pl-4">
-                <div className="relative w-8 h-8 rounded-full overflow-hidden bg-slate-100">
-                  <Image
-                    src={reviewer.avatar}
-                    alt={reviewer.name}
-                    fill
-                    sizes="32px"
-                    className="object-cover"
-                  />
-                </div>
+                <Avatar src={reviewer.avatar} alt={reviewer.name} size={32} />
                 <div>
                   <span className="flex items-center gap-1 font-semibold text-slate-800 text-xs sm:text-sm">
                     <ShieldCheck className="w-4 h-4 text-teal-600" />

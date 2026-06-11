@@ -39,7 +39,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
   const handleLogout = async () => {
     try {
       await fetch("/api/admin/logout", { method: "POST" });
-      router.push("/portal-interno-seguros");
+      router.push("/portal-clinico");
       router.refresh();
     } catch (err) {
       console.error("Logout failed:", err);
@@ -128,7 +128,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
 
                         {/* Edit */}
                         <Link
-                          href={`/portal-interno-seguros/editor/${article.slug}`}
+                          href={`/portal-clinico/editor/${article.slug}`}
                           className="p-1.5 rounded-lg border border-slate-100 hover:border-slate-200 text-slate-500 hover:text-teal-750 bg-white shadow-sm transition-all"
                           title="Editar"
                         >
@@ -186,7 +186,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
 
         <div className="flex items-center gap-2">
           <Link
-            href="/portal-interno-seguros/editor"
+            href="/portal-clinico/editor"
             className="inline-flex items-center gap-1.5 px-4 py-2.5 bg-teal-700 hover:bg-teal-800 text-white font-bold text-xs rounded-xl shadow-sm transition-all cursor-pointer"
           >
             <Plus className="w-4 h-4" />
