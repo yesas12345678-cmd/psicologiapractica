@@ -70,22 +70,43 @@ export default function PrivacidadPage() {
           </div>
 
           <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2 pt-4">
+            <Shield className="w-5 h-5 text-indigo-600" />
+            3. Proveedores de Publicidad y Google AdSense
+          </h2>
+          <div className="bg-slate-50 border border-slate-100 p-5 rounded-2xl space-y-3">
+            <p className="text-xs text-slate-600">
+              Este sitio web puede utilizar <strong>Google AdSense</strong> y otros proveedores publicitarios asociados para mostrar anuncios cuando visitas nuestro portal. Para ello, se emplean cookies de publicidad de terceros:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-xs text-slate-500">
+              <li>
+                <strong>Cookies de Google:</strong> Google, como proveedor asociado, utiliza cookies para publicar anuncios en este sitio web basándose en las visitas anteriores del usuario a este u otros sitios web de Internet.
+              </li>
+              <li>
+                <strong>DoubleClick:</strong> El uso de la cookie de DoubleClick permite a Google y a sus socios presentar anuncios basados en las visitas del usuario a este portal y a otros sitios de la red.
+              </li>
+              <li>
+                <strong>Gestión de publicidad personalizada:</strong> Puedes inhabilitar la publicidad personalizada de Google accediendo directamente a la <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">Configuración de Anuncios de Google</a>. Adicionalmente, puedes desactivar el uso de cookies para publicidad personalizada de otros proveedores terceros visitando <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">AboutAds Choices</a>.
+              </li>
+            </ul>
+          </div>
+
+          <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2 pt-4">
             <Eye className="w-5 h-5 text-indigo-600" />
-            3. Control de Cookies por parte del Usuario
+            4. Control de Cookies por parte del Usuario
           </h2>
           <p>
             Si desea desactivar las cookies, puede hacerlo a través de las opciones de configuración de su navegador web individual. La información detallada sobre la gestión de cookies en navegadores específicos se puede encontrar en los sitios web respectivos de los navegadores (Chrome, Firefox, Safari, Edge, etc.).
           </p>
 
           <h2 className="text-lg font-bold text-slate-900 pt-4">
-            4. Consentimiento
+            5. Consentimiento
           </h2>
           <p>
-            Al utilizar nuestro sitio web, usted acepta expresamente nuestra política de privacidad y está de acuerdo con sus términos.
+            Al utilizar nuestro sitio web, usted acepta expresamente nuestra política de privacidad y está de acuerdo con sus términos y el uso de las cookies de conformidad con las opciones seleccionadas.
           </p>
 
           <h2 className="text-lg font-bold text-slate-900 pt-4">
-            5. Contacto
+            6. Contacto
           </h2>
           <p>
             Si requiere más información o tiene alguna pregunta sobre nuestra política de privacidad, no dude en ponerse en contacto con nosotros a través del correo electrónico:{" "}

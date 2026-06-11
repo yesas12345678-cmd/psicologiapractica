@@ -109,14 +109,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/sobre-nosotros#editorial-policy"
-                  className="hover:text-teal-750 transition-colors duration-200"
-                >
-                  Política Editorial
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/sobre-nosotros#review-team"
                   className="hover:text-teal-750 transition-colors duration-200"
                 >
@@ -155,6 +147,14 @@ export default function Footer() {
                 >
                   Política de Cookies
                 </Link>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.dispatchEvent(new CustomEvent("open-cookie-settings"))}
+                  className="hover:text-teal-750 transition-colors duration-200 text-left cursor-pointer"
+                >
+                  Configuración de Cookies
+                </button>
               </li>
             </ul>
             <button
