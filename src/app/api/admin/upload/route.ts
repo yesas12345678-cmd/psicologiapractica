@@ -39,8 +39,8 @@ export async function POST(request: Request) {
     const filePath = path.join(uploadDir, filename);
     await fs.writeFile(filePath, buffer);
 
-    // Return relative url
-    const relativeUrl = `/uploads/${filename}`;
+    // Return relative url using the dynamic images API route
+    const relativeUrl = `/api/images/${filename}`;
     return NextResponse.json({ success: true, url: relativeUrl });
   } catch (error: any) {
     console.error("Upload error:", error);
