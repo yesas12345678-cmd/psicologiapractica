@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar, ShieldCheck, ChevronRight, Home } from "lucide-react";
 import Sidebar from "./Sidebar";
 import Avatar from "./Avatar";
@@ -26,6 +27,7 @@ interface ArticleLayoutProps {
   };
   publishDate: string;
   readTime: string;
+  imageUrl?: string;
   children: React.ReactNode;
 }
 
@@ -37,6 +39,7 @@ export default function ArticleLayout({
   reviewer,
   publishDate,
   readTime,
+  imageUrl,
   children,
 }: ArticleLayoutProps) {
   return (
@@ -104,7 +107,7 @@ export default function ArticleLayout({
               </div>
             )}
 
-            <div className="flex items-center gap-4 text-xs text-slate-550 ml-auto w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
+            <div className="flex items-center gap-1 text-xs text-slate-550 ml-auto w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
               <div className="flex items-center gap-1">
                 <Calendar className="w-3.5 h-3.5" />
                 <time dateTime={publishDate}>{publishDate}</time>
@@ -113,6 +116,18 @@ export default function ArticleLayout({
               <div>{readTime} de lectura</div>
             </div>
           </div>
+
+          {imageUrl && (
+            <div className="relative h-64 md:h-[400px] w-full rounded-3xl overflow-hidden mt-6 shadow-sm border border-slate-100">
+              <Image
+                src={imageUrl}
+                alt={title}
+                fill
+                priority
+                className="object-cover"
+              />
+            </div>
+          )}
         </header>
 
         {/* 2-Column Content Layout (Desktop Sticky Sidebar) */}

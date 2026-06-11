@@ -148,6 +148,7 @@ export default async function ArticlePage({ params }: PageProps) {
         reviewer={reviewer}
         publishDate={article.dateLabel}
         readTime={article.readingTime.replace(" de lectura", "")}
+        imageUrl={article.image}
       >
         {/* Article content from DB */}
         <div dangerouslySetInnerHTML={{ __html: article.body }} />

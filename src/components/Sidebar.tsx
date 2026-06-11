@@ -56,44 +56,7 @@ export default function Sidebar({ currentCategory, categories = [] }: SidebarPro
   return (
     <aside className="space-y-8 lg:sticky lg:top-24 max-w-[320px] w-full" aria-label="Barra lateral">
       
-      {/* Newsletter Block */}
-      <div className="bg-slate-50 p-6 border border-slate-100 rounded-2xl shadow-sm space-y-4">
-        <div className="space-y-1.5">
-          <div className="flex items-center gap-2 text-teal-700">
-            <Mail className="w-4 h-4" />
-            <h3 className="font-extrabold text-slate-900 text-sm uppercase tracking-wider">
-              Boletín Editorial
-            </h3>
-          </div>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            Recibe artículos prácticos sobre salud mental, desarrollo personal y bienestar escritos por profesionales.
-          </p>
-        </div>
 
-        {subscribed ? (
-          <div className="p-3 bg-emerald-50 border border-emerald-100 rounded-xl text-center">
-            <p className="text-xs font-bold text-emerald-800">¡Suscrito con éxito!</p>
-            <p className="text-[10px] text-emerald-600 mt-0.5">Recibirás nuestras novedades semanalmente.</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubscribe} className="space-y-2">
-            <input
-              type="email"
-              placeholder="Tu correo electrónico"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 transition-all"
-            />
-            <button
-              type="submit"
-              className="w-full py-2.5 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold transition-all shadow-sm cursor-pointer"
-            >
-              Suscribirse
-            </button>
-          </form>
-        )}
-      </div>
 
       {/* Trending Articles Section */}
       <div className="bg-white p-6 border border-slate-100 rounded-2xl shadow-sm space-y-4">
