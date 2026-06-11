@@ -2148,6 +2148,1606 @@ async function main() {
 </div>
 `,
     },
+    {
+      slug: "que-es-la-ansiedad-generalizada-y-como-saber-si-la-tienes",
+      categorySlug: "ansiedad-burnout",
+      title: "Qué es la ansiedad generalizada y cómo saber si la tienes",
+      excerpt: "Aprende todo sobre 'Qué es la ansiedad generalizada y cómo saber si la tienes' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Qué es la ansiedad generalizada y cómo saber si la tienes | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Qué es la ansiedad generalizada y cómo saber si la tienes</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "sintomas-de-ansiedad-15-senales-que-no-debes-ignorar",
+      categorySlug: "ansiedad-burnout",
+      title: "Síntomas de ansiedad: 15 señales que no debes ignorar",
+      excerpt: "Aprende todo sobre 'Síntomas de ansiedad: 15 señales que no debes ignorar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Síntomas de ansiedad: 15 señales que no debes ignorar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Síntomas de ansiedad: 15 señales que no debes ignorar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-controlar-la-ansiedad-en-el-trabajo-paso-a-paso",
+      categorySlug: "ansiedad-burnout",
+      title: "Cómo controlar la ansiedad en el trabajo paso a paso",
+      excerpt: "Aprende todo sobre 'Cómo controlar la ansiedad en el trabajo paso a paso' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo controlar la ansiedad en el trabajo paso a paso | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo controlar la ansiedad en el trabajo paso a paso</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "tecnicas-de-respiracion-para-la-ansiedad-que-funcionan-de-verdad",
+      categorySlug: "ansiedad-burnout",
+      title: "Técnicas de respiración para la ansiedad que funcionan de verdad",
+      excerpt: "Aprende todo sobre 'Técnicas de respiración para la ansiedad que funcionan de verdad' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Técnicas de respiración para la ansiedad que funcionan de verdad | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Técnicas de respiración para la ansiedad que funcionan de verdad</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "crisis-de-ansiedad-que-hacer-en-el-momento-que-ocurre",
+      categorySlug: "ansiedad-burnout",
+      title: "Crisis de ansiedad: qué hacer en el momento que ocurre",
+      excerpt: "Aprende todo sobre 'Crisis de ansiedad: qué hacer en el momento que ocurre' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Crisis de ansiedad: qué hacer en el momento que ocurre | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Crisis de ansiedad: qué hacer en el momento que ocurre</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-nocturna-por-que-empeora-de-noche-y-como-manejarlo",
+      categorySlug: "ansiedad-burnout",
+      title: "Ansiedad nocturna: por qué empeora de noche y cómo manejarlo",
+      excerpt: "Aprende todo sobre 'Ansiedad nocturna: por qué empeora de noche y cómo manejarlo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad nocturna: por qué empeora de noche y cómo manejarlo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad nocturna: por qué empeora de noche y cómo manejarlo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "diferencia-entre-ansiedad-y-ataque-de-panico-como-distinguirlos",
+      categorySlug: "ansiedad-burnout",
+      title: "Diferencia entre ansiedad y ataque de pánico: cómo distinguirlos",
+      excerpt: "Aprende todo sobre 'Diferencia entre ansiedad y ataque de pánico: cómo distinguirlos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Diferencia entre ansiedad y ataque de pánico: cómo distinguirlos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Diferencia entre ansiedad y ataque de pánico: cómo distinguirlos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "medicacion-para-la-ansiedad-tipos-efectos-y-alternativas-naturales",
+      categorySlug: "ansiedad-burnout",
+      title: "Medicación para la ansiedad: tipos, efectos y alternativas naturales",
+      excerpt: "Aprende todo sobre 'Medicación para la ansiedad: tipos, efectos y alternativas naturales' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Medicación para la ansiedad: tipos, efectos y alternativas naturales | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Medicación para la ansiedad: tipos, efectos y alternativas naturales</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-social-causas-sintomas-y-tecnicas-para-superarla",
+      categorySlug: "ansiedad-burnout",
+      title: "Ansiedad social: causas, síntomas y técnicas para superarla",
+      excerpt: "Aprende todo sobre 'Ansiedad social: causas, síntomas y técnicas para superarla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad social: causas, síntomas y técnicas para superarla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad social: causas, síntomas y técnicas para superarla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ejercicios-para-reducir-el-estres-en-5-minutos-o-menos",
+      categorySlug: "ansiedad-burnout",
+      title: "Ejercicios para reducir el estrés en 5 minutos o menos",
+      excerpt: "Aprende todo sobre 'Ejercicios para reducir el estrés en 5 minutos o menos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ejercicios para reducir el estrés en 5 minutos o menos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ejercicios para reducir el estrés en 5 minutos o menos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-por-la-salud-hipocondria-guia-completa-para-entenderla",
+      categorySlug: "ansiedad-burnout",
+      title: "Ansiedad por la salud (hipocondría): guía completa para entenderla",
+      excerpt: "Aprende todo sobre 'Ansiedad por la salud (hipocondría): guía completa para entenderla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad por la salud (hipocondría): guía completa para entenderla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad por la salud (hipocondría): guía completa para entenderla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-la-alimentacion-afecta-a-la-ansiedad-alimentos-que-ayudan",
+      categorySlug: "ansiedad-burnout",
+      title: "Cómo la alimentación afecta a la ansiedad: alimentos que ayudan",
+      excerpt: "Aprende todo sobre 'Cómo la alimentación afecta a la ansiedad: alimentos que ayudan' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo la alimentación afecta a la ansiedad: alimentos que ayudan | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo la alimentación afecta a la ansiedad: alimentos que ayudan</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-en-adolescentes-senales-de-alerta-y-como-ayudarles",
+      categorySlug: "ansiedad-burnout",
+      title: "Ansiedad en adolescentes: señales de alerta y cómo ayudarles",
+      excerpt: "Aprende todo sobre 'Ansiedad en adolescentes: señales de alerta y cómo ayudarles' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad en adolescentes: señales de alerta y cómo ayudarles | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad en adolescentes: señales de alerta y cómo ayudarles</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "terapia-cognitivo-conductual-para-la-ansiedad-como-funciona",
+      categorySlug: "ansiedad-burnout",
+      title: "Terapia cognitivo-conductual para la ansiedad: cómo funciona",
+      excerpt: "Aprende todo sobre 'Terapia cognitivo-conductual para la ansiedad: cómo funciona' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Terapia cognitivo-conductual para la ansiedad: cómo funciona | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Terapia cognitivo-conductual para la ansiedad: cómo funciona</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "las-mejores-apps-para-la-ansiedad-en-2026-comparativa-real",
+      categorySlug: "ansiedad-burnout",
+      title: "Las mejores apps para la ansiedad en 2026: comparativa real",
+      excerpt: "Aprende todo sobre 'Las mejores apps para la ansiedad en 2026: comparativa real' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Las mejores apps para la ansiedad en 2026: comparativa real | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Las mejores apps para la ansiedad en 2026: comparativa real</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "suplementos-naturales-para-la-ansiedad-cuales-tienen-evidencia-cientifica",
+      categorySlug: "ansiedad-burnout",
+      title: "Suplementos naturales para la ansiedad: cuáles tienen evidencia científica",
+      excerpt: "Aprende todo sobre 'Suplementos naturales para la ansiedad: cuáles tienen evidencia científica' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Suplementos naturales para la ansiedad: cuáles tienen evidencia científica | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Suplementos naturales para la ansiedad: cuáles tienen evidencia científica</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-postvacacional-que-es-y-como-superarla-rapidamente",
+      categorySlug: "ansiedad-burnout",
+      title: "Ansiedad postvacacional: qué es y cómo superarla rápidamente",
+      excerpt: "Aprende todo sobre 'Ansiedad postvacacional: qué es y cómo superarla rápidamente' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad postvacacional: qué es y cómo superarla rápidamente | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad postvacacional: qué es y cómo superarla rápidamente</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "rumiacion-mental-por-que-no-puedes-dejar-de-pensar-y-como-parar",
+      categorySlug: "ansiedad-burnout",
+      title: "Rumiación mental: por qué no puedes dejar de pensar y cómo parar",
+      excerpt: "Aprende todo sobre 'Rumiación mental: por qué no puedes dejar de pensar y cómo parar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Rumiación mental: por qué no puedes dejar de pensar y cómo parar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Rumiación mental: por qué no puedes dejar de pensar y cómo parar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "diario-de-ansiedad-como-usarlo-para-controlar-tus-pensamientos",
+      categorySlug: "ansiedad-burnout",
+      title: "Diario de ansiedad: cómo usarlo para controlar tus pensamientos",
+      excerpt: "Aprende todo sobre 'Diario de ansiedad: cómo usarlo para controlar tus pensamientos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Diario de ansiedad: cómo usarlo para controlar tus pensamientos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Diario de ansiedad: cómo usarlo para controlar tus pensamientos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "psicologos-especializados-en-ansiedad-online-guia-para-elegir-uno",
+      categorySlug: "ansiedad-burnout",
+      title: "Psicólogos especializados en ansiedad online: guía para elegir uno",
+      excerpt: "Aprende todo sobre 'Psicólogos especializados en ansiedad online: guía para elegir uno' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Psicólogos especializados en ansiedad online: guía para elegir uno | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Psicólogos especializados en ansiedad online: guía para elegir uno</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "que-es-el-burnout-laboral-definicion-fases-y-como-identificarlo",
+      categorySlug: "ansiedad-burnout",
+      title: "Qué es el burnout laboral: definición, fases y cómo identificarlo",
+      excerpt: "Aprende todo sobre 'Qué es el burnout laboral: definición, fases y cómo identificarlo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Qué es el burnout laboral: definición, fases y cómo identificarlo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Qué es el burnout laboral: definición, fases y cómo identificarlo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "sintomas-del-burnout-20-senales-de-que-estas-al-limite",
+      categorySlug: "ansiedad-burnout",
+      title: "Síntomas del burnout: 20 señales de que estás al límite",
+      excerpt: "Aprende todo sobre 'Síntomas del burnout: 20 señales de que estás al límite' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Síntomas del burnout: 20 señales de que estás al límite | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Síntomas del burnout: 20 señales de que estás al límite</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "diferencia-entre-estres-laboral-y-burnout-no-son-lo-mismo",
+      categorySlug: "ansiedad-burnout",
+      title: "Diferencia entre estrés laboral y burnout: no son lo mismo",
+      excerpt: "Aprende todo sobre 'Diferencia entre estrés laboral y burnout: no son lo mismo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Diferencia entre estrés laboral y burnout: no son lo mismo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Diferencia entre estrés laboral y burnout: no son lo mismo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-recuperarse-del-burnout-plan-de-accion-paso-a-paso",
+      categorySlug: "ansiedad-burnout",
+      title: "Cómo recuperarse del burnout: plan de acción paso a paso",
+      excerpt: "Aprende todo sobre 'Cómo recuperarse del burnout: plan de acción paso a paso' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo recuperarse del burnout: plan de acción paso a paso | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo recuperarse del burnout: plan de acción paso a paso</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "burnout-en-enfermeria-y-profesiones-sanitarias-guia-especifica",
+      categorySlug: "ansiedad-burnout",
+      title: "Burnout en enfermería y profesiones sanitarias: guía específica",
+      excerpt: "Aprende todo sobre 'Burnout en enfermería y profesiones sanitarias: guía específica' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Burnout en enfermería y profesiones sanitarias: guía específica | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Burnout en enfermería y profesiones sanitarias: guía específica</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "burnout-en-madres-y-padres-el-agotamiento-parental-que-nadie-habla",
+      categorySlug: "ansiedad-burnout",
+      title: "Burnout en madres y padres: el agotamiento parental que nadie habla",
+      excerpt: "Aprende todo sobre 'Burnout en madres y padres: el agotamiento parental que nadie habla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Burnout en madres y padres: el agotamiento parental que nadie habla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Burnout en madres y padres: el agotamiento parental que nadie habla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "baja-laboral-por-burnout-derechos-proceso-y-como-pedirla-en-espana",
+      categorySlug: "ansiedad-burnout",
+      title: "Baja laboral por burnout: derechos, proceso y cómo pedirla en España",
+      excerpt: "Aprende todo sobre 'Baja laboral por burnout: derechos, proceso y cómo pedirla en España' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Baja laboral por burnout: derechos, proceso y cómo pedirla en España | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Baja laboral por burnout: derechos, proceso y cómo pedirla en España</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "tecnicas-para-prevenir-el-burnout-en-el-trabajo-desde-hoy",
+      categorySlug: "ansiedad-burnout",
+      title: "Técnicas para prevenir el burnout en el trabajo desde hoy",
+      excerpt: "Aprende todo sobre 'Técnicas para prevenir el burnout en el trabajo desde hoy' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Técnicas para prevenir el burnout en el trabajo desde hoy | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Técnicas para prevenir el burnout en el trabajo desde hoy</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-hablar-con-tu-jefe-del-burnout-sin-perder-el-empleo",
+      categorySlug: "ansiedad-burnout",
+      title: "Cómo hablar con tu jefe del burnout sin perder el empleo",
+      excerpt: "Aprende todo sobre 'Cómo hablar con tu jefe del burnout sin perder el empleo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo hablar con tu jefe del burnout sin perder el empleo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo hablar con tu jefe del burnout sin perder el empleo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "burnout-digital-el-agotamiento-por-la-pantalla-y-como-combatirlo",
+      categorySlug: "ansiedad-burnout",
+      title: "Burnout digital: el agotamiento por la pantalla y cómo combatirlo",
+      excerpt: "Aprende todo sobre 'Burnout digital: el agotamiento por la pantalla y cómo combatirlo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Burnout digital: el agotamiento por la pantalla y cómo combatirlo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Burnout digital: el agotamiento por la pantalla y cómo combatirlo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "terapia-para-el-burnout-que-tipo-de-psicologia-funciona-mejor",
+      categorySlug: "ansiedad-burnout",
+      title: "Terapia para el burnout: qué tipo de psicología funciona mejor",
+      excerpt: "Aprende todo sobre 'Terapia para el burnout: qué tipo de psicología funciona mejor' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Terapia para el burnout: qué tipo de psicología funciona mejor | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Terapia para el burnout: qué tipo de psicología funciona mejor</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "libros-sobre-burnout-que-te-ayudaran-a-recuperarte-los-mejores-de-2026",
+      categorySlug: "ansiedad-burnout",
+      title: "Libros sobre burnout que te ayudarán a recuperarte: los mejores de 2026",
+      excerpt: "Aprende todo sobre 'Libros sobre burnout que te ayudarán a recuperarte: los mejores de 2026' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Libros sobre burnout que te ayudarán a recuperarte: los mejores de 2026 | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Libros sobre burnout que te ayudarán a recuperarte: los mejores de 2026</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "empresas-con-politicas-de-salud-mental-como-elegir-donde-trabajar",
+      categorySlug: "ansiedad-burnout",
+      title: "Empresas con políticas de salud mental: cómo elegir dónde trabajar",
+      excerpt: "Aprende todo sobre 'Empresas con políticas de salud mental: cómo elegir dónde trabajar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Empresas con políticas de salud mental: cómo elegir dónde trabajar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Empresas con políticas de salud mental: cómo elegir dónde trabajar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "test-de-burnout-evalua-tu-nivel-de-agotamiento-laboral",
+      categorySlug: "ansiedad-burnout",
+      title: "Test de burnout: evalúa tu nivel de agotamiento laboral",
+      excerpt: "Aprende todo sobre 'Test de burnout: evalúa tu nivel de agotamiento laboral' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Test de burnout: evalúa tu nivel de agotamiento laboral | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Test de burnout: evalúa tu nivel de agotamiento laboral</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "burnout-y-depresion-cuando-el-agotamiento-se-convierte-en-enfermedad",
+      categorySlug: "ansiedad-burnout",
+      title: "Burnout y depresión: cuando el agotamiento se convierte en enfermedad",
+      excerpt: "Aprende todo sobre 'Burnout y depresión: cuando el agotamiento se convierte en enfermedad' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Burnout y depresión: cuando el agotamiento se convierte en enfermedad | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Burnout y depresión: cuando el agotamiento se convierte en enfermedad</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "sintomas-de-depresion-que-no-son-tristeza-los-menos-conocidos",
+      categorySlug: "terapia-salud-mental",
+      title: "Síntomas de depresión que no son tristeza: los menos conocidos",
+      excerpt: "Aprende todo sobre 'Síntomas de depresión que no son tristeza: los menos conocidos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Síntomas de depresión que no son tristeza: los menos conocidos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Síntomas de depresión que no son tristeza: los menos conocidos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "diferencia-entre-tristeza-y-depresion-cuando-pedir-ayuda-profesional",
+      categorySlug: "terapia-salud-mental",
+      title: "Diferencia entre tristeza y depresión: cuándo pedir ayuda profesional",
+      excerpt: "Aprende todo sobre 'Diferencia entre tristeza y depresión: cuándo pedir ayuda profesional' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Diferencia entre tristeza y depresión: cuándo pedir ayuda profesional | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Diferencia entre tristeza y depresión: cuándo pedir ayuda profesional</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "depresion-estacional-sad-por-que-en-invierno-te-sientes-peor",
+      categorySlug: "terapia-salud-mental",
+      title: "Depresión estacional (SAD): por qué en invierno te sientes peor",
+      excerpt: "Aprende todo sobre 'Depresión estacional (SAD): por qué en invierno te sientes peor' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Depresión estacional (SAD): por qué en invierno te sientes peor | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Depresión estacional (SAD): por qué en invierno te sientes peor</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-ayudar-a-alguien-con-depresion-sin-agotarte-tu-mismo",
+      categorySlug: "terapia-salud-mental",
+      title: "Cómo ayudar a alguien con depresión sin agotarte tú mismo",
+      excerpt: "Aprende todo sobre 'Cómo ayudar a alguien con depresión sin agotarte tú mismo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo ayudar a alguien con depresión sin agotarte tú mismo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo ayudar a alguien con depresión sin agotarte tú mismo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "antidepresivos-tipos-efectos-y-preguntas-que-debes-hacer-al-medico",
+      categorySlug: "terapia-salud-mental",
+      title: "Antidepresivos: tipos, efectos y preguntas que debes hacer al médico",
+      excerpt: "Aprende todo sobre 'Antidepresivos: tipos, efectos y preguntas que debes hacer al médico' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Antidepresivos: tipos, efectos y preguntas que debes hacer al médico | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Antidepresivos: tipos, efectos y preguntas que debes hacer al médico</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "activacion-conductual-para-la-depresion-el-metodo-que-usa-la-terapia",
+      categorySlug: "terapia-salud-mental",
+      title: "Activación conductual para la depresión: el método que usa la terapia",
+      excerpt: "Aprende todo sobre 'Activación conductual para la depresión: el método que usa la terapia' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Activación conductual para la depresión: el método que usa la terapia | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Activación conductual para la depresión: el método que usa la terapia</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "depresion-enmascarada-cuando-la-depresion-se-oculta-como-irritabilidad",
+      categorySlug: "terapia-salud-mental",
+      title: "Depresión enmascarada: cuando la depresión se oculta como irritabilidad",
+      excerpt: "Aprende todo sobre 'Depresión enmascarada: cuando la depresión se oculta como irritabilidad' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Depresión enmascarada: cuando la depresión se oculta como irritabilidad | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Depresión enmascarada: cuando la depresión se oculta como irritabilidad</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ejercicio-fisico-y-depresion-la-evidencia-cientifica-que-debes-conocer",
+      categorySlug: "terapia-salud-mental",
+      title: "Ejercicio físico y depresión: la evidencia científica que debes conocer",
+      excerpt: "Aprende todo sobre 'Ejercicio físico y depresión: la evidencia científica que debes conocer' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ejercicio físico y depresión: la evidencia científica que debes conocer | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ejercicio físico y depresión: la evidencia científica que debes conocer</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "distimia-la-depresion-cronica-de-baja-intensidad-que-pasa-desapercibida",
+      categorySlug: "terapia-salud-mental",
+      title: "Distimia: la depresión crónica de baja intensidad que pasa desapercibida",
+      excerpt: "Aprende todo sobre 'Distimia: la depresión crónica de baja intensidad que pasa desapercibida' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Distimia: la depresión crónica de baja intensidad que pasa desapercibida | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Distimia: la depresión crónica de baja intensidad que pasa desapercibida</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-salir-de-la-depresion-sin-medicacion-tecnicas-basadas-en-evidencia",
+      categorySlug: "terapia-salud-mental",
+      title: "Cómo salir de la depresión sin medicación: técnicas basadas en evidencia",
+      excerpt: "Aprende todo sobre 'Cómo salir de la depresión sin medicación: técnicas basadas en evidencia' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo salir de la depresión sin medicación: técnicas basadas en evidencia | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo salir de la depresión sin medicación: técnicas basadas en evidencia</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "depresion-postparto-senales-duracion-y-como-superarla",
+      categorySlug: "terapia-salud-mental",
+      title: "Depresión postparto: señales, duración y cómo superarla",
+      excerpt: "Aprende todo sobre 'Depresión postparto: señales, duración y cómo superarla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Depresión postparto: señales, duración y cómo superarla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Depresión postparto: señales, duración y cómo superarla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "terapia-online-para-la-depresion-guia-para-elegir-plataforma-y-psicologo",
+      categorySlug: "terapia-salud-mental",
+      title: "Terapia online para la depresión: guía para elegir plataforma y psicólogo",
+      excerpt: "Aprende todo sobre 'Terapia online para la depresión: guía para elegir plataforma y psicólogo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Terapia online para la depresión: guía para elegir plataforma y psicólogo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Terapia online para la depresión: guía para elegir plataforma y psicólogo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "relaciones-toxicas-15-senales-que-no-debes-ignorar-nunca",
+      categorySlug: "relaciones-entorno",
+      title: "Relaciones tóxicas: 15 señales que no debes ignorar nunca",
+      excerpt: "Aprende todo sobre 'Relaciones tóxicas: 15 señales que no debes ignorar nunca' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Relaciones tóxicas: 15 señales que no debes ignorar nunca | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Relaciones tóxicas: 15 señales que no debes ignorar nunca</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "apego-ansioso-que-es-y-como-afecta-a-tus-relaciones-de-pareja",
+      categorySlug: "relaciones-entorno",
+      title: "Apego ansioso: qué es y cómo afecta a tus relaciones de pareja",
+      excerpt: "Aprende todo sobre 'Apego ansioso: qué es y cómo afecta a tus relaciones de pareja' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Apego ansioso: qué es y cómo afecta a tus relaciones de pareja | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Apego ansioso: qué es y cómo afecta a tus relaciones de pareja</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-establecer-limites-sanos-en-relaciones-sin-sentirte-culpable",
+      categorySlug: "relaciones-entorno",
+      title: "Cómo establecer límites sanos en relaciones sin sentirte culpable",
+      excerpt: "Aprende todo sobre 'Cómo establecer límites sanos en relaciones sin sentirte culpable' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo establecer límites sanos en relaciones sin sentirte culpable | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo establecer límites sanos en relaciones sin sentirte culpable</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "gaslighting-definicion-ejemplos-y-como-identificarlo-en-tu-relacion",
+      categorySlug: "relaciones-entorno",
+      title: "Gaslighting: definición, ejemplos y cómo identificarlo en tu relación",
+      excerpt: "Aprende todo sobre 'Gaslighting: definición, ejemplos y cómo identificarlo en tu relación' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Gaslighting: definición, ejemplos y cómo identificarlo en tu relación | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Gaslighting: definición, ejemplos y cómo identificarlo en tu relación</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "comunicacion-asertiva-en-pareja-tecnicas-que-realmente-funcionan",
+      categorySlug: "relaciones-entorno",
+      title: "Comunicación asertiva en pareja: técnicas que realmente funcionan",
+      excerpt: "Aprende todo sobre 'Comunicación asertiva en pareja: técnicas que realmente funcionan' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Comunicación asertiva en pareja: técnicas que realmente funcionan | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Comunicación asertiva en pareja: técnicas que realmente funcionan</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "celos-patologicos-origen-consecuencias-y-tratamiento-psicologico",
+      categorySlug: "relaciones-entorno",
+      title: "Celos patológicos: origen, consecuencias y tratamiento psicológico",
+      excerpt: "Aprende todo sobre 'Celos patológicos: origen, consecuencias y tratamiento psicológico' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Celos patológicos: origen, consecuencias y tratamiento psicológico | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Celos patológicos: origen, consecuencias y tratamiento psicológico</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "codependencia-emocional-test-causas-y-como-superarla",
+      categorySlug: "relaciones-entorno",
+      title: "Codependencia emocional: test, causas y cómo superarla",
+      excerpt: "Aprende todo sobre 'Codependencia emocional: test, causas y cómo superarla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Codependencia emocional: test, causas y cómo superarla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Codependencia emocional: test, causas y cómo superarla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "duelo-de-ruptura-las-5-fases-y-cuanto-tiempo-es-normal-tardarse",
+      categorySlug: "relaciones-entorno",
+      title: "Duelo de ruptura: las 5 fases y cuánto tiempo es normal tardarse",
+      excerpt: "Aprende todo sobre 'Duelo de ruptura: las 5 fases y cuánto tiempo es normal tardarse' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Duelo de ruptura: las 5 fases y cuánto tiempo es normal tardarse | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Duelo de ruptura: las 5 fases y cuánto tiempo es normal tardarse</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "narcisismo-en-la-pareja-senales-y-por-que-cuesta-tanto-irse",
+      categorySlug: "relaciones-entorno",
+      title: "Narcisismo en la pareja: señales y por qué cuesta tanto irse",
+      excerpt: "Aprende todo sobre 'Narcisismo en la pareja: señales y por qué cuesta tanto irse' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Narcisismo en la pareja: señales y por qué cuesta tanto irse | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Narcisismo en la pareja: señales y por qué cuesta tanto irse</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-mejorar-la-autoestima-despues-de-una-relacion-toxica",
+      categorySlug: "relaciones-entorno",
+      title: "Cómo mejorar la autoestima después de una relación tóxica",
+      excerpt: "Aprende todo sobre 'Cómo mejorar la autoestima después de una relación tóxica' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo mejorar la autoestima después de una relación tóxica | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo mejorar la autoestima después de una relación tóxica</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "terapia-de-pareja-online-cuando-vale-la-pena-y-como-funciona",
+      categorySlug: "relaciones-entorno",
+      title: "Terapia de pareja online: cuándo vale la pena y cómo funciona",
+      excerpt: "Aprende todo sobre 'Terapia de pareja online: cuándo vale la pena y cómo funciona' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Terapia de pareja online: cuándo vale la pena y cómo funciona | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Terapia de pareja online: cuándo vale la pena y cómo funciona</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "apego-evitativo-como-reconocerlo-y-trabajarlo-en-terapia",
+      categorySlug: "relaciones-entorno",
+      title: "Apego evitativo: cómo reconocerlo y trabajarlo en terapia",
+      excerpt: "Aprende todo sobre 'Apego evitativo: cómo reconocerlo y trabajarlo en terapia' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Apego evitativo: cómo reconocerlo y trabajarlo en terapia | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Apego evitativo: cómo reconocerlo y trabajarlo en terapia</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "que-es-el-mindfulness-y-por-que-la-ciencia-lo-avala",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Qué es el mindfulness y por qué la ciencia lo avala",
+      excerpt: "Aprende todo sobre 'Qué es el mindfulness y por qué la ciencia lo avala' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Qué es el mindfulness y por qué la ciencia lo avala | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Qué es el mindfulness y por qué la ciencia lo avala</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-meditar-si-nunca-lo-has-hecho-guia-para-principiantes-absolutos",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Cómo meditar si nunca lo has hecho: guía para principiantes absolutos",
+      excerpt: "Aprende todo sobre 'Cómo meditar si nunca lo has hecho: guía para principiantes absolutos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo meditar si nunca lo has hecho: guía para principiantes absolutos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo meditar si nunca lo has hecho: guía para principiantes absolutos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "meditacion-guiada-para-la-ansiedad-los-mejores-recursos-gratuitos",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Meditación guiada para la ansiedad: los mejores recursos gratuitos",
+      excerpt: "Aprende todo sobre 'Meditación guiada para la ansiedad: los mejores recursos gratuitos' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Meditación guiada para la ansiedad: los mejores recursos gratuitos | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Meditación guiada para la ansiedad: los mejores recursos gratuitos</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "mindfulness-vs-meditacion-diferencias-que-debes-saber-antes-de-empezar",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Mindfulness vs meditación: diferencias que debes saber antes de empezar",
+      excerpt: "Aprende todo sobre 'Mindfulness vs meditación: diferencias que debes saber antes de empezar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Mindfulness vs meditación: diferencias que debes saber antes de empezar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Mindfulness vs meditación: diferencias que debes saber antes de empezar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "mbsr-el-programa-de-reduccion-de-estres-basado-en-mindfulness-explicado",
+      categorySlug: "desarrollo-mindfulness",
+      title: "MBSR: el programa de reducción de estrés basado en mindfulness explicado",
+      excerpt: "Aprende todo sobre 'MBSR: el programa de reducción de estrés basado en mindfulness explicado' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "MBSR: el programa de reducción de estrés basado en mindfulness explicado | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>MBSR: el programa de reducción de estrés basado en mindfulness explicado</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "las-mejores-apps-de-meditacion-en-espanol-en-2026-analisis-real",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Las mejores apps de meditación en español en 2026: análisis real",
+      excerpt: "Aprende todo sobre 'Las mejores apps de meditación en español en 2026: análisis real' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Las mejores apps de meditación en español en 2026: análisis real | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Las mejores apps de meditación en español en 2026: análisis real</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "meditacion-de-5-minutos-para-el-estres-practica-guia-paso-a-paso",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Meditación de 5 minutos para el estrés: práctica guía paso a paso",
+      excerpt: "Aprende todo sobre 'Meditación de 5 minutos para el estrés: práctica guía paso a paso' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Meditación de 5 minutos para el estrés: práctica guía paso a paso | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Meditación de 5 minutos para el estrés: práctica guía paso a paso</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "body-scan-o-escaneo-corporal-tecnica-beneficios-y-como-practicarlo",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Body scan o escaneo corporal: técnica, beneficios y cómo practicarlo",
+      excerpt: "Aprende todo sobre 'Body scan o escaneo corporal: técnica, beneficios y cómo practicarlo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Body scan o escaneo corporal: técnica, beneficios y cómo practicarlo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Body scan o escaneo corporal: técnica, beneficios y cómo practicarlo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "mindfulness-para-ninos-tecnicas-adaptadas-por-edades-3-12-anos",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Mindfulness para niños: técnicas adaptadas por edades (3-12 años)",
+      excerpt: "Aprende todo sobre 'Mindfulness para niños: técnicas adaptadas por edades (3-12 años)' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Mindfulness para niños: técnicas adaptadas por edades (3-12 años) | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Mindfulness para niños: técnicas adaptadas por edades (3-12 años)</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "meditacion-trascendental-que-es-como-aprenderla-y-cuanto-cuesta",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Meditación trascendental: qué es, cómo aprenderla y cuánto cuesta",
+      excerpt: "Aprende todo sobre 'Meditación trascendental: qué es, cómo aprenderla y cuánto cuesta' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Meditación trascendental: qué es, cómo aprenderla y cuánto cuesta | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Meditación trascendental: qué es, cómo aprenderla y cuánto cuesta</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "yoga-para-la-ansiedad-tipos-posturas-y-por-donde-empezar",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Yoga para la ansiedad: tipos, posturas y por dónde empezar",
+      excerpt: "Aprende todo sobre 'Yoga para la ansiedad: tipos, posturas y por dónde empezar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Yoga para la ansiedad: tipos, posturas y por dónde empezar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Yoga para la ansiedad: tipos, posturas y por dónde empezar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "cursos-de-mindfulness-online-comparativa-de-los-mejores-en-castellano",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Cursos de mindfulness online: comparativa de los mejores en castellano",
+      excerpt: "Aprende todo sobre 'Cursos de mindfulness online: comparativa de los mejores en castellano' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cursos de mindfulness online: comparativa de los mejores en castellano | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cursos de mindfulness online: comparativa de los mejores en castellano</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "ansiedad-en-ninos-senales-de-alarma-y-como-ayudarles-desde-casa",
+      categorySlug: "relaciones-entorno",
+      title: "Ansiedad en niños: señales de alarma y cómo ayudarles desde casa",
+      excerpt: "Aprende todo sobre 'Ansiedad en niños: señales de alarma y cómo ayudarles desde casa' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Ansiedad en niños: señales de alarma y cómo ayudarles desde casa | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Ansiedad en niños: señales de alarma y cómo ayudarles desde casa</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "tdah-en-adultos-como-saber-si-lo-tienes-y-como-gestionarlo",
+      categorySlug: "relaciones-entorno",
+      title: "TDAH en adultos: cómo saber si lo tienes y cómo gestionarlo",
+      excerpt: "Aprende todo sobre 'TDAH en adultos: cómo saber si lo tienes y cómo gestionarlo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "TDAH en adultos: cómo saber si lo tienes y cómo gestionarlo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>TDAH en adultos: cómo saber si lo tienes y cómo gestionarlo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "crianza-con-apego-que-es-beneficios-y-criticas-fundadas",
+      categorySlug: "relaciones-entorno",
+      title: "Crianza con apego: qué es, beneficios y críticas fundadas",
+      excerpt: "Aprende todo sobre 'Crianza con apego: qué es, beneficios y críticas fundadas' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Crianza con apego: qué es, beneficios y críticas fundadas | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Crianza con apego: qué es, beneficios y críticas fundadas</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-hablar-con-tus-hijos-sobre-salud-mental-sin-tabues",
+      categorySlug: "relaciones-entorno",
+      title: "Cómo hablar con tus hijos sobre salud mental sin tabúes",
+      excerpt: "Aprende todo sobre 'Cómo hablar con tus hijos sobre salud mental sin tabúes' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo hablar con tus hijos sobre salud mental sin tabúes | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo hablar con tus hijos sobre salud mental sin tabúes</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "adolescentes-y-salud-mental-el-papel-de-los-padres-segun-la-psicologia",
+      categorySlug: "relaciones-entorno",
+      title: "Adolescentes y salud mental: el papel de los padres según la psicología",
+      excerpt: "Aprende todo sobre 'Adolescentes y salud mental: el papel de los padres según la psicología' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Adolescentes y salud mental: el papel de los padres según la psicología | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Adolescentes y salud mental: el papel de los padres según la psicología</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "psicologia-infantil-online-cuando-llevar-a-tu-hijo-al-psicologo",
+      categorySlug: "relaciones-entorno",
+      title: "Psicología infantil online: cuándo llevar a tu hijo al psicólogo",
+      excerpt: "Aprende todo sobre 'Psicología infantil online: cuándo llevar a tu hijo al psicólogo' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Psicología infantil online: cuándo llevar a tu hijo al psicólogo | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Psicología infantil online: cuándo llevar a tu hijo al psicólogo</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "duelo-en-ninos-como-explicar-la-muerte-segun-la-edad",
+      categorySlug: "relaciones-entorno",
+      title: "Duelo en niños: cómo explicar la muerte según la edad",
+      excerpt: "Aprende todo sobre 'Duelo en niños: cómo explicar la muerte según la edad' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Duelo en niños: cómo explicar la muerte según la edad | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Duelo en niños: cómo explicar la muerte según la edad</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "familia-con-un-miembro-con-depresion-guia-para-no-hundirte-tu-tambien",
+      categorySlug: "relaciones-entorno",
+      title: "Familia con un miembro con depresión: guía para no hundirte tú también",
+      excerpt: "Aprende todo sobre 'Familia con un miembro con depresión: guía para no hundirte tú también' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Familia con un miembro con depresión: guía para no hundirte tú también | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Familia con un miembro con depresión: guía para no hundirte tú también</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "baja-autoestima-causas-profundas-y-como-trabajarla-sin-terapia",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Baja autoestima: causas profundas y cómo trabajarla sin terapia",
+      excerpt: "Aprende todo sobre 'Baja autoestima: causas profundas y cómo trabajarla sin terapia' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Baja autoestima: causas profundas y cómo trabajarla sin terapia | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Baja autoestima: causas profundas y cómo trabajarla sin terapia</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "dialogo-interno-negativo-como-identificarlo-y-cambiarlo-de-raiz",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Diálogo interno negativo: cómo identificarlo y cambiarlo de raíz",
+      excerpt: "Aprende todo sobre 'Diálogo interno negativo: cómo identificarlo y cambiarlo de raíz' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Diálogo interno negativo: cómo identificarlo y cambiarlo de raíz | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Diálogo interno negativo: cómo identificarlo y cambiarlo de raíz</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "sindrome-del-impostor-que-es-y-por-que-afecta-mas-a-los-mas-capaces",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Síndrome del impostor: qué es y por qué afecta más a los más capaces",
+      excerpt: "Aprende todo sobre 'Síndrome del impostor: qué es y por qué afecta más a los más capaces' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Síndrome del impostor: qué es y por qué afecta más a los más capaces | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Síndrome del impostor: qué es y por qué afecta más a los más capaces</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "perfeccionismo-y-salud-mental-cuando-el-perfeccionismo-te-paraliza",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Perfeccionismo y salud mental: cuando el perfeccionismo te paraliza",
+      excerpt: "Aprende todo sobre 'Perfeccionismo y salud mental: cuando el perfeccionismo te paraliza' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Perfeccionismo y salud mental: cuando el perfeccionismo te paraliza | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Perfeccionismo y salud mental: cuando el perfeccionismo te paraliza</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-dejar-de-buscar-la-aprobacion-de-los-demas-guia-practica",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Cómo dejar de buscar la aprobación de los demás: guía práctica",
+      excerpt: "Aprende todo sobre 'Cómo dejar de buscar la aprobación de los demás: guía práctica' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo dejar de buscar la aprobación de los demás: guía práctica | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo dejar de buscar la aprobación de los demás: guía práctica</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "inteligencia-emocional-que-es-realmente-y-como-desarrollarla",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Inteligencia emocional: qué es realmente y cómo desarrollarla",
+      excerpt: "Aprende todo sobre 'Inteligencia emocional: qué es realmente y cómo desarrollarla' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Inteligencia emocional: qué es realmente y cómo desarrollarla | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Inteligencia emocional: qué es realmente y cómo desarrollarla</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "libros-de-autoayuda-que-si-funcionan-segun-la-psicologia-los-mejores",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Libros de autoayuda que sí funcionan según la psicología: los mejores",
+      excerpt: "Aprende todo sobre 'Libros de autoayuda que sí funcionan según la psicología: los mejores' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Libros de autoayuda que sí funcionan según la psicología: los mejores | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Libros de autoayuda que sí funcionan según la psicología: los mejores</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-superar-el-miedo-al-fracaso-sin-frases-de-motivacion-vacias",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Cómo superar el miedo al fracaso sin frases de motivación vacías",
+      excerpt: "Aprende todo sobre 'Cómo superar el miedo al fracaso sin frases de motivación vacías' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo superar el miedo al fracaso sin frases de motivación vacías | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo superar el miedo al fracaso sin frases de motivación vacías</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "rutina-de-bienestar-mental-como-construirla-y-mantenerla-de-verdad",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Rutina de bienestar mental: cómo construirla y mantenerla de verdad",
+      excerpt: "Aprende todo sobre 'Rutina de bienestar mental: cómo construirla y mantenerla de verdad' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Rutina de bienestar mental: cómo construirla y mantenerla de verdad | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Rutina de bienestar mental: cómo construirla y mantenerla de verdad</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "journaling-terapeutico-como-usar-un-diario-para-mejorar-tu-salud-mental",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Journaling terapéutico: cómo usar un diario para mejorar tu salud mental",
+      excerpt: "Aprende todo sobre 'Journaling terapéutico: cómo usar un diario para mejorar tu salud mental' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Journaling terapéutico: cómo usar un diario para mejorar tu salud mental | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Journaling terapéutico: cómo usar un diario para mejorar tu salud mental</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "los-mejores-podcasts-de-psicologia-y-salud-mental-en-espanol-2026",
+      categorySlug: "desarrollo-mindfulness",
+      title: "Los mejores podcasts de psicología y salud mental en español 2026",
+      excerpt: "Aprende todo sobre 'Los mejores podcasts de psicología y salud mental en español 2026' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Los mejores podcasts de psicología y salud mental en español 2026 | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Los mejores podcasts de psicología y salud mental en español 2026</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-elegir-psicologo-preguntas-que-debes-hacer-antes-de-empezar",
+      categorySlug: "terapia-salud-mental",
+      title: "Cómo elegir psicólogo: preguntas que debes hacer antes de empezar",
+      excerpt: "Aprende todo sobre 'Cómo elegir psicólogo: preguntas que debes hacer antes de empezar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo elegir psicólogo: preguntas que debes hacer antes de empezar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo elegir psicólogo: preguntas que debes hacer antes de empezar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "psicologia-online-vs-presencial-ventajas-desventajas-y-cual-elegir",
+      categorySlug: "terapia-salud-mental",
+      title: "Psicología online vs presencial: ventajas, desventajas y cuál elegir",
+      excerpt: "Aprende todo sobre 'Psicología online vs presencial: ventajas, desventajas y cuál elegir' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Psicología online vs presencial: ventajas, desventajas y cuál elegir | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Psicología online vs presencial: ventajas, desventajas y cuál elegir</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "cuanto-cuesta-ir-al-psicologo-en-espana-en-2026-guia-de-precios",
+      categorySlug: "terapia-salud-mental",
+      title: "Cuánto cuesta ir al psicólogo en España en 2026: guía de precios",
+      excerpt: "Aprende todo sobre 'Cuánto cuesta ir al psicólogo en España en 2026: guía de precios' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cuánto cuesta ir al psicólogo en España en 2026: guía de precios | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cuánto cuesta ir al psicólogo en España en 2026: guía de precios</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "tipos-de-terapia-psicologica-guia-completa-para-no-perderte",
+      categorySlug: "terapia-salud-mental",
+      title: "Tipos de terapia psicológica: guía completa para no perderte",
+      excerpt: "Aprende todo sobre 'Tipos de terapia psicológica: guía completa para no perderte' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Tipos de terapia psicológica: guía completa para no perderte | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Tipos de terapia psicológica: guía completa para no perderte</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "terapia-emdr-que-es-para-que-sirve-y-como-es-una-sesion",
+      categorySlug: "terapia-salud-mental",
+      title: "Terapia EMDR: qué es, para qué sirve y cómo es una sesión",
+      excerpt: "Aprende todo sobre 'Terapia EMDR: qué es, para qué sirve y cómo es una sesión' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Terapia EMDR: qué es, para qué sirve y cómo es una sesión | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Terapia EMDR: qué es, para qué sirve y cómo es una sesión</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "psicologos-online-gratuitos-o-de-bajo-coste-en-espana-recursos-reales",
+      categorySlug: "terapia-salud-mental",
+      title: "Psicólogos online gratuitos o de bajo coste en España: recursos reales",
+      excerpt: "Aprende todo sobre 'Psicólogos online gratuitos o de bajo coste en España: recursos reales' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Psicólogos online gratuitos o de bajo coste en España: recursos reales | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Psicólogos online gratuitos o de bajo coste en España: recursos reales</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "la-psicologia-positiva-explicada-sin-marketing-lo-que-la-ciencia-dice",
+      categorySlug: "terapia-salud-mental",
+      title: "La psicología positiva explicada sin marketing: lo que la ciencia dice",
+      excerpt: "Aprende todo sobre 'La psicología positiva explicada sin marketing: lo que la ciencia dice' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "La psicología positiva explicada sin marketing: lo que la ciencia dice | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>La psicología positiva explicada sin marketing: lo que la ciencia dice</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "plataformas-de-terapia-online-en-espana-comparativa-y-precios-2026",
+      categorySlug: "terapia-salud-mental",
+      title: "Plataformas de terapia online en España: comparativa y precios 2026",
+      excerpt: "Aprende todo sobre 'Plataformas de terapia online en España: comparativa y precios 2026' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Plataformas de terapia online en España: comparativa y precios 2026 | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Plataformas de terapia online en España: comparativa y precios 2026</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "como-saber-si-necesitas-terapia-10-senales-que-no-debes-ignorar",
+      categorySlug: "terapia-salud-mental",
+      title: "Cómo saber si necesitas terapia: 10 señales que no debes ignorar",
+      excerpt: "Aprende todo sobre 'Cómo saber si necesitas terapia: 10 señales que no debes ignorar' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Cómo saber si necesitas terapia: 10 señales que no debes ignorar | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Cómo saber si necesitas terapia: 10 señales que no debes ignorar</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
+    {
+      slug: "historia-de-la-psicologia-de-freud-a-las-neurociencias-actuales",
+      categorySlug: "terapia-salud-mental",
+      title: "Historia de la psicología: de Freud a las neurociencias actuales",
+      excerpt: "Aprende todo sobre 'Historia de la psicología: de Freud a las neurociencias actuales' en esta completa guía clínica de Psicología Práctica. Descubre las herramientas de consulta y el abordaje psicoterapéutico.",
+      date: "2026-06-11",
+      dateLabel: "11 Jun, 2026",
+      readingTime: "3 min de lectura",
+      image: "/images/placeholder.png",
+      published: false,
+      seoTitle: "Historia de la psicología: de Freud a las neurociencias actuales | Guía de Psicología Práctica",
+      body: `
+        <h2>Borrador de Artículo</h2>
+        <p>Este es un borrador del artículo titulado "<strong>Historia de la psicología: de Freud a las neurociencias actuales</strong>". El contenido completo de esta publicación está pendiente de redacción. Puedes editar este borrador desde el panel de administración clínica para desarrollar el texto completo, definir los apartados científicos, añadir tablas comparativas y configurar las fichas de síntesis clínica.</p>
+      `,
+    },
   ];
 
   for (const art of articles) {
