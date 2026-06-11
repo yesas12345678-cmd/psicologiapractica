@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Category {
+  slug        String    @id
+  number      String    // Número de orden visual (ej: "01/", "02/")
+  name        String    // Nombre completo (ej: "Empresas y Autónomos")
+  shortName   String    // Nombre corto para etiquetas (ej: "Empresas")
+  description String    // Descripción breve para tarjetas
+  intro       String    // Introducción larga para cabeceras de categoría
+  articles    Article[]
+}
+
+model Article {
+  slug         String   @id
+  categorySlug String
+  title        String
+  excerpt      String   // Extracto breve para la vista previa de las tarjetas
+  date         String   // Fecha en formato YYYY-MM-DD
+  dateLabel    String   // Fecha formateada en español (ej: "27 Mayo, 2026")
+  readingTime  String   // Tiempo estimado de lectura (ej: "5 min de lectura")
+  image        String   // Ruta de la imagen de portada
+  body         String   // Contenido completo del artículo (HTML o texto estructurado)
+  published    Boolean  @default(true) // Determina si es borrador o está publicado
+  seoTitle     String   @default("")   // Meta-título SEO personalizado para Google
+  category     Category @relation(fields: [categorySlug], references: [slug])
+}

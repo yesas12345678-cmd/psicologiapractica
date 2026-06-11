@@ -134,7 +134,15 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm mb-6" id="footer-legal-list">
               <li>
                 <Link
-                  href="/politica-privacidad"
+                  href="/aviso-legal"
+                  className="hover:text-teal-750 transition-colors duration-200"
+                >
+                  Aviso Legal
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacidad"
                   className="hover:text-teal-750 transition-colors duration-200"
                 >
                   Política de Privacidad
@@ -142,10 +150,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/aviso-legal"
+                  href="/cookies"
                   className="hover:text-teal-750 transition-colors duration-200"
                 >
-                  Aviso Legal y de Cookies
+                  Política de Cookies
                 </Link>
               </li>
             </ul>

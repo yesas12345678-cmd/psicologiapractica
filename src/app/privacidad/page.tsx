@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   description:
     "Conoce cómo recopilamos, tratamos y protegemos tus datos personales, y nuestras políticas relativas a las cookies de navegación.",
   alternates: {
-    canonical: "/politica-privacidad",
+    canonical: "/privacidad",
   },
 };
 
-export default function PoliticaPrivacidadPage() {
+export default function PrivacidadPage() {
   return (
     <main className="min-h-screen bg-slate-50/50 py-12 md:py-20" aria-labelledby="privacy-title">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white border border-slate-100 rounded-3xl p-6 md:p-12 shadow-sm">

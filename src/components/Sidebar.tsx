@@ -1,41 +1,100 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { TrendingUp, BookOpen } from "lucide-react";
+import { TrendingUp, BookOpen, Mail } from "lucide-react";
 
 interface SidebarProps {
   currentCategory?: string;
+  categories?: { slug: string; name: string; shortName: string }[];
 }
 
-export default function Sidebar({ currentCategory }: SidebarProps) {
-  // Mocking trending articles to build siloing link authority
+export default function Sidebar({ currentCategory, categories = [] }: SidebarProps) {
+  const [email, setEmail] = useState("");
+  const [subscribed, setSubscribed] = useState(false);
+
+  const defaultCategories = [
+    { slug: "ansiedad-burnout", name: "Ansiedad & Burnout", shortName: "Ansiedad" },
+    { slug: "desarrollo-mindfulness", name: "Mindfulness & Desarrollo", shortName: "Mindfulness" },
+    { slug: "relaciones-entorno", name: "Relaciones & Entorno", shortName: "Relaciones" },
+    { slug: "terapia-salud-mental", name: "Terapia & Salud Mental", shortName: "Terapia" },
+  ];
+
+  const catsToUse = categories.length > 0 ? categories : defaultCategories;
+
   const trendingArticles = [
     {
       title: "Cómo identificar el Síndrome de Burnout a tiempo",
-      href: "/ansiedad-burnout",
+      href: "/ansiedad-burnout/sindrome-burnout-sintomas",
       reads: "12k lecturas",
     },
     {
       title: "5 Ejercicios de Mindfulness para calmar la ansiedad diaria",
-      href: "/desarrollo-mindfulness",
+      href: "/desarrollo-mindfulness/introduccion-mindfulness-principiantes",
       reads: "9k lecturas",
     },
     {
       title: "Límites saludables en la pareja: claves psicológicas",
-      href: "/relaciones-entorno",
+      href: "/relaciones-entorno/establecer-limites-saludables",
       reads: "8.5k lecturas",
     },
     {
       title: "Terapia Cognitivo-Conductual: Qué es y cómo funciona",
-      href: "/terapia-salud-mental",
+      href: "/terapia-salud-mental/cuando-ir-al-psicologo",
       reads: "7.2k lecturas",
     },
   ];
 
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      setSubscribed(true);
+      setEmail("");
+    }
+  };
+
   return (
     <aside className="space-y-8 lg:sticky lg:top-24 max-w-[320px] w-full" aria-label="Barra lateral">
       
+      {/* Newsletter Block */}
+      <div className="bg-slate-50 p-6 border border-slate-100 rounded-2xl shadow-sm space-y-4">
+        <div className="space-y-1.5">
+          <div className="flex items-center gap-2 text-teal-700">
+            <Mail className="w-4 h-4" />
+            <h3 className="font-extrabold text-slate-900 text-sm uppercase tracking-wider">
+              Boletín Editorial
+            </h3>
+          </div>
+          <p className="text-xs text-slate-500 leading-relaxed">
+            Recibe artículos prácticos sobre salud mental, desarrollo personal y bienestar escritos por profesionales.
+          </p>
+        </div>
+
+        {subscribed ? (
+          <div className="p-3 bg-emerald-50 border border-emerald-100 rounded-xl text-center">
+            <p className="text-xs font-bold text-emerald-800">¡Suscrito con éxito!</p>
+            <p className="text-[10px] text-emerald-600 mt-0.5">Recibirás nuestras novedades semanalmente.</p>
+          </div>
+        ) : (
+          <form onSubmit={handleSubscribe} className="space-y-2">
+            <input
+              type="email"
+              placeholder="Tu correo electrónico"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500 transition-all"
+            />
+            <button
+              type="submit"
+              className="w-full py-2.5 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold transition-all shadow-sm cursor-pointer"
+            >
+              Suscribirse
+            </button>
+          </form>
+        )}
+      </div>
+
       {/* Trending Articles Section */}
       <div className="bg-white p-6 border border-slate-100 rounded-2xl shadow-sm space-y-4">
         <div className="flex items-center gap-2 pb-3 border-b border-slate-100">
@@ -75,30 +134,19 @@ export default function Sidebar({ currentCategory }: SidebarProps) {
           </h3>
         </div>
         <div className="flex flex-wrap gap-2" id="sidebar-categories-badges">
-          <Link
-            href="/ansiedad-burnout"
-            className="text-xs px-3 py-1.5 rounded-lg font-semibold bg-slate-50 text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-all"
-          >
-            Ansiedad & Burnout
-          </Link>
-          <Link
-            href="/desarrollo-mindfulness"
-            className="text-xs px-3 py-1.5 rounded-lg font-semibold bg-slate-50 text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-all"
-          >
-            Mindfulness
-          </Link>
-          <Link
-            href="/relaciones-entorno"
-            className="text-xs px-3 py-1.5 rounded-lg font-semibold bg-slate-50 text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-all"
-          >
-            Relaciones
-          </Link>
-          <Link
-            href="/terapia-salud-mental"
-            className="text-xs px-3 py-1.5 rounded-lg font-semibold bg-slate-50 text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-all"
-          >
-            Terapia
-          </Link>
+          {catsToUse.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/${cat.slug}`}
+              className={`text-xs px-3 py-1.5 rounded-lg font-semibold transition-all ${
+                currentCategory === cat.slug
+                  ? "bg-teal-50 text-teal-700 border border-teal-100"
+                  : "bg-slate-50 text-slate-700 hover:bg-teal-50 hover:text-teal-700 border border-transparent"
+              }`}
+            >
+              {cat.shortName}
+            </Link>
+          ))}
         </div>
       </div>
 
