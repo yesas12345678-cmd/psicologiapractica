@@ -23,11 +23,73 @@ interface DashboardListProps {
   initialPublished: Article[];
 }
 
+const getKeywordsFromTitle = (title: string): string => {
+  let clean = title.trim();
+  
+  // Remove parentheses (like (hipocondría))
+  clean = clean.replace(/\s*\([^)]*\)/g, "");
+  
+  // 1. Split by colon if present
+  if (clean.includes(":")) {
+    clean = clean.split(":")[0].trim();
+  }
+  
+  // 2. Remove common prefixes
+  const prefixes = [
+    /^[qQ]ué es la /i,
+    /^[qQ]ué es el /i,
+    /^[qQ]ué es /i,
+    /^[cC]ómo /i,
+    /^[cC]ómo la /i,
+    /^[lL]as mejores /i,
+    /^[lL]os mejores /i,
+    /^[cC]ómo dejar de /i,
+    /^[cC]ómo superar el /i,
+    /^[cC]ómo hablar con tus /i,
+    /^[cC]ómo hablar con tu /i,
+    /^[cC]ómo ayudar a /i,
+    /^[cC]ómo salir de la /i,
+    /^[fF]amilia con un miembro con /i
+  ];
+  
+  for (const prefix of prefixes) {
+    if (prefix.test(clean)) {
+      clean = clean.replace(prefix, "");
+      break;
+    }
+  }
+  
+  // 3. Remove trailing clauses starting with specific prepositions or conjunctions
+  const splitters = [
+    / y cómo/i,
+    / y por qué/i,
+    / y qué/i,
+    / que /i,
+    / qué /i,
+    / si /i,
+    / sin /i,
+    / paso a paso/i,
+    / y padres/i,
+    / tras/i
+  ];
+  
+  for (const splitter of splitters) {
+    const parts = clean.split(splitter);
+    if (parts.length > 1) {
+      clean = parts[0];
+      break;
+    }
+  }
+  
+  return clean.trim().toLowerCase();
+};
+
 export default function DashboardList({ initialDrafts, initialPublished }: DashboardListProps) {
   const [drafts, setDrafts] = useState<Article[]>(initialDrafts);
   const [published, setPublished] = useState<Article[]>(initialPublished);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [loading, setLoading] = useState<string | null>(null);
+  const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
   const [error, setError] = useState("");
   const router = useRouter();
 
@@ -91,7 +153,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                 <th className="p-4">Título</th>
                 <th className="p-4">Categoría</th>
                 <th className="p-4">Fecha</th>
-                <th className="p-4">Palabras</th>
+                <th className="p-4">{isPublishedSection ? "Palabras" : "Datos para IA (Título + Keywords)"}</th>
                 <th className="p-4 text-right">Acciones</th>
               </tr>
             </thead>
@@ -112,7 +174,29 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                       </span>
                     </td>
                     <td className="p-4 text-slate-550">{article.dateLabel}</td>
-                    <td className="p-4">{words} palabras</td>
+                    {isPublishedSection ? (
+                      <td className="p-4">{words} palabras</td>
+                    ) : (
+                      <td className="p-4">
+                        <div className="flex flex-col gap-1.5 min-w-[200px]">
+                          <div className="text-[10px] text-slate-500 font-medium leading-normal">
+                            Key: <span className="font-bold text-teal-850 bg-teal-50/70 px-1.5 py-0.5 rounded border border-teal-100/50">{getKeywordsFromTitle(article.title)}</span>
+                          </div>
+                          <button
+                            onClick={() => {
+                              const kw = getKeywordsFromTitle(article.title);
+                              const textToCopy = `Título: ${article.title}\nKeywords a atacar: ${kw}`;
+                              navigator.clipboard.writeText(textToCopy);
+                              setCopiedSlug(article.slug);
+                              setTimeout(() => setCopiedSlug(null), 2000);
+                            }}
+                            className="inline-flex items-center justify-center gap-1 w-max px-2.5 py-1 bg-slate-100 hover:bg-slate-200 border border-slate-200 text-slate-800 text-[10px] font-bold rounded-lg transition-colors cursor-pointer"
+                          >
+                            {copiedSlug === article.slug ? "¡Copiado!" : "Copiar para IA"}
+                          </button>
+                        </div>
+                      </td>
+                    )}
                     <td className="p-4 text-right">
                       <div className="flex items-center justify-end gap-1.5">
                         
