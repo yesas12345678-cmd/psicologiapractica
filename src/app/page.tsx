@@ -146,7 +146,10 @@ export default async function Home() {
                     key={article.slug}
                     className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
                   >
-                    <div className="relative h-44 w-full bg-slate-100">
+                    <Link
+                      href={`/${article.categorySlug}/${article.slug}`}
+                      className="block relative h-44 w-full bg-slate-100 hover:opacity-90 transition-opacity overflow-hidden"
+                    >
                       <Image
                         src={article.image}
                         alt={article.title}
@@ -154,7 +157,7 @@ export default async function Home() {
                         sizes="(max-w-768px) 100vw, 320px"
                         className="object-cover"
                       />
-                    </div>
+                    </Link>
                     <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
                       <div className="space-y-2">
                         <span className="text-[10px] font-bold uppercase tracking-wider text-teal-700">

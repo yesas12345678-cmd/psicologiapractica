@@ -153,7 +153,8 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                 <th className="p-4">Título</th>
                 <th className="p-4">Categoría</th>
                 <th className="p-4">Fecha</th>
-                <th className="p-4">{isPublishedSection ? "Palabras" : "Datos para IA (Título + Keywords)"}</th>
+                <th className="p-4">Palabras</th>
+                {!isPublishedSection && <th className="p-4">Datos para IA (Título + Keywords)</th>}
                 <th className="p-4 text-right">Acciones</th>
               </tr>
             </thead>
@@ -174,9 +175,8 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                       </span>
                     </td>
                     <td className="p-4 text-slate-550">{article.dateLabel}</td>
-                    {isPublishedSection ? (
-                      <td className="p-4">{words} palabras</td>
-                    ) : (
+                    <td className="p-4 text-slate-600">{words} palabras</td>
+                    {!isPublishedSection && (
                       <td className="p-4">
                         <div className="flex flex-col gap-1.5 min-w-[200px]">
                           <div className="text-[10px] text-slate-500 font-medium leading-normal">

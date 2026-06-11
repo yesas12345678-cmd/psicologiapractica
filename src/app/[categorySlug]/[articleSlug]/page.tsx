@@ -168,7 +168,10 @@ export default async function ArticlePage({ params }: PageProps) {
                   key={rec.slug}
                   className="bg-white border border-slate-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
                 >
-                  <div className="relative h-32 w-full bg-slate-100">
+                  <Link
+                    href={`/${rec.categorySlug}/${rec.slug}`}
+                    className="block relative h-32 w-full bg-slate-100 hover:opacity-90 transition-opacity overflow-hidden"
+                  >
                     <Image
                       src={rec.image}
                       alt={rec.title}
@@ -176,7 +179,7 @@ export default async function ArticlePage({ params }: PageProps) {
                       sizes="(max-w-768px) 100vw, 200px"
                       className="object-cover"
                     />
-                  </div>
+                  </Link>
                   <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
                     <div className="space-y-1">
                       <span className="text-[9px] font-bold text-teal-700 uppercase tracking-wider block">
