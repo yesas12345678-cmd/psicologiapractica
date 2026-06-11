@@ -116,8 +116,29 @@ export default async function CategoryPage({ params }: PageProps) {
 
   const faqs = FAQS_MAP[categorySlug] || [];
 
+  // FAQ Schema JSON-LD
+  const faqJsonLd = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } : null;
+
   return (
-    <main className="min-h-screen bg-slate-50/20 py-12 md:py-20" aria-labelledby="hub-title">
+    <>
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+      <main className="min-h-screen bg-slate-50/20 py-12 md:py-20" aria-labelledby="hub-title">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Hub Header Section */}
@@ -243,5 +264,6 @@ export default async function CategoryPage({ params }: PageProps) {
 
       </div>
     </main>
+    </>
   );
 }
