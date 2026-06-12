@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Heart, Sparkles, Users, MessageCircleHeart, ArrowRight, BookOpen, Clock, ShieldCheck, Flame, Compass } from "lucide-react";
 import prisma from "@/lib/db";
 import Sidebar from "@/components/Sidebar";
+import RecentArticlesList from "@/components/RecentArticlesList";
 
 export const revalidate = 0; // dynamic
 
@@ -14,10 +15,10 @@ export default async function Home() {
 
   const recentArticles = await prisma.article.findMany({
     where: { published: true },
-    take: 4,
     orderBy: { date: "desc" },
     include: { category: true },
   });
+
 
   const getIcon = (slug: string) => {
     switch (slug) {
@@ -94,9 +95,10 @@ export default async function Home() {
           {categories.map((cat) => {
             const IconComponent = getIcon(cat.slug);
             return (
-              <div
+              <Link
                 key={cat.slug}
-                className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:scale-101 transition-all duration-300 flex flex-col justify-between group"
+                href={`/${cat.slug}`}
+                className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:scale-101 transition-all duration-300 flex flex-col justify-between group block cursor-pointer"
               >
                 <div className="space-y-4">
                   <div className="p-3 rounded-xl border w-fit bg-slate-50 text-slate-700 border-slate-200">
@@ -105,20 +107,19 @@ export default async function Home() {
                   <h3 className="text-lg font-bold text-slate-900 group-hover:text-teal-700 transition-colors">
                     {cat.name}
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed line-clamp-3">
+                  <p className="text-xs text-slate-505 leading-relaxed line-clamp-3">
                     {cat.description}
                   </p>
                 </div>
                 <div className="pt-6">
-                  <Link
-                    href={`/${cat.slug}`}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-teal-700 hover:underline"
+                  <span
+                    className="inline-flex items-center gap-1 text-xs font-bold text-teal-700 group-hover:underline"
                   >
                     Ver Artículos
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                  </span>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
@@ -135,61 +136,7 @@ export default async function Home() {
               Artículos Recientes
             </h2>
             
-            {recentArticles.length === 0 ? (
-              <div className="bg-white p-8 text-center rounded-2xl border border-slate-100 text-slate-500 text-sm">
-                No hay artículos publicados en este momento.
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {recentArticles.map((article) => (
-                  <article
-                    key={article.slug}
-                    className="bg-white border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
-                  >
-                    <Link
-                      href={`/${article.categorySlug}/${article.slug}`}
-                      className="block relative h-44 w-full bg-slate-100 hover:opacity-90 transition-opacity overflow-hidden"
-                    >
-                      <Image
-                        src={article.image}
-                        alt={article.title}
-                        fill
-                        sizes="(max-w-768px) 100vw, 320px"
-                        className="object-cover"
-                      />
-                    </Link>
-                    <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
-                      <div className="space-y-2">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-teal-700">
-                          {article.category.shortName}
-                        </span>
-                        <h3 className="text-base font-bold text-slate-900 hover:text-teal-700 leading-snug">
-                          <Link href={`/${article.categorySlug}/${article.slug}`}>
-                            {article.title}
-                          </Link>
-                        </h3>
-                        <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
-                          {article.excerpt}
-                        </p>
-                      </div>
-                      <div className="flex items-center justify-between text-xs text-slate-400 pt-4 border-t border-slate-50">
-                        <span className="flex items-center gap-1">
-                          <Clock className="w-3.5 h-3.5" />
-                          {article.readingTime}
-                        </span>
-                        <Link
-                          href={`/${article.categorySlug}/${article.slug}`}
-                          className="font-bold text-teal-700 flex items-center hover:underline"
-                        >
-                          Leer Artículo
-                          <ArrowRight className="w-3 h-3 ml-0.5" />
-                        </Link>
-                      </div>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            )}
+            <RecentArticlesList articles={recentArticles} />
           </div>
 
           {/* Sidebar Column */}

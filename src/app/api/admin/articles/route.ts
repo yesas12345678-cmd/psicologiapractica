@@ -4,8 +4,8 @@ import prisma from "@/lib/db";
 
 function formatDateToSpanish(dateStr: string): string {
   const months = [
-    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
   ];
   const [onlyDate] = dateStr.split("T");
   const parts = onlyDate.split("-");
@@ -14,9 +14,10 @@ function formatDateToSpanish(dateStr: string): string {
   const monthIdx = parseInt(parts[1], 10) - 1;
   const day = parseInt(parts[2], 10);
   
-  const monthName = months[monthIdx] || "Enero";
-  return `${day} ${monthName}, ${year}`;
+  const monthName = months[monthIdx] || "enero";
+  return `${day} de ${monthName} de ${year}`;
 }
+
 
 function calculateReadingTime(body: string): string {
   const text = body.replace(/<[^>]*>/g, " ");
