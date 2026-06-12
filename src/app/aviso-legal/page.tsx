@@ -45,7 +45,7 @@ export default function AvisoLegalPage() {
           </p>
           <ul className="list-disc pl-5 space-y-1 text-slate-500 text-xs">
             <li><strong>Denominación social:</strong> Portal Nicho &ldquo;Psicología Práctica&rdquo;</li>
-            <li><strong>Correo de contacto:</strong> legal@psicologiapractica.com</li>
+            <li><strong>Correo de contacto:</strong> legal@psicologiapractica.tech</li>
             <li><strong>Actividad:</strong> Divulgación de artículos sobre psicología, desarrollo personal y salud mental.</li>
           </ul>
 

@@ -101,7 +101,7 @@ export default async function ArticlePage({ params }: PageProps) {
     ? REVIEWERS.alejandro
     : REVIEWERS.laura;
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.tech";
 
   // Schema.org Structured Data
   const jsonLd = {

@@ -110,7 +110,7 @@ export default function PrivacidadPage() {
           </h2>
           <p>
             Si requiere más información o tiene alguna pregunta sobre nuestra política de privacidad, no dude en ponerse en contacto con nosotros a través del correo electrónico:{" "}
-            <span className="font-mono text-indigo-600 font-bold">contacto@psicologiapractica.com</span>.
+            <span className="font-mono text-indigo-600 font-bold">contacto@psicologiapractica.tech</span>.
           </p>
         </div>
 
