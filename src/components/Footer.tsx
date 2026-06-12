@@ -61,7 +61,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/ansiedad-burnout"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Ansiedad y Burnout
                 </Link>
@@ -69,7 +69,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/desarrollo-mindfulness"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Desarrollo y Mindfulness
                 </Link>
@@ -77,7 +77,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/relaciones-entorno"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Relaciones y Entorno
                 </Link>
@@ -85,7 +85,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/terapia-salud-mental"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Terapia y Salud Mental
                 </Link>
@@ -102,7 +102,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/sobre-nosotros"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   ¿Quiénes Somos?
                 </Link>
@@ -110,7 +110,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/sobre-nosotros#review-team"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Equipo de Revisores
                 </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/aviso-legal"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Aviso Legal
                 </Link>
@@ -135,7 +135,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/privacidad"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Política de Privacidad
                 </Link>
@@ -143,7 +143,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/cookies"
-                  className="hover:text-teal-750 transition-colors duration-200"
+                  className="hover:text-teal-700 transition-colors duration-200"
                 >
                   Política de Cookies
                 </Link>
@@ -151,7 +151,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => window.dispatchEvent(new CustomEvent("open-cookie-settings"))}
-                  className="hover:text-teal-750 transition-colors duration-200 text-left cursor-pointer"
+                  className="hover:text-teal-700 transition-colors duration-200 text-left cursor-pointer"
                 >
                   Configuración de Cookies
                 </button>

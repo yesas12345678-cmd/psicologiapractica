@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/portal-clinico/", "/api/"],
+      disallow: ["/portal-clinico", "/api/"],
     },
     sitemap: `${baseUrl}/sitemap.xml`,
   };

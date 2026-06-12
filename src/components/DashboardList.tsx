@@ -192,7 +192,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                         {article.category.name}
                       </span>
                     </td>
-                    <td className="p-4 text-slate-550">{article.dateLabel}</td>
+                    <td className="p-4 text-slate-500">{article.dateLabel}</td>
                     <td className="p-4 text-slate-600">{words} palabras</td>
                     {!isPublishedSection && (
                       <td className="p-4">
@@ -231,7 +231,7 @@ export default function DashboardList({ initialDrafts, initialPublished }: Dashb
                         {/* Edit */}
                         <Link
                           href={`/portal-clinico/editor/${article.slug}`}
-                          className="p-1.5 rounded-lg border border-slate-100 hover:border-slate-200 text-slate-500 hover:text-teal-750 bg-white shadow-sm transition-all"
+                          className="p-1.5 rounded-lg border border-slate-100 hover:border-slate-200 text-slate-500 hover:text-teal-700 bg-white shadow-sm transition-all"
                           title="Editar"
                         >
                           <Edit className="w-3.5 h-3.5" />

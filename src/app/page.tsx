@@ -107,7 +107,7 @@ export default async function Home() {
                   <h3 className="text-lg font-bold text-slate-900 group-hover:text-teal-700 transition-colors">
                     {cat.name}
                   </h3>
-                  <p className="text-xs text-slate-505 leading-relaxed line-clamp-3">
+                  <p className="text-xs text-slate-500 leading-relaxed line-clamp-3">
                     {cat.description}
                   </p>
                 </div>

@@ -47,7 +47,7 @@ export default function ArticleLayout({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* SEO Breadcrumbs */}
-        <nav className="flex items-center gap-1 text-xs text-slate-550 mb-6 overflow-x-auto whitespace-nowrap py-1" aria-label="Migas de pan">
+        <nav className="flex items-center gap-1 text-xs text-slate-500 mb-6 overflow-x-auto whitespace-nowrap py-1" aria-label="Migas de pan">
           <Link
             href="/"
             className="flex items-center gap-1 hover:text-teal-700 transition-colors"
@@ -107,7 +107,7 @@ export default function ArticleLayout({
               </div>
             )}
 
-            <div className="flex items-center gap-1 text-xs text-slate-550 ml-auto w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
+            <div className="flex items-center gap-1 text-xs text-slate-500 ml-auto w-full sm:w-auto pt-3 sm:pt-0 border-t sm:border-t-0 border-slate-100">
               <div className="flex items-center gap-1">
                 <Calendar className="w-3.5 h-3.5" />
                 <time dateTime={publishDate}>{publishDate}</time>

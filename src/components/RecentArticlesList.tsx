@@ -69,7 +69,7 @@ export default function RecentArticlesList({ articles }: RecentArticlesListProps
                       {article.title}
                     </Link>
                   </h3>
-                  <p className="text-xs text-slate-505 leading-relaxed line-clamp-3">
+                  <p className="text-xs text-slate-500 leading-relaxed line-clamp-3">
                     {article.excerpt}
                   </p>
                 </div>
