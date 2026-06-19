@@ -3,11 +3,11 @@
   "times": [
     {
       "time": "10:48",
-      "generated": false
+      "generated": true
     },
     {
       "time": "15:23",
-      "generated": false
+      "generated": true
     }
   ]
 }
