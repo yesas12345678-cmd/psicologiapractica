@@ -150,10 +150,10 @@ export default function ArticleEditor({ article, categories }: ArticleEditorProp
         setSuccess(true);
         if (!article) {
           // Redirect to edit page of the newly created article to avoid duplication on double click
-          router.push(`/portal-clinico/editor/${slug}`);
+          router.push(`/admin/editor/${slug}`);
         } else if (article.slug !== slug) {
           // If slug changed, redirect to new URL
-          router.push(`/portal-clinico/editor/${slug}`);
+          router.push(`/admin/editor/${slug}`);
         }
         router.refresh();
       } else {
@@ -171,7 +171,7 @@ export default function ArticleEditor({ article, categories }: ArticleEditorProp
       {/* Top Navigation Bar */}
       <div className="flex items-center justify-between">
         <button
-          onClick={() => router.push("/portal-clinico/dashboard")}
+          onClick={() => router.push("/admin/dashboard")}
           className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-900 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />

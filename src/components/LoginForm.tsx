@@ -25,7 +25,7 @@ export default function LoginForm() {
       const data = await res.json();
 
       if (res.ok && data.success) {
-        router.push("/portal-clinico/dashboard");
+        router.push("/admin/dashboard");
         router.refresh();
       } else {
         setError(data.error || "Contraseña incorrecta");

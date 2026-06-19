@@ -15,7 +15,7 @@ export default async function NewArticlePage() {
   const isAuthed = await checkAuth();
 
   if (!isAuthed) {
-    redirect("/portal-clinico");
+    redirect("/admin");
   }
 
   // Load categories

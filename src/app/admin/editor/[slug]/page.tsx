@@ -21,7 +21,7 @@ export default async function EditArticlePage({ params }: EditArticlePageProps) 
   const isAuthed = await checkAuth();
 
   if (!isAuthed) {
-    redirect("/portal-clinico");
+    redirect("/admin");
   }
 
   const { slug } = await params;

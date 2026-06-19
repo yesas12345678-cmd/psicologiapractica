@@ -15,7 +15,7 @@ export default async function DashboardPage() {
   const isAuthed = await checkAuth();
 
   if (!isAuthed) {
-    redirect("/portal-clinico");
+    redirect("/admin");
   }
 
   // Load articles
