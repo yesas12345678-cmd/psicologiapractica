@@ -71,6 +71,19 @@ const CATEGORY_IMAGES = {
   ]
 };
 
+// Seedable random number generator (deterministic based on date)
+function seedRandom(seed) {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) {
+    h = Math.imul(31, h) + seed.charCodeAt(i) | 0;
+  }
+  return function() {
+    h = Math.imul(h ^ h >>> 16, 2246822507);
+    h = Math.imul(h ^ h >>> 13, 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+}
+
 // Date formatter in Spanish (e.g. "19 de junio de 2026")
 function formatSpanishDate(d) {
   const months = [
@@ -188,45 +201,24 @@ function extractContentHTML(rawText, originalTitle, originalExcerpt) {
 async function main() {
   console.log("=== CRON DE GENERACIÓN DIARIA DE ARTÍCULOS DE PSICOLOGÍA PRÁCTICA ===");
 
-  const statePath = path.join(process.cwd(), "scripts", "schedule-state.json");
   const todayStr = formatISODate(new Date());
 
-  let state = { date: "", times: [] };
+  // Generate deterministic random times for today using seedRandom
+  const rng = seedRandom(todayStr);
 
-  if (fs.existsSync(statePath)) {
-    try {
-      state = JSON.parse(fs.readFileSync(statePath, "utf-8"));
-    } catch (e) {
-      console.warn("No se pudo leer el archivo de estado, creando uno nuevo...");
-    }
-  }
+  // Random hour 1: between 09:00 and 14:00 (5 hours window)
+  const h1 = 9 + Math.floor(rng() * 5);
+  const m1 = Math.floor(rng() * 60);
+  const time1Str = `${String(h1).padStart(2, "0")}:${String(m1).padStart(2, "0")}`;
 
-  // If state is not initialized or is from a previous day, generate new target hours for today
-  if (state.date !== todayStr) {
-    console.log(`[STATE] Creando nueva planificación para el día ${todayStr}...`);
-    // Random hour 1: between 09:00 and 14:00 (e.g., morning)
-    const h1 = 9 + Math.floor(Math.random() * 5);
-    const m1 = Math.floor(Math.random() * 60);
-    const time1Str = `${String(h1).padStart(2, "0")}:${String(m1).padStart(2, "0")}`;
+  // Random hour 2: between 15:00 and 21:00 (6 hours window)
+  const h2 = 15 + Math.floor(rng() * 6);
+  const m2 = Math.floor(rng() * 60);
+  const time2Str = `${String(h2).padStart(2, "0")}:${String(m2).padStart(2, "0")}`;
 
-    // Random hour 2: between 15:00 and 21:00 (e.g., afternoon/evening)
-    const h2 = 15 + Math.floor(Math.random() * 6);
-    const m2 = Math.floor(Math.random() * 60);
-    const time2Str = `${String(h2).padStart(2, "0")}:${String(m2).padStart(2, "0")}`;
-
-    state = {
-      date: todayStr,
-      times: [
-        { time: time1Str, generated: false },
-        { time: time2Str, generated: false }
-      ]
-    };
-
-    // Ensure scripts dir exists and write state
-    fs.mkdirSync(path.dirname(statePath), { recursive: true });
-    fs.writeFileSync(statePath, JSON.stringify(state, null, 2), "utf-8");
-    console.log(`[STATE] Planificación guardada con éxito: ${time1Str} y ${time2Str}`);
-  }
+  console.log(`[PLAN] Horas planificadas para hoy (${todayStr}):`);
+  console.log(`  - Artículo 1: a partir de las ${time1Str}`);
+  console.log(`  - Artículo 2: a partir de las ${time2Str}`);
 
   // Get current time
   const now = new Date();
@@ -235,35 +227,55 @@ async function main() {
   const currentTimeStr = `${String(currentHour).padStart(2, "0")}:${String(currentMinute).padStart(2, "0")}`;
   console.log(`[CRON] Hora actual del servidor: ${currentTimeStr}`);
 
-  // Check if we need to generate any scheduled article
-  let stateChanged = false;
+  // 1. Get count of articles already published/created today
+  console.log(">> Comprobando artículos ya publicados hoy...");
+  const countRes = await pool.query('SELECT COUNT(*) FROM "Article" WHERE date = $1', [todayStr]);
+  const countToday = parseInt(countRes.rows[0].count, 10);
+  console.log(`[BD] Se han encontrado ${countToday} artículos publicados hoy (${todayStr}).`);
 
-  for (let idx = 0; idx < state.times.length; idx++) {
-    const scheduled = state.times[idx];
+  let shouldGenerate = false;
+  let articleIndex = 0;
 
-    // Check if current time is past or equal to scheduled time
-    if (!scheduled.generated && currentTimeStr >= scheduled.time) {
-      console.log(`\n>> HORA DE GENERAR ARTÍCULO ${idx + 1}: Programado para las ${scheduled.time}. Iniciando proceso...`);
+  if (countToday === 0) {
+    if (currentTimeStr >= time1Str) {
+      shouldGenerate = true;
+      articleIndex = 1;
+    } else {
+      console.log(`[CRON] Aún no es la hora para el primer artículo (${time1Str}).`);
+    }
+  } else if (countToday === 1) {
+    if (currentTimeStr >= time2Str) {
+      shouldGenerate = true;
+      articleIndex = 2;
+    } else {
+      console.log(`[CRON] Ya hay 1 artículo. Aún no es la hora para el segundo artículo (${time2Str}).`);
+    }
+  } else {
+    console.log(`[CRON] Ya se han publicado ${countToday} artículos hoy (límite diario de 2 alcanzado).`);
+  }
 
-      // 1. Get existing articles from DB to avoid duplicate topics
-      console.log(">> Obteniendo artículos existentes para control de unicidad...");
-      const existingRes = await pool.query('SELECT slug, title FROM "Article"');
-      const existingArticles = existingRes.rows;
-      console.log(`[BD] Encontrados ${existingArticles.length} artículos en base de datos.`);
+  if (shouldGenerate) {
+    console.log(`\n>> HORA DE GENERAR ARTÍCULO ${articleIndex}: Iniciando proceso de redacción...`);
 
-      const existingTitlesList = existingArticles.map(a => ` - ${a.title}`).join("\n");
+    // 1. Get existing articles from DB to avoid duplicate topics
+    console.log(">> Obteniendo artículos existentes para control de unicidad...");
+    const existingRes = await pool.query('SELECT slug, title FROM "Article"');
+    const existingArticles = existingRes.rows;
+    console.log(`[BD] Encontrados ${existingArticles.length} artículos en base de datos.`);
 
-      // 2. Load template_general.md template
-      const templatePath = path.join(process.cwd(), "template_general.md");
-      if (!fs.existsSync(templatePath)) {
-        console.error("ERROR: No se encuentra 'template_general.md' en la raíz del proyecto.");
-        process.exit(1);
-      }
-      const templateContent = fs.readFileSync(templatePath, "utf-8");
+    const existingTitlesList = existingArticles.map(a => ` - ${a.title}`).join("\n");
 
-      // 3. Propose a unique topic
-      console.log(">> Solicitando propuesta de tema único a DeepSeek...");
-      const promptPropuestas = `
+    // 2. Load template_general.md template
+    const templatePath = path.join(process.cwd(), "template_general.md");
+    if (!fs.existsSync(templatePath)) {
+      console.error("ERROR: No se encuentra 'template_general.md' en la raíz del proyecto.");
+      process.exit(1);
+    }
+    const templateContent = fs.readFileSync(templatePath, "utf-8");
+
+    // 3. Propose a unique topic
+    console.log(">> Solicitando propuesta de tema único a DeepSeek...");
+    const promptPropuestas = `
 Eres el director editorial de psicologiapractica.tech, un portal de divulgación científica en Español sobre psicología y salud mental.
 Queremos publicar un artículo de blog altamente informativo y relevante.
 
@@ -283,55 +295,55 @@ Debes devolver la respuesta estrictamente como un objeto JSON con la siguiente e
 Devuelve únicamente el objeto JSON.
 `;
 
-      let prop = null;
-      let propAttempts = 0;
-      while (propAttempts < 3 && !prop) {
-        propAttempts++;
-        try {
-          const res = await fetch("https://api.deepseek.com/chat/completions", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "Authorization": `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
-              model: "deepseek-chat",
-              messages: [
-                { role: "system", content: "Eres un director editorial que responde estrictamente en JSON." },
-                { role: "user", content: promptPropuestas }
-              ],
-              temperature: 0.7,
-              response_format: { type: "json_object" }
-            })
-          });
+    let prop = null;
+    let propAttempts = 0;
+    while (propAttempts < 3 && !prop) {
+      propAttempts++;
+      try {
+        const res = await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: "deepseek-chat",
+            messages: [
+              { role: "system", content: "Eres un director editorial que responde estrictamente en JSON." },
+              { role: "user", content: promptPropuestas }
+            ],
+            temperature: 0.7,
+            response_format: { type: "json_object" }
+          })
+        });
 
-          if (!res.ok) throw new Error(`API Error: ${res.statusText}`);
-          const data = await res.json();
-          const cleanJSON = data.choices[0].message.content.trim().replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```$/s, "").trim();
-          const parsed = JSON.parse(cleanJSON);
+        if (!res.ok) throw new Error(`API Error: ${res.statusText}`);
+        const data = await res.json();
+        const cleanJSON = data.choices[0].message.content.trim().replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```$/s, "").trim();
+        const parsed = JSON.parse(cleanJSON);
 
-          const slugNorm = parsed.slug.toLowerCase().trim();
-          const isSlugDup = existingArticles.some(a => a.slug.toLowerCase().trim() === slugNorm);
+        const slugNorm = parsed.slug.toLowerCase().trim();
+        const isSlugDup = existingArticles.some(a => a.slug.toLowerCase().trim() === slugNorm);
 
-          if (!isSlugDup) {
-            prop = parsed;
-          } else {
-            console.warn(`[DUPLICADO] El slug propuesto '${parsed.slug}' ya existe en la BD. Reintentando...`);
-          }
-        } catch (err) {
-          console.error("Error obteniendo propuesta:", err.message);
+        if (!isSlugDup) {
+          prop = parsed;
+        } else {
+          console.warn(`[DUPLICADO] El slug propuesto '${parsed.slug}' ya existe en la BD. Reintentando...`);
         }
+      } catch (err) {
+        console.error("Error obteniendo propuesta:", err.message);
       }
+    }
 
-      if (!prop) {
-        console.error("ERROR: No se pudo obtener una propuesta de tema única.");
-        continue;
-      }
+    if (!prop) {
+      console.error("ERROR: No se pudo obtener una propuesta de tema única.");
+      process.exit(1);
+    }
 
-      console.log(`[OK] Propuesta seleccionada: [${prop.category_name}] ${prop.title} (Slug: ${prop.slug})`);
+    console.log(`[OK] Propuesta seleccionada: [${prop.category_name}] ${prop.title} (Slug: ${prop.slug})`);
 
-      // 4. Generate the complete article
-      const promptRedaccion = `
+    // 4. Generate the complete article
+    const promptRedaccion = `
 Plantilla de Instrucciones y Reglas de Formato:
 ${templateContent}
 
@@ -355,119 +367,106 @@ Para garantizar que el artículo tenga estrictamente entre 2.000 y 3.000 palabra
 Por favor, no resumas ni uses viñetas cortas. Desarrolla cada párrafo de forma sumamente extensa y completa para garantizar la máxima profundidad y superar ampliamente el límite mínimo de 2.000 palabras totales. Si el contenido de 'content' tiene menos de 2.000 palabras de texto real, tu respuesta será rechazada.
 `;
 
-      let finalResult = null;
-      let attempt = 0;
-      const maxAttempts = 3;
-      let extraInstruction = "";
+    let finalResult = null;
+    let attempt = 0;
+    const maxAttempts = 3;
+    let extraInstruction = "";
 
-      while (attempt < maxAttempts) {
-        try {
-          attempt++;
-          console.log(`  Intento ${attempt}: Conectando con DeepSeek para redactar el cuerpo...`);
-          const res = await fetch("https://api.deepseek.com/chat/completions", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "Authorization": `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
-              model: "deepseek-chat",
-              messages: [
-                { role: "system", content: "Eres un redactor experto en SEO y salud mental. Debes responder estrictamente en formato JSON." },
-                { role: "user", content: promptRedaccion + extraInstruction }
-              ],
-              temperature: 0.5,
-              max_tokens: 8000,
-              response_format: { type: "json_object" }
-            })
-          });
+    while (attempt < maxAttempts) {
+      try {
+        attempt++;
+        console.log(`  Intento ${attempt}: Conectando con DeepSeek para redactar el cuerpo...`);
+        const res = await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: "deepseek-chat",
+            messages: [
+              { role: "system", content: "Eres un redactor experto en SEO y salud mental. Debes responder estrictamente en formato JSON." },
+              { role: "user", content: promptRedaccion + extraInstruction }
+            ],
+            temperature: 0.5,
+            max_tokens: 8000,
+            response_format: { type: "json_object" }
+          })
+        });
 
-          if (!res.ok) {
-            const errText = await res.text();
-            throw new Error(`API Error (${res.status}): ${errText}`);
-          }
+        if (!res.ok) {
+          const errText = await res.text();
+          throw new Error(`API Error (${res.status}): ${errText}`);
+        }
 
-          const data = await res.json();
-          const rawContent = data.choices[0].message.content;
-          const parsedResult = extractContentHTML(rawContent, prop.title, prop.excerpt);
-          
-          const wordCount = getWordCount(parsedResult.content);
-          console.log(`  -> Intento ${attempt}: El artículo tiene ${wordCount} palabras de texto real.`);
+        const data = await res.json();
+        const rawContent = data.choices[0].message.content;
+        const parsedResult = extractContentHTML(rawContent, prop.title, prop.excerpt);
+        
+        const wordCount = getWordCount(parsedResult.content);
+        console.log(`  -> Intento ${attempt}: El artículo tiene ${wordCount} palabras de texto real.`);
 
-          if (wordCount >= 2000) {
-            finalResult = parsedResult;
-            break;
-          } else {
-            console.warn(`  -> ADVERTENCIA: El artículo generado tiene menos de 2000 palabras (${wordCount}). Reintentando con instrucciones de expansión estrictas...`);
-            extraInstruction = `\n\n[ATENCIÓN CRÍTICA: Tu redacción anterior contenía únicamente ${wordCount} palabras. Es obligatorio que el artículo tenga más de 2.200 palabras y nunca baje de 2.000 palabras. Por favor, reescribe el artículo con muchísima más profundidad: duplica la extensión de cada H2 y H3, añade más casos prácticos detallados, cita teorías psicológicas de renombre, detalla de forma sumamente exhaustiva las pautas y expande todas las explicaciones para superar ampliamente el límite mínimo de 2.000 palabras.]`;
-          }
-        } catch (err) {
-          console.error(`  Error en intento ${attempt}:`, err.message);
-          if (attempt < maxAttempts) {
-            console.log("  Esperando 10 segundos antes de reintentar...");
-            await new Promise(res => setTimeout(res, 10000));
-          }
+        if (wordCount >= 2000) {
+          finalResult = parsedResult;
+          break;
+        } else {
+          console.warn(`  -> ADVERTENCIA: El artículo generado tiene menos de 2000 palabras (${wordCount}). Reintentando con instrucciones de expansión estrictas...`);
+          extraInstruction = `\n\n[ATENCIÓN CRÍTICA: Tu redacción anterior contenía únicamente ${wordCount} palabras. Es obligatorio que el artículo tenga más de 2.200 palabras y nunca baje de 2.000 palabras. Por favor, reescribe el artículo con muchísima más profundidad: duplica la extensión de cada H2 y H3, añade más casos prácticos detallados, cita teorías psicológicas de renombre, detalla de forma sumamente exhaustiva las pautas y expande todas las explicaciones para superar ampliamente el límite mínimo de 2.000 palabras.]`;
+        }
+      } catch (err) {
+        console.error(`  Error en intento ${attempt}:`, err.message);
+        if (attempt < maxAttempts) {
+          console.log("  Esperando 10 segundos antes de reintentar...");
+          await new Promise(res => setTimeout(res, 10000));
         }
       }
-
-      if (!finalResult) {
-        console.error(`[ERROR] No se pudo generar el artículo con la longitud suficiente para: ${prop.title}`);
-        continue;
-      }
-
-      // Assign premium image from list
-      const imgList = CATEGORY_IMAGES[prop.category_slug] || CATEGORY_IMAGES["ansiedad-burnout"];
-      const randomImg = imgList[Math.floor(Math.random() * imgList.length)];
-
-      const pubDate = new Date();
-      const dateStr = formatISODate(pubDate);
-      const dateLabelStr = formatSpanishDate(pubDate);
-
-      // Save to database
-      console.log(`  Guardando en la BD con fecha de publicación: ${dateStr} (${dateLabelStr})...`);
-
-      await pool.query(
-        `INSERT INTO "Article" (
-          slug, "categorySlug", title, excerpt, 
-          date, "dateLabel", "readingTime", image, 
-          body, published, "seoTitle"
-        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
-        ON CONFLICT (slug) DO UPDATE SET
-          title = EXCLUDED.title,
-          excerpt = EXCLUDED.excerpt,
-          body = EXCLUDED.body,
-          "seoTitle" = EXCLUDED."seoTitle",
-          date = EXCLUDED.date,
-          "dateLabel" = EXCLUDED."dateLabel"`,
-        [
-          prop.slug,
-          prop.category_slug,
-          finalResult.title || prop.title,
-          finalResult.excerpt || prop.excerpt,
-          dateStr,
-          dateLabelStr,
-          prop.read_time,
-          randomImg,
-          finalResult.content,
-          true, // Set directly to true (published) at scheduled time!
-          finalResult.meta_title || prop.title
-        ]
-      );
-
-      console.log(`[OK] Artículo guardado y publicado con éxito para slug: ${prop.slug}`);
-      scheduled.generated = true;
-      stateChanged = true;
-      
-      // Wait to avoid API spamming
-      await new Promise(res => setTimeout(res, 4000));
     }
-  }
 
-  if (stateChanged) {
-    fs.writeFileSync(statePath, JSON.stringify(state, null, 2), "utf-8");
-    console.log("[STATE] Estado de planificación actualizado en scripts/schedule-state.json");
-  } else {
-    console.log("[CRON] No hay artículos por generar en este intervalo.");
+    if (!finalResult) {
+      console.error(`[ERROR] No se pudo generar el artículo con la longitud suficiente para: ${prop.title}`);
+      process.exit(1);
+    }
+
+    // Assign premium image from list
+    const imgList = CATEGORY_IMAGES[prop.category_slug] || CATEGORY_IMAGES["ansiedad-burnout"];
+    const randomImg = imgList[Math.floor(rng() * imgList.length)];
+
+    const pubDate = new Date();
+    const dateStr = todayStr;
+    const dateLabelStr = formatSpanishDate(pubDate);
+
+    // Save to database
+    console.log(`  Guardando en la BD con fecha de publicación: ${dateStr} (${dateLabelStr})...`);
+
+    await pool.query(
+      `INSERT INTO "Article" (
+        slug, "categorySlug", title, excerpt, 
+        date, "dateLabel", "readingTime", image, 
+        body, published, "seoTitle"
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+      ON CONFLICT (slug) DO UPDATE SET
+        title = EXCLUDED.title,
+        excerpt = EXCLUDED.excerpt,
+        body = EXCLUDED.body,
+        "seoTitle" = EXCLUDED."seoTitle",
+        date = EXCLUDED.date,
+        "dateLabel" = EXCLUDED."dateLabel"`,
+      [
+        prop.slug,
+        prop.category_slug,
+        finalResult.title || prop.title,
+        finalResult.excerpt || prop.excerpt,
+        dateStr,
+        dateLabelStr,
+        prop.read_time,
+        randomImg,
+        finalResult.content,
+        true, // Set directly to true (published) at scheduled time!
+        finalResult.meta_title || prop.title
+      ]
+    );
+
+    console.log(`[OK] Artículo guardado y publicado con éxito para slug: ${prop.slug}`);
   }
 
   await pool.end();
