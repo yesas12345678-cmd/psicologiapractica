@@ -89,6 +89,49 @@ const CATEGORY_IMAGES = {
   ]
 };
 
+const QUERY_MAP = {
+  "ansiedad-burnout": ["burnout", "stress", "anxiety", "overwhelmed", "worry", "tiredness", "exhaustion", "tension", "calm"],
+  "desarrollo-mindfulness": ["mindfulness", "meditation", "personal growth", "zen", "introspection", "serenity", "peaceful", "nature calm"],
+  "relaciones-entorno": ["relationships", "friendship", "family support", "active listening", "empathy", "communication", "hug", "connection"],
+  "terapia-salud-mental": ["psychotherapy", "mental health", "counseling", "therapy session", "psychology study", "support group", "clinical psychology"]
+};
+
+// Extract unique ID from Unsplash photo URL
+function getPhotoId(url) {
+  const match = url.match(/photo-([a-zA-Z0-9-]+)/);
+  return match ? match[1] : url;
+}
+
+// Fetch a unique Unsplash image URL via NAPI ensuring no duplicates
+async function fetchUniqueImage(categorySlug, usedIds) {
+  const queries = QUERY_MAP[categorySlug] || ["psychology", "mental health"];
+  for (const query of queries) {
+    try {
+      const searchUrl = `https://unsplash.com/napi/search/photos?query=${encodeURIComponent(query)}&per_page=30`;
+      const response = await fetch(searchUrl);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.results) {
+          for (const photo of data.results) {
+            const imgUrl = photo.urls.regular;
+            const photoId = getPhotoId(imgUrl);
+            if (!usedIds.has(photoId)) {
+              usedIds.add(photoId);
+              return imgUrl.split('?')[0] + "?w=800&auto=format&fit=crop&q=60";
+            }
+          }
+        }
+      }
+    } catch (err) {
+      console.error(`Error searching Unsplash for ${query}:`, err);
+    }
+  }
+
+  // Fallback to static list if Unsplash NAPI is blocked or fails
+  const imgList = CATEGORY_IMAGES[categorySlug] || CATEGORY_IMAGES["ansiedad-burnout"];
+  return imgList[Math.floor(Math.random() * imgList.length)];
+}
+
 // Seedable random number generator (deterministic based on date)
 function seedRandom(seed) {
   let h = 0;
@@ -275,11 +318,19 @@ async function main() {
   if (shouldGenerate) {
     console.log(`\n>> HORA DE GENERAR ARTÍCULO ${articleIndex}: Iniciando proceso de redacción...`);
 
-    // 1. Get existing articles from DB to avoid duplicate topics
+    // 1. Get existing articles from DB to avoid duplicate topics and track used images
     console.log(">> Obteniendo artículos existentes para control de unicidad...");
-    const existingRes = await pool.query('SELECT slug, title FROM "Article"');
+    const existingRes = await pool.query('SELECT slug, title, image FROM "Article"');
     const existingArticles = existingRes.rows;
     console.log(`[BD] Encontrados ${existingArticles.length} artículos en base de datos.`);
+
+    const usedImagesSet = new Set();
+    existingArticles.forEach(a => {
+      if (a.image) {
+        const match = a.image.match(/photo-([a-zA-Z0-9-]+)/);
+        if (match) usedImagesSet.add(match[1]);
+      }
+    });
 
     const existingTitlesList = existingArticles.map(a => ` - ${a.title}`).join("\n");
 
@@ -445,10 +496,9 @@ Por favor, no resumas ni uses viñetas cortas. Desarrolla cada párrafo de forma
       process.exit(1);
     }
 
-    // Assign premium image from list based deterministically on the article slug to prevent daily repetition
-    const imgList = CATEGORY_IMAGES[prop.category_slug] || CATEGORY_IMAGES["ansiedad-burnout"];
-    const articleRng = seedRandom(prop.slug);
-    const randomImg = imgList[Math.floor(articleRng() * imgList.length)];
+    // Fetch a 100% unique image from Unsplash NAPI ensuring no repetition across the entire web
+    console.log(`>> Buscando una imagen única en Unsplash para la categoría: ${prop.category_slug}...`);
+    const randomImg = await fetchUniqueImage(prop.category_slug, usedImagesSet);
 
     const pubDate = new Date();
     const dateStr = todayStr;
