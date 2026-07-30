@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 // Load environment variables from .env.local
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
-const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
+const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL || "postgresql://postgres:a1sznyajzq3swl3t@187.127.233.89:5432/postgres" });
 const adapter = new PrismaPg(pool);
 const prisma = new PrismaClient({ adapter });
 

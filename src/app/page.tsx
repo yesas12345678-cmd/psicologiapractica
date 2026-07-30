@@ -9,6 +9,8 @@ import RecentArticlesList from "@/components/RecentArticlesList";
 export const revalidate = 0; // dynamic
 
 export default async function Home() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.tech";
+
   const categories = await prisma.category.findMany({
     orderBy: { number: "asc" },
   });
@@ -18,7 +20,6 @@ export default async function Home() {
     orderBy: { date: "desc" },
     include: { category: true },
   });
-
 
   const getIcon = (slug: string) => {
     switch (slug) {
@@ -35,8 +36,51 @@ export default async function Home() {
     }
   };
 
+  const schemaJson = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${baseUrl}/#organization`,
+        "name": "Psicología Práctica",
+        "url": baseUrl,
+        "logo": {
+          "@type": "ImageObject",
+          "@id": `${baseUrl}/#logo`,
+          "url": `${baseUrl}/icon.svg`,
+          "caption": "Psicología Práctica"
+        },
+        "description": "Descubre guías, herramientas y consejos prácticos sobre ansiedad, burnout, mindfulness, relaciones de pareja y salud mental. Escrito por psicólogos y revisado científicamente.",
+        "sameAs": [
+          `${baseUrl}/sobre-nosotros`
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${baseUrl}/#website`,
+        "url": baseUrl,
+        "name": "Psicología Práctica",
+        "publisher": {
+          "@id": `${baseUrl}/#organization`
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": `${baseUrl}/articulos?search={search_term_string}`,
+            "query-input": "required name=search_term_string"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen bg-slate-50/20 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
+      />
+
       
       {/* Hero section */}
       <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-b from-slate-50 via-white to-transparent border-b border-slate-100" aria-label="Introducción">

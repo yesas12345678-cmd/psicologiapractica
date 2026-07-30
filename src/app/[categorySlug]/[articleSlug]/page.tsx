@@ -112,14 +112,30 @@ export default async function ArticlePage({ params }: PageProps) {
     "image": article.image,
     "datePublished": article.date,
     "dateModified": article.date,
+    "lastReviewed": article.date,
     "author": {
       "@type": "Person",
       "name": AUTHORS.elena.name,
+      "jobTitle": AUTHORS.elena.role,
       "url": `${baseUrl}/sobre-nosotros`,
+      "sameAs": [
+        `${baseUrl}/sobre-nosotros`
+      ]
+    },
+    "reviewedBy": {
+      "@type": "Person",
+      "name": reviewer.name,
+      "jobTitle": reviewer.role,
+      "description": reviewer.credentials,
+      "sameAs": [
+        `${baseUrl}/sobre-nosotros#review-team`
+      ]
     },
     "publisher": {
       "@type": "Organization",
+      "@id": `${baseUrl}/#organization`,
       "name": "Psicología Práctica",
+      "url": baseUrl,
       "logo": {
         "@type": "ImageObject",
         "url": `${baseUrl}/icon.svg`,
@@ -144,6 +160,7 @@ export default async function ArticlePage({ params }: PageProps) {
         description={article.excerpt}
         category={{
           name: article.category.name,
+          slug: article.category.slug,
           href: `/${article.category.slug}`,
         }}
         author={AUTHORS.elena}

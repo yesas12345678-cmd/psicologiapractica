@@ -12,6 +12,7 @@ interface ArticleLayoutProps {
   description: string;
   category: {
     name: string;
+    slug: string;
     href: string;
   };
   author: {
@@ -166,7 +167,7 @@ export default function ArticleLayout({
 
           {/* Sidebar Column (Visible only on lg and larger viewports) */}
           <div className="hidden lg:block lg:col-span-4">
-            <Sidebar currentCategory={category.name} />
+            <Sidebar currentCategory={category.slug} />
           </div>
 
         </div>

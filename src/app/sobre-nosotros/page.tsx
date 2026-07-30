@@ -42,8 +42,65 @@ export default function SobreNosotrosPage() {
     },
   ];
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://psicologiapractica.tech";
+
+  const schemaJson = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": `${baseUrl}/sobre-nosotros/#webpage`,
+        "url": `${baseUrl}/sobre-nosotros`,
+        "name": "Quiénes Somos y Rigor Editorial | Psicología Práctica",
+        "description": "Conoce al equipo editorial y médico detrás de Psicología Práctica. Descubre nuestras credenciales, metodología de revisión clínica y compromiso con el rigor científico.",
+        "publisher": {
+          "@id": `${baseUrl}/#organization`
+        },
+        "mainEntity": [
+          {
+            "@type": "Person",
+            "name": "Dr. Alejandro Gómez",
+            "jobTitle": "Psicólogo Clínico y Neuropsicólogo",
+            "description": "Doctor en Psicología Clínica (UCM) | Máster en Neuropsicología Cognitiva. Especialista en trastornos del estado de ánimo, terapia de tercera generación y evaluación neuropsicológica.",
+            "knowsAbout": ["Psicología Clínica", "Neuropsicología", "Trastornos del estado de ánimo"],
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "Universidad Complutense de Madrid"
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Dra. Laura Benítez",
+            "jobTitle": "Psiquiatra y Psicoterapeuta",
+            "description": "Licenciada en Medicina (UAM) | Especialidad en Psiquiatría del Adulto (Hospital Ramón y Cajal). Especialista en estrés laboral, trastorno límite de la personalidad y trauma complejo.",
+            "knowsAbout": ["Psiquiatría", "Psicoterapia", "Estrés laboral", "Trastorno límite de la personalidad"],
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "Universidad Autónoma de Madrid"
+            }
+          },
+          {
+            "@type": "Person",
+            "name": "Elena Martínez",
+            "jobTitle": "Redactora de Salud Mental y Divulgadora",
+            "description": "Graduada en Psicología (UV). Apasionada por la comunicación científica y la adaptación de estudios empíricos a un lenguaje divulgativo.",
+            "knowsAbout": ["Divulgación Científica", "Psicología"],
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "Universidad de Valencia"
+            }
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen bg-slate-50/50 py-12 md:py-20" aria-labelledby="about-title">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaJson) }}
+      />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Intro Header */}
