@@ -49,6 +49,12 @@ async function main() {
             if (data.results) {
               for (const photo of data.results) {
                 const imgUrl = photo.urls.regular;
+                
+                // Skip premium / watermarked photos
+                if (imgUrl.includes('plus.unsplash.com') || imgUrl.includes('premium_photo')) {
+                  continue;
+                }
+
                 const photoId = getPhotoId(imgUrl);
                 
                 if (!seenInPool.has(photoId)) {
