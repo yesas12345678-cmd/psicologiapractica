@@ -115,6 +115,14 @@ export default function Footer() {
                   Equipo de Revisores
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/contacto"
+                  className="hover:text-teal-700 transition-colors duration-200"
+                >
+                  Contacto
+                </Link>
+              </li>
             </ul>
           </div>
 

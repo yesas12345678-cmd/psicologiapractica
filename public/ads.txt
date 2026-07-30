@@ -1,1 +1,4 @@
-google.com, pub-6737064906428173, DIRECT, f08c47fec0942fa0
+# Google AdSense ads.txt for psicologiapractica.tech
+# Reemplaza 'pub-0000000000000000' con tu ID de editor de AdSense (Publisher ID) una vez sea aprobada la web.
+# Una vez lo tengas, descomenta la siguiente línea y elimina los corchetes:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

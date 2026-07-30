@@ -89,7 +89,13 @@ export default function Navbar() {
           </div>
 
           {/* Right Action / EEAT Badge */}
-          <div className="hidden lg:flex lg:items-center lg:gap-4">
+          <div className="hidden lg:flex lg:items-center lg:gap-5">
+            <Link
+              href="/contacto"
+              className="text-sm font-semibold text-slate-600 hover:text-teal-700 transition-colors duration-200"
+            >
+              Contacto
+            </Link>
             <Link
               href="/sobre-nosotros"
               className="inline-flex items-center gap-1 px-4 py-2 rounded-full border border-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-200"
@@ -146,10 +152,16 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <div className="pt-4 pb-2 border-t border-slate-100 mx-4">
+          <div className="pt-4 pb-2 border-t border-slate-100 mx-4 space-y-2.5">
+            <Link
+              href="/contacto"
+              className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-all duration-200 text-sm"
+            >
+              Contacto
+            </Link>
             <Link
               href="/sobre-nosotros"
-              className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-200"
+              className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 transition-all duration-200 text-sm font-semibold"
             >
               <span className="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></span>
               Equipo Editorial & Revisores Médicos
