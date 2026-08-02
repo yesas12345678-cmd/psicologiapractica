@@ -17,6 +17,12 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "No se proporcionó ningún archivo" }, { status: 400 });
     }
 
+    // Validate size (max 10MB)
+    const MAX_SIZE = 10 * 1024 * 1024;
+    if (file.size > MAX_SIZE) {
+      return NextResponse.json({ error: "El archivo excede el tamaño máximo permitido de 10MB" }, { status: 400 });
+    }
+
     // Validate mime type
     if (!file.type.startsWith("image/")) {
       return NextResponse.json({ error: "El archivo debe ser una imagen válida" }, { status: 400 });
@@ -44,6 +50,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true, url: relativeUrl });
   } catch (error: any) {
     console.error("Upload error:", error);
-    return NextResponse.json({ error: error.message || "Error interno al subir archivo" }, { status: 500 });
+    return NextResponse.json({ error: "Error interno al subir el archivo" }, { status: 500 });
   }
 }

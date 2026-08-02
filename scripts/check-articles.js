@@ -1,6 +1,11 @@
+require('dotenv').config();
 const { Pool } = require('pg');
 
-const connectionString = "postgresql://postgres:a1sznyajzq3swl3t@187.127.233.89:5432/postgres";
+const connectionString = process.env.DATABASE_URL;
+if (!connectionString) {
+  console.error("Error: DATABASE_URL variable is not defined in environment.");
+  process.exit(1);
+}
 const pool = new Pool({ connectionString, ssl: false });
 
 async function main() {

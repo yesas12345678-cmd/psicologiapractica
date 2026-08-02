@@ -5,7 +5,14 @@ import crypto from "crypto";
 export async function POST(request: Request) {
   try {
     const { password } = await request.json();
-    if (password && process.env.ADMIN_PASSWORD && password === process.env.ADMIN_PASSWORD) {
+    if (!password || !process.env.ADMIN_PASSWORD) {
+      return NextResponse.json({ error: "Contraseña incorrecta" }, { status: 401 });
+    }
+
+    const inputHash = crypto.createHash("sha256").update(password).digest();
+    const expectedHash = crypto.createHash("sha256").update(process.env.ADMIN_PASSWORD).digest();
+
+    if (crypto.timingSafeEqual(inputHash, expectedHash)) {
       const cookieStore = await cookies();
       const sessionValue = crypto
         .createHash("sha256")

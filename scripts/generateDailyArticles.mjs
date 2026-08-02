@@ -30,7 +30,11 @@ for (const file of envFiles) {
   }
 }
 
-const connectionString = process.env.DATABASE_URL || "postgresql://postgres:a1sznyajzq3swl3t@187.127.233.89:5432/postgres";
+const connectionString = process.env.DATABASE_URL;
+if (!connectionString) {
+  console.error("ERROR: No se ha encontrado la variable DATABASE_URL.");
+  process.exit(1);
+}
 const apiKey = process.env.DEEPSEEK_API_KEY;
 
 if (!apiKey) {
